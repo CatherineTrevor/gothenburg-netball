@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+/******************Background Color***/
+
+.navbar {
+    background-color: #e3d888;
+}
+
+.footer-menu {
+    background-color: #e3d888;
+}
+
+/******************Navbar***/
+
+.navbar {
+    height: 175px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5c95ff;
+    font-size: 120%;
+}
+
+#logo {
+    color: #5c95ff;
+    font-size: 300%;
+}
+
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    text-align: right;
+}
+
+/********************Main body***/
+
+.main-section {
+    margin-top: 200px;
+}
+
+/********************Footer***/
+
+.list-inline {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.list-inline-item {
+    color: #5c95ff;
+}
+
+.list-inline-item a {
+    color: #5c95ff;
+}
+
+.fa-facebook-square {
+    font-size: 200%;
+}
