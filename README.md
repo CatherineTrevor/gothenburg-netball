@@ -166,6 +166,10 @@ The wireframes demonstrate the responsive of the site on each device size, as we
 
 ## Surface
 ### Typography:
+Using [Google Fonts](https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom)
+I selected Permanent Marker for all navbar text, and h1, h2 and h3 headings throughout the site, as I felt it gave a feeling of friendliness and approachable
+that I was looking for to match the tone of the site.
+As per Google Font's recommendation, the accommodating font used is Lato. Sans-serif is used should either of these font fail.
 ### Imagery:
 ### Color scheme:
 The principle colors selected are variants of blue and yellow, the reason being two-fold: they are the colors of the Swedish flag, and other netball clubs in Sweden have red and green as their team colors. Other colors have been selected using [Coolors](www.coolors.com) to compliment the main colors, and provide a feeling of safety and calm, as required in the strategy.
