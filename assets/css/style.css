@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: red;
 }
 
 /******************Background Color***/
@@ -17,17 +16,30 @@ body {
 /******************Navbar***/
 
 .navbar {
-    height: 175px;
+    height: 210px;
+    margin-bottom: 100px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #5c95ff;
-    font-size: 120%;
+.navbar a:hover {
+    color: #515751;
 }
 
-#logo {
+.navbar a {
     color: #5c95ff;
     font-size: 300%;
+}
+
+.navbar-nav .nav-link {
+    color: #5c95ff;
+    font-size: 150%;
+}
+
+.navbar-nav li .active {
+    color: #515751;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #515751;
 }
 
 .nav-item {
@@ -40,7 +52,7 @@ body {
 /********************Main body***/
 
 .main-section {
-    margin-top: 200px;
+    margin-top: 210px;
 }
 
 /********************Footer***/
@@ -58,6 +70,23 @@ body {
     color: #5c95ff;
 }
 
+.list-inline-item a:hover {
+    color: #515751;
+}
+
 .fa-facebook-square {
     font-size: 200%;
+}
+
+/********************Media queries***/
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        height: 90px;
+        margin-bottom: 0;
+    }
+
+    .main-section {
+        margin-top: 100px;
+    }
 }
