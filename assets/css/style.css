@@ -16,6 +16,18 @@ body {
     background-color: #e3d888;
 }
 
+.large-image-top {
+    background-color: blue;
+}
+
+.first-image-section {
+    background-color: #e3d888;
+}
+
+.hr-line {
+    border-top: 3px solid #5c95ff;
+}
+
 /******************Navbar***/
 
 .navbar {
@@ -59,11 +71,29 @@ h1,
 h2,
 h3 {
     font-family: "Permanent Marker", "Lato", sans-serif;
+    font-size: 150%;
+    text-align: center;
 }
 
 .main-section {
     margin-top: 210px;
+    margin-bottom: 75px;
 }
+
+.first-image-section {
+        margin: auto 0;
+}
+
+.first-image-section i {
+    font-size: 125%;
+    color: #5c95ff;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+/***.large-text-top {
+    text-align: center;
+}***/
 
 /********************Footer***/
 
