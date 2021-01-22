@@ -71,10 +71,21 @@ h3 {
     font-size: 150%;
     text-align: center;
     font-weight: 200;
+    margin-top: 5px;
 }
 
 .main-section {
     margin-bottom: 100px;
+}
+
+.larget-text-top a {
+    color: #5c95ff;
+}
+
+.large-text-top a:hover {
+    color: #515751;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .large-image-top {
@@ -130,6 +141,8 @@ h3 {
     margin-top: 10px;
 }
 
+/******************Contact button***/
+
 .contact-button {
     border: 3px solid #5c95ff;
     border-radius: 8px;
@@ -137,6 +150,7 @@ h3 {
     justify-content: center;
     width: 100%;
     background-color: #5c95ff;
+    margin-top: 8px;
 }
 
 .contact-button a {
@@ -144,8 +158,22 @@ h3 {
 }
 
 .contact-button a:hover {
-    color: #5c95ff;
+    color: #e3d888;
     text-decoration: none;
+}
+
+/********************Contact page***/
+
+form {
+    margin: 0 auto;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.small-text {
+    text-align: center;
 }
 
 /********************Footer***/
@@ -216,7 +244,11 @@ h3 {
         margin-right: 10px;
     }
 
-     .contact-button {
+    .contact-form {
+        margin: 0 auto;
+    }
+
+    .contact-button {
         max-width: 50%;
         margin: 0 auto;
     }
