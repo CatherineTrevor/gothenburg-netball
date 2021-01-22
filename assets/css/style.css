@@ -95,6 +95,13 @@ h3 {
     margin-bottom: -10px;
 }
 
+.text-section i {
+    font-size: 125%;
+    color: #5c95ff;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
 .text-section a {
     color: #5c95ff;
 }
@@ -118,11 +125,9 @@ h3 {
     padding-top: 0px;
 }
 
-.image-section i {
-    font-size: 125%;
-    color: #5c95ff;
-    margin-right: 5px;
-    margin-top: 5px;
+#youtube-video {
+    max-width: 100%;
+    margin-top: 10px;
 }
 
 .contact-button {
@@ -188,6 +193,11 @@ h3 {
         margin-bottom: -50px;
     }
 
+    .large-text-top {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
     .hr-line {
         max-width: 25%;
     }
@@ -206,7 +216,7 @@ h3 {
         margin-right: 10px;
     }
 
-    .contact-button {
+     .contact-button {
         max-width: 50%;
         margin: 0 auto;
     }
