@@ -212,10 +212,6 @@ form {
     border-radius: 8px;
 }
 
-.committee-members h3 {
-    text-align: left;
-}
-
 .committee-members .image-section img {
     max-width: 100px;
     max-height: 100px;
@@ -319,6 +315,15 @@ form {
     .contact-button {
         max-width: 50%;
         margin: 0 auto;
+    }
+
+    .image-section {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .country-flag {
+        text-align: center;
     }
 
 }
