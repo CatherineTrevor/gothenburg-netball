@@ -196,11 +196,11 @@ p {
     margin: auto;
 }
 
+/***this needs centering
 #youtube-video {
-    max-width: 100%;
+    max-width: 50%;
     margin-top: 10px;
-    text-align: center;
-}
+}***/
 
 /********************Contact.html***/
 
@@ -283,10 +283,6 @@ form {
         font-size: 120%;
     }
 
-    /***.large-image-top {
-        margin-top: 30px;
-     }***/
-
     .large-text-top {
         max-width: 75%;
         margin: 0 auto;
@@ -294,6 +290,12 @@ form {
 
     .hr-line {
         max-width: 75%;
+    }
+
+    .netball-graphic {
+        max-height: 50%;
+        max-width: 50%;
+        margin: auto;
     }
 
     .text-section {
