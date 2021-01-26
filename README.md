@@ -175,8 +175,9 @@ Each page will have the necessary internal links to direct the user in alignment
 [**Tablet devide wireframe](assets/images/wireframe-tablet.pdf)
 [**Desktop device wireframe](assets/images/wireframe-desktop.pdf)
 
-The wireframes demonstrate the responsive of the site on each device size, as well as the white space applied throughout the create a clean, simple 
-structure which does not overload the user. The site presents the user with the information they are looking for, in a simple and logical manner.
+The wireframes were created using [Balsamiq](http://www.balsamiq.com) and demonstrate the responsive of the site on each device size, as well as the 
+white space applied throughout the create a clean, simple structure which does not overload the user. The site presents the user with the information 
+they are looking for, in a simple and logical manner.
 
 ## Surface
 ### Typography:
@@ -205,15 +206,47 @@ clubs in Sweden have red and green as their team colors. All color variants have
 each other, and provide a feeling of safety and calm, as required in the strategy.
 ![Color choices](assets/images/color-codes.jpg)
 ### Favicon: 
+I used the [basketball ball image from Font Awesome](https://fontawesome.com/icons/basketball-ball?style=solid) and used css styling to match the colors 
+of the website as the favicon.
 # Technologies used
-## Languages:
-## Frameworks:
-## Libraries:
+This project was created using the following languages:
+
+ - HTML 5
+ - CSS
+
+The project was created on GitPod.
+
+This project was created using the following libraries and frameworks:
+
+ - [Balsamiq](https://balsamiq.cloud/) - used to create all wireframes
+ - [Bootstrap](https://getbootstrap.com/) - Bootstrap was used as the main grid structure for the site, for the navbar, including navbar toggler,
+ and contact form.
+ - [Google Fonts](https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom)
+ - [Font Awesome](https://fontawesome.com/) - used for the [basketball ball favicon](https://fontawesome.com/icons/basketball-ball?style=solid) and 
+ [checklist icons](https://fontawesome.com/icons/check-circle?style=regular)
+ - [Free Formatter HTML](https://www.freeformatter.com/html-formatter.html) - for HTML code formatting
+ - [Free Formatter CSS](https://www.freeformatter.com/css-beautifier.html) - to beautify CSS code
+ - [Coolors](https://coolors.co/) - to select a color pallete to match the required tone of the site
+
 # Testing:
+I have created the website for mobile-usage, therefore I have used Chrome development tools throughout to ensure continuous testing of the look,
+functionality and layout of the site.
+
 # Deployment
 # Credits
 ## Content:
+- Good reads Shanti quote
+Wikipedia netball info and netball histoty
+simplenetbbal.co.uk
+Netball court draw myself using powerpoint
 ## Media:
+- Unsplsh images
+- Youtube video
+- Gothenburg Netball club Facebook
+Netball and smiley face graphic
+Google maps
+basketball image
+country flags
 ## Acknowledgements:
 While designing and developing this site, I took inspiration from the following websites;
 * [Skåne Netball Club](https://skane-netball-club.webnode.com/)
