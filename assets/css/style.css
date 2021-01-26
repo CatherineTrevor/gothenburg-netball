@@ -214,6 +214,10 @@ form {
     border-radius: 8px;
 }
 
+.committee-members p {
+    font-style: italic;
+}
+
 .committee-members .image-section img {
     max-width: 100px;
     max-height: 100px;
@@ -222,6 +226,17 @@ form {
 
 .small-text {
     text-align: center;
+}
+
+.small-text a {
+    color: #5c95ff;
+    font-weight: bold;
+}
+
+.small-text a:hover {
+    color: #515751;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /********************Photo gallery***/
@@ -286,6 +301,7 @@ form {
     .main-section {
         margin-top: 90px;
         font-size: 120%;
+        margin-bottom: 80px;
     }
 
     .large-text-top {
@@ -345,7 +361,7 @@ form {
         margin-right: 10px;
     }
 
-     .contact-form {
+    .contact-form {
         margin: 0 auto;
     }
 
@@ -354,8 +370,33 @@ form {
         margin: 0 auto;
     }
 
-    .country-flag {
+    .committee-section {
+        padding-top: 25px;
+    }
+
+    .committee-members p {
+        text-align: left;
+        font-size: 110%;
+    }
+
+    .committee-members h3 {
         text-align: center;
+    }
+
+    .committee-members .image-section {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }    
+
+    .committee-members .text-section {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .committee-members .image-section img {
+        max-height: 200px;
+        max-width: 250px;
+        float: right;
     }
 
 }
