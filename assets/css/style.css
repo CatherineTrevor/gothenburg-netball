@@ -1,192 +1,188 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700;1,900&family=Permanent+Marker&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-}
+        margin: 0;
+        padding: 0;
+    }
 
 body {
-    font-family: "Lato", sans-serif;
-    color: #515751;
+        font-family: "Lato", sans-serif;
+        color: #515751;
 }
 
 /******************Background Color***/
 
 .navbar {
-    background-color: #e3d888;
+        background-color: #e3d888;
 }
 
 .footer-menu {
-    background-color: #e3d888;
+        background-color: #e3d888;
 }
 
 /******************Navbar***/
 
-.navbar {
-    height: 15%;
-    margin-bottom: 0px;
-}
-
 .navbar i {
-    color: #5c95ff;
-    font-size: 160%;
+        color: #5c95ff;
+        font-size: 160%;
 }
 
 .navbar i:hover {
-    color: #515751;
+        color: #515751;
 }
 
 .nav-item .nav-link {
-    color: #5c95ff;
-    font-size: 120%;
-}
-
-#menu-text li a:hover {
-    color: #515751;
-}
-
-#menu-text li .active {
-    color: #515751;
-}
-
-.nav-item {
-    margin-left: 20px;
-    margin-right: 20px;
-    float: right;
-    text-align: right;
-    font-family: "Permanent Marker", "Lato", sans-serif;
+        color: #5c95ff;
+        font-size: 120%;
 }
 
 #menu-text a {
-    color: #5c95ff;
+        color: #5c95ff;
 }
 
+#menu-text li a:hover {
+        color: #515751;
+}
+
+#menu-text li .active {
+        color: #515751;
+}
+
+.nav-item {
+        margin-left: 20px;
+        margin-right: 20px;
+        float: right;
+        text-align: right;
+        font-family: "Permanent Marker", "Lato", sans-serif;
+}
 
 /********************Footer***/
 
 .list-inline {
-    text-align: center;
-    margin-top: 12px;
+        text-align: center;
+        margin-top: 8px;
 }
 
 .list-inline-item {
-    color: #5c95ff;
-    font-size: 75%;
+        color: #5c95ff;
+        font-size: 75%;
 }
 
 .list-inline-item a {
-    color: #5c95ff;
-    font-weight: bold;
+        color: #5c95ff;
+        font-weight: bold;
 }
 
 .list-inline-item a:hover {
-    color: #515751;
-    text-decoration: none;
-    font-weight: bold;
+        color: #515751;
+        text-decoration: none;
+        font-weight: bold;
 }
 
 .fa-facebook-square {
-    font-size: 200%;
+        font-size: 200%;
 }
 
-/********************Main body hero section***/
+/********************Main body general***/
 
 h1,
 h2,
 h3 {
-    font-family: "Permanent Marker", "Lato", sans-serif;
-    font-size: 120%;
-    text-align: center;
-    font-weight: 200;
-    margin-top: 5px;
-    margin-bottom: 5px;
+        font-family: "Permanent Marker", "Lato", sans-serif;
+        font-size: 120%;
+        text-align: center;
+        font-weight: 200;
+        margin-top: 5px;
+        margin-bottom: 5px;
 }
 
 p {
-    font-size: 90%;
-    margin: 0 auto;
+        font-size: 90%;
+        margin: 0 auto;
 }
 
 .main-section {
-    margin-bottom: 100px;
+        margin-bottom: 100px;
 }
 
 .hr-line {
-    border-top: 3px solid #5c95ff;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+        border-top: 3px solid #5c95ff;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
 }
+
+/********************Main body top text and image section***/
 
 .hr-line-top {
-    max-width: 100%;
-    border-top: 3px solid #5c95ff;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;        
-}
-
-#home-page-image img {
-    border-radius: 50%;
+        max-width: 100%;
+        border-top: 3px solid #5c95ff;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;        
 }
 
 .large-text-top a {
-    color: #5c95ff;
+        color: #5c95ff;
 }
 
 .large-text-top a:hover {
-    color: #515751;
-    font-weight: bold;
-    text-decoration: none;
+        color: #515751;
+        font-weight: bold;
+        text-decoration: none;
 }
 
 .large-image-top {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    max-height: 250px;
-    overflow: hidden;
-}
-
-.netball-image {
-    margin-top: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        max-height: 250px;
+        overflow: hidden;
 }
 
 .large-image-top img {
-    max-width: 90%;
-    max-height: 90%;
-    display: block;
-    margin: 0 auto;
-    object-fit: contain;
-    padding-top: 0px;
+        max-width: 90%;
+        max-height: 90%;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+        padding-top: 0px;
+}
+
+#home-page-image img {
+        border-radius: 50%;
+        margin-bottom: 20px;
+}
+
+#netball-image {
+        margin-top: 0px;
 }
 
 /********************Main body content sections***/
 
 .text-section {
-    margin-bottom: -10px;
-    margin: auto;
+        margin-bottom: -10px;
+        margin: auto;
 }
 
 .text-section p {
-    text-align: left;
+        text-align: left;
 }
 
 .text-section i {
-    font-size: 125%;
-    color: #5c95ff;
-    margin-right: 5px;
-    margin-top: 5px;
+        font-size: 125%;
+        color: #5c95ff;
+        margin-right: 5px;
+        margin-top: 5px;
 }
 
 .text-section a {
-    color: #5c95ff;
-    font-weight: bold;
+        color: #5c95ff;
+        font-weight: bold;
 }
 
 .text-section a:hover {
-    color: #515751;
-    text-decoration: none;
-    font-weight: bold;
+        color: #515751;
+        text-decoration: none;
+        font-weight: bold;
 }
 
 .image-section {
@@ -194,225 +190,206 @@ p {
 }
 
 .image-section img {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    object-fit: contain;
-    padding-top: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+        padding-top: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
 }
 
 /******************Contact button***/
 
 .contact-button {
-    border: 3px solid #5c95ff;
-    border-radius: 8px;
-    display: block;
-    justify-content: center;
-    width: 100%;
-    background-color: #5c95ff;
-    margin-top: 8px;
+        border: 3px solid #5c95ff;
+        border-radius: 8px;
+        display: block;
+        justify-content: center;
+        width: 100%;
+        background-color: #5c95ff;
+        margin-top: 8px;
 }
 
 .contact-button a {
-    color: #515751;
+        color: #515751;
 }
 
 .contact-button a:hover {
-    color: #e3d888;
-    text-decoration: none;
+        color: #e3d888;
+        text-decoration: none;
 }
 
 /********************Netball.html***/
 
 #netball-court {
-    border-radius: 0;
-    max-width: 80%;
-    max-height: 80%;
-    margin: auto;
+        border-radius: 0;
+        height: 75%;
+        margin: auto;
 }
 
 #youtube-video {
-    width: 80%;
-    max-width: 640px;
-    margin-top: 30px;
-    text-align: center;
-    position: relative; 
+        width: 80%;
+        max-width: 640px;
+        margin-top: 30px;
+        margin: 0 auto;
+        position: relative; 
 }
 
 #youtube-video iframe {
-	width: 100%;
+        width: 100%;
 }
 
 /********************Contact.html***/
 
 form {
-    margin: 0 auto;
+        margin: 0 auto;
 }
 
 .form-control {
-    border-radius: 8px;
+        border-radius: 8px;
 }
 
 .committee-members p {
-    font-style: italic;
+        font-style: italic;
 }
 
 .committee-members .image-section img {
-    max-width: 100px;
-    max-height: 100px;
-    border-radius: 50%;
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 50%;
 }
 
 .small-text {
-    text-align: center;
+        text-align: center;
 }
 
 .small-text a {
-    color: #5c95ff;
-    font-weight: bold;
+        color: #5c95ff;
+        font-weight: bold;
 }
 
 .small-text a:hover {
-    color: #515751;
-    text-decoration: none;
-    font-weight: bold;
+        color: #515751;
+        text-decoration: none;
+        font-weight: bold;
 }
 
 /********************Photo gallery***/
 
 #photo-gallery {
-    clear: both;
-    line-height: 0;
-    column-count: 1;
-    column-gap: 0px;
+        clear: both;
+        line-height: 0;
+        column-count: 1;
+        column-gap: 0px;
 }
 
 #photo-gallery img {
-    width: 100%;
+        width: 100%;
 }
 
 /********************Media queries***/
 
-@media only screen and (min-width: 992px) {
 
+/***min-width inline with Bootstrap large screen measurements***/
+
+@media only screen and (min-width: 992px) {}
     h3 {
-        text-align: center;
-        font-size: 150%;
-        margin-top: 10px;
-        margin-bottom: 10px;
+            font-size: 150%;
+            margin-top: 10px;
+            margin-bottom: 10px;
     }
-
     .navbar {
-        height: 90px;
-        margin-bottom: 0;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 1;
-        font-size: 150%;
+            height: 90px;
+            margin-bottom: 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+            font-size: 150%;
     }
-
     .main-section {
-        margin-top: 90px;
-        font-size: 120%;
-        margin-bottom: 80px;
+            margin-top: 90px;
+            font-size: 120%;
+            margin-bottom: 80px;
     }
-
     .large-text-top {
-        max-width: 50%;
-        margin: 0 auto;
+            max-width: 50%;
+            margin: 0 auto;
     }
-
     .large-text-top h2 {
-        font-size: 175%;
+            font-size: 175%;
     }
-
     .hr-line {
-        display: none;
+            display: none;
     }
-
     .hr-line-top {
-        max-width: 40%;   
+            max-width: 40%;   
     }
-
     .image-section {
-        margin-top: 10px;
-        margin-bottom: -100px;
+            margin-top: 10px;
     }    
-
+    .image-section img {
+            width: 80%;
+    }    
     .text-section {
-        max-width: 75%;
-        text-align: center;
-        margin-left: 215px;
+            max-width: 75%;
+            text-align: center;
+            margin-left: 215px;
     }
-
     .netball-graphic img {
-        max-height: 65%;
-        max-width: 65%;
+            height: 50%;
+            width: 50%;
     }
-
     #netball-court {
-        max-width: 50;
-        max-height: 65%;
-        margin-right: 250px;
-        margin-bottom: -150px;
+            max-height: 400px;
+            margin-right: 250px;
     }
-
     .list-text {
-        margin-left: 50px;
-        margin: 0 auto;
+            margin-left: 50px;
+            margin: 0 auto;
     }
-
     .list-text p {
-        text-align: left;
+            text-align: left;
     }
-
     .list-text i {
-        margin-right: 10px;
+            margin-right: 10px;
     }
-
     .contact-form {
-        margin: 0 auto;
+            margin: 0 auto;
     }
-
     .contact-button {
-        max-width: 50%;
-        margin: 0 auto;
+            max-width: 50%;
+            margin: 0 auto;
+            margin-top: 15px;
     }
-
     .committee-section {
-        padding-top: 25px;
+            padding-top: 25px;
     }
-
     .committee-members p {
-        text-align: left;
-        font-size: 110%;
+            text-align: left;
+            font-size: 110%;
     }
-
     .committee-members h3 {
-        text-align: center;
+            text-align: center;
     }
-
     .committee-members .image-section {
-        margin-top: 10px;
-        margin-bottom: 0px;
+            margin-top: 10px;
+            margin-bottom: 0px;
     }    
-
     .committee-members .text-section {
-        margin-left: 50px;
-        margin-right: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
     }
-
     .committee-members .image-section img {
-        max-height: 200px;
-        max-width: 250px;
-        float: right;
+            max-height: 200px;
+            max-width: 250px;
+            float: right;
     }
-
     #photo-gallery {
-        column-count: 3;
+            column-count: 3;
+    }
+    .list-inline-item {
+            font-size: 110%;
     }    
-
 }
