@@ -172,7 +172,9 @@ Each page will have the necessary internal links to direct the user in alignment
 ## Skeleton
 
 [**Mobile device wireframe](assets/images/wireframe-mobile-device.pdf)
+
 [**Tablet devide wireframe](assets/images/wireframe-tablet.pdf)
+
 [**Desktop device wireframe](assets/images/wireframe-desktop.pdf)
 
 The wireframes were created using [Balsamiq](http://www.balsamiq.com) and demonstrate the responsive of the site on each device size, as well as the 
@@ -185,7 +187,7 @@ Using [Google Fonts](https://fonts.google.com/specimen/Permanent+Marker?preview.
 I selected Permanent Marker for all navbar text, and h1, h2 and h3 headings throughout the site, as I felt it gave a feeling of friendliness and 
 approachable that I was looking for to match the tone of the site.
 As per Google Font's recommendation, the accommodating font used is Lato. Sans-serif is used should either of these fonts fail to load.
-### Imagery:
+<a name="imagery"></a>### Imagery:
 The following three images used on the photos.html page are published on Gothenburg Netball's Facebook page, for which I am an administrator.
 [Image 1 | ](assets/images/photo-gallery/group-1)
 [Image 2 | ](assets/images/photo-gallery/group-2)
@@ -227,20 +229,26 @@ This project was created using the following libraries and frameworks:
  - [Free Formatter HTML](https://www.freeformatter.com/html-formatter.html) - for HTML code formatting
  - [Free Formatter CSS](https://www.freeformatter.com/css-beautifier.html) - to beautify CSS code
  - [Coolors](https://coolors.co/) - to select a color pallete to match the required tone of the site
+ - [Stackoverflow](http://stackoverflow.com) - help with undertanding forms and navbar toggler 
 
 # Testing:
 I have created the website for mobile-usage, therefore I have used Chrome development tools throughout to ensure continuous testing of the look,
 functionality and layout of the site.
 
-# Deployment
-# Credits
+# Deployment:
+
+# Credits:
 ## Content:
-- Good reads Shanti quote
-Wikipedia netball info and netball histoty
-simplenetbbal.co.uk
-Netball court draw myself using powerpoint
+- [Good reads](https://www.goodreads.com/author/quotes/6419544.Shanti) - provided the quote on the 
+[photo gallery](https://catherinetrevor.github.io/gothenburg-netball/photos.html) page
+- [Wikipedia](http://www.wikipedia.org) - source of basic netball info, and information about the 
+[introduction of netball](https://en.wikipedia.org/wiki/Martina_Bergman-%C3%96sterberg)
+- [Play Simple Netball](https://www.simplenetball.co.uk/rules/) - used to verify my own knowlegde of the rules, to ensure what I was writing was correct
+- [Netball court illustration](assets/images/court-layout) - I drew this myself using Micorsoft Powerpoint and saved as a jpg, based on my own knowledge
+- [Committee member quotes](https://catherinetrevor.github.io/gothenburg-netball/contact.html) - all quotes are purely fictional, written by me
 ## Media:
-- Unsplsh images
+- [Unsplash](http://www.unsplash.com) - committee members, and some photo gallery images sourced from Unsplash. Specific sources cited in the above 
+imagery section 
 - Youtube video
 - Gothenburg Netball club Facebook
 Netball and smiley face graphic
