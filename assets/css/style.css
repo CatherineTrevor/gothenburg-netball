@@ -143,6 +143,7 @@ p {
 
 .text-section a {
     color: #5c95ff;
+    font-weight: bold;
 }
 
 .text-section a:hover {
@@ -247,10 +248,13 @@ form {
 
 .list-inline-item a {
     color: #5c95ff;
+    font-weight: bold;
 }
 
 .list-inline-item a:hover {
     color: #515751;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .fa-facebook-square {
@@ -260,8 +264,10 @@ form {
 /********************Media queries***/
 
 @media only screen and (min-width: 992px) {
-    p {
-        font-size: 100%;
+
+    h3 {
+        text-align: center;
+        font-size: 150%;
     }
 
     .navbar {
@@ -280,24 +286,47 @@ form {
     }
 
     .large-text-top {
-        max-width: 75%;
+        max-width: 50%;
         margin: 0 auto;
+    }
+
+    .large-text-top h2 {
+        font-size: 175%;
     }
 
     .hr-line {
-        max-width: 75%;
+        display: none;
     }
 
-    .netball-graphic {
-        max-height: 50%;
-        max-width: 50%;
-        margin: auto;
+    .hr-line-top {
+        max-width: 40%;
+        border-top: 3px solid #5c95ff;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;        
     }
+
+    .image-section {
+        margin-top: 10px;
+        margin-bottom: -100px;
+    }    
 
     .text-section {
         max-width: 75%;
-        margin: 0 auto;
         text-align: center;
+        margin-left: 215px;
+    }
+
+    .netball-graphic {
+        max-height: 30%;
+        max-width: 30%;
+        margin: auto;
+        margin-right: 250px;
+    }
+
+    .list-text {
+        margin-left: 50px;
+        margin: 0 auto;
     }
 
     .list-text p {
@@ -315,11 +344,6 @@ form {
     .contact-button {
         max-width: 50%;
         margin: 0 auto;
-    }
-
-    .image-section {
-        margin-top: 10px;
-        margin-bottom: 10px;
     }
 
     .country-flag {
