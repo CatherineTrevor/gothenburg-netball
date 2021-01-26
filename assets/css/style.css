@@ -192,16 +192,17 @@ p {
 
 #netball-court {
     border-radius: 0;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
     margin: auto;
 }
 
-/***this needs centering
 #youtube-video {
-    max-width: 50%;
-    margin-top: 10px;
-}***/
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
 /********************Contact.html***/
 
@@ -268,6 +269,8 @@ form {
     h3 {
         text-align: center;
         font-size: 150%;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .navbar {
@@ -317,11 +320,16 @@ form {
         margin-left: 215px;
     }
 
-    .netball-graphic {
-        max-height: 30%;
-        max-width: 30%;
-        margin: auto;
+    .netball-graphic img {
+        max-height: 65%;
+        max-width: 65%;
+    }
+
+    #netball-court {
+        max-width: 50;
+        max-height: 65%;
         margin-right: 250px;
+        margin-bottom: -150px;
     }
 
     .list-text {
