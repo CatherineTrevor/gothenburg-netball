@@ -12,23 +12,32 @@
 # Project Overview
 This project is my Milestone Project One as part of the Full Stack Software Diploma Course with the Code Institute.
 
-I am on the committee for the Gothenburg Netball Club: a team of amateur netball players, set up for English-speaking adults in Gothenburg. Sadly due to the current Covid-19 situation having such a negative impact on sports, we have been unable to have routine sessions, and therefore do not have a group of regular players.
+I am on the committee for the Gothenburg Netball Club: a team of amateur netball players, set up for English-speaking adults in Gothenburg. 
+Sadly due to the current Covid-19 situation having such a negative impact on sports, we have been unable to have routine sessions, and therefore 
+do not have a group of regular players.
 
-I am taking this opportunity to create a simple, clearly structured website to promote the club, so that when we can start playing again in the spring, there is a larger awareness and interest in the club, encouring site visitors to join a session, and become paying members. It will also serve as a place that regular players can see upcoming training dates, times and locations. 
+I am taking this opportunity to create a simple, clearly structured website to promote the club, so that when we can start playing again in the 
+spring, there is a larger awareness and interest in the club, encouring site visitors to join a session, and become paying members. It will also 
+serve as a place that regular players can see upcoming training dates, times and locations. 
 
 The club's current online presence is via [Facebook](https://www.facebook.com/gothenburgnetball/).
 # User Experience Design (UXD)
 ## Strategy
 The site has been designed using a mobile-first approach to ensure ease of obtaining information.
 
-It is imperative that the look and feel of the site be friendly, feel local, and approachable: the objective is that people feel comfortable contacting the club and want to join us to play, even if just once. If the site feels too commercial, busy, or cold it will not provide this positive feeling to the user.
+It is imperative that the look and feel of the site be friendly, feel local, and approachable: the objective is that people feel comfortable contacting 
+the club and want to join us to play, even if just once. If the site feels too commercial, busy, or cold it will not provide this positive feeling to 
+the user.
 
 ### Target audience
-English-speaking adults (whether native or not), aged 18 or over, who wish to meet other people, whilst playing an amateur sport. Site users are based in Gothenburg, Sweden, or can travel to the city on a regular basis.
+English-speaking adults (whether native or not), aged 18 or over, who wish to meet other people, whilst playing an amateur sport. Site users are based 
+in Gothenburg, Sweden, or can travel to the city on a regular basis.
 
-Users can have experience of netball, perhaps having played in school or college, or no experience at all. This is not a competitive environment: it is meant to be fun, therefore level of playing experience, or even knowlegde of the game is immaterial. All are welcome and the site must reflect this.
+Users can have experience of netball, perhaps having played in school or college, or no experience at all. This is not a competitive environment: 
+it is meant to be fun, therefore level of playing experience, or even knowlegde of the game is immaterial. All are welcome and the site must reflect this.
 
-Where users have knowledge of the game and / or are interested in volunteering, we invite them to join the committee and / or provide help in umpiring / coaching.
+Where users have knowledge of the game and / or are interested in volunteering, we invite them to join the committee and / or provide help in 
+umpiring / coaching.
 
 ### User stories
 #### I am an English-speaking adult in Gothenburg and want to:
@@ -70,7 +79,8 @@ Where users have knowledge of the game and / or are interested in volunteering, 
 
 ## Scope
 ### Features
-Utilising the trade-off equation, below details the features I have selected to be included in the intitial release, and ones to be considered in the future.
+Utilising the trade-off equation, below details the features I have selected to be included in the intitial release, and ones to be considered 
+in the future.
 
 ![Trade-off equation](assets/images/trade-off-equation.jpg)
 
@@ -80,7 +90,7 @@ Utilising the trade-off equation, below details the features I have selected to 
 | 2. Increase attendees to trial sessions | 5 | 5 |
 | 3. Offer digital sign-up and payment options to members | 2 | 2 |
 | 4. Create sponsorship opportunities | 2 | 1 |
-| 5. Build a basic online presence | 4 | 4|
+| 5. Build a basic online presence | 4 | 4 |
 
 ### Existing features
 
@@ -99,26 +109,29 @@ Utilising the trade-off equation, below details the features I have selected to 
 
 ### Future features planned
 
-Once play resumes, the website is live and more people start playing there will be many opportunities to build on the website and expand it to meet the growing and changing needs of the club.
+Once play resumes, the website is live and more people start playing there will be many opportunities to build on the website and expand it to meet 
+the growing and changing needs of the club.
 
 **Feature 1:** An online membership form with e-signature capability.
 This feature has not been implemented in the first release as I do not yet have the knowledge to do so.
 
 **Features 2:** Online payment methods for membership and sessions fees.
-This feature has not been implemented in the first release as the club doesn't have a bank account and I do not yet have the knowledge to build this option into the site.
+This feature has not been implemented in the first release as the club doesn't have a bank account and I do not yet have the knowledge to build 
+this option into the site.
 
 **Feature 3:** Sponsorship opportunities.
 This feature has not been implemented in the first release as the club doesn't have the necessary presence yet to create interest from potential sponsors.
 
 ## Structure
 
-The website is structured into four pages: Home | What is netball? | Get in touch | Photo gallery.
+The website is structured into four pages: Home | What is netball? | Get in touch | Photo gallery
 
-IMAGE
+![](assets/images/site-structure.jpg)
 
-Each page is responsive on various device sizes, has the same clean, simple structure and contain the navigation bar and footer. The navigation bar is static, and the favicon links back to the home page.
+Each page is responsive on various device sizes, has the same clean, simple structure and contain the navigation bar and footer. The navigation bar 
+is static, and the favicon links back to the home page.
 
-The layout is based on Bootstrap's grid design.
+The layout is primarily based on Bootstrap's grid design, using my own css styling rules to acheive the desired look and style.
 
 Each page will have the necessary internal links to direct the user in alignment with the relevant part of their online journey.
 
@@ -144,7 +157,7 @@ Each page will have the necessary internal links to direct the user in alignment
 ### Get in touch
 #### Content
 - Contact form: Name (required), Email (required), Phone, Message
-- Contact info: club email and phone
+- Contact info: club email <!---phone number not included as personal, not company number--->
 - Committee member basic info: photo, name, small bio
 #### Links
 - Session dates on homepage
@@ -158,22 +171,39 @@ Each page will have the necessary internal links to direct the user in alignment
 
 ## Skeleton
 
-**Mobile device wireframe
-**Tablet devide wireframe
-**Desktop device wireframe
+[**Mobile device wireframe](assets/images/wireframe-mobile-device.pdf)
+[**Tablet devide wireframe](assets/images/wireframe-tablet.pdf)
+[**Desktop device wireframe](assets/images/wireframe-desktop.pdf)
 
-The wireframes demonstrate the responsive of the site on each device size, as well as the white space applied throughout the create a clean, simple structure which does not overload the user. The site presents the user with the information they are looking for, in a simple and logical manner.
+The wireframes demonstrate the responsive of the site on each device size, as well as the white space applied throughout the create a clean, simple 
+structure which does not overload the user. The site presents the user with the information they are looking for, in a simple and logical manner.
 
 ## Surface
 ### Typography:
 Using [Google Fonts](https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom)
-I selected Permanent Marker for all navbar text, and h1, h2 and h3 headings throughout the site, as I felt it gave a feeling of friendliness and approachable
-that I was looking for to match the tone of the site.
-As per Google Font's recommendation, the accommodating font used is Lato. Sans-serif is used should either of these font fail.
+I selected Permanent Marker for all navbar text, and h1, h2 and h3 headings throughout the site, as I felt it gave a feeling of friendliness and 
+approachable that I was looking for to match the tone of the site.
+As per Google Font's recommendation, the accommodating font used is Lato. Sans-serif is used should either of these fonts fail to load.
 ### Imagery:
+The following three images used on the photos.html page are published on Gothenburg Netball's Facebook page, for which I am an administrator.
+[Image 1 | ](assets/images/photo-gallery/group-1)
+[Image 2 | ](assets/images/photo-gallery/group-2)
+[Image 3 | ](assets/images/photo-gallery/group-4)
+The other images on the page are stock images, sources from Unsplash.com, and acknowledged here:
+[Image 4 | ](assets/images/photo-gallery/group-3) [Source](https://unsplash.com/@naassomz1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Image 5 | ](assets/images/photo-gallery/group-5) [Source](https://unsplash.com/@iamchang?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Image 6 | ](assets/images/photo-gallery/group-6) [Source](https://unsplash.com/@linkedinsalesnavigator?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+The images used for the committee members were also sourced from Unsplash.com:
+[Mark Darcy | ](assets/images/committee-members/mark-darcy.jpg) [Source](https://unsplash.com/@christianbuehner?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Bridget Jones | ](assets/images/committee-members/bridget-jones.jpg) [Source](https://unsplash.com/@eugabrielsilverio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Daniel Cleaver | ](assets/images/committee-members/daniel-cleaver.jpg) [Source](https://unsplash.com/@_sean_hall_?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyTex)
+[Helen Fielding | ](assets/images/committee-members/helen-fielding.jpg) [Source](https://unsplash.com/@clemono?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+The flag icons were sourced from [Flacticon](http://flaticon.com) and are also sourced on the site.
 ### Color scheme:
-The principle colors selected are variants of blue and yellow, the reason being two-fold: they are the colors of the Swedish flag, and other netball clubs in Sweden have red and green as their team colors. Other colors have been selected using [Coolors](www.coolors.com) to compliment the main colors, and provide a feeling of safety and calm, as required in the strategy.
-INSERT COLORS IMAGE
+The principle colors selected are variants of blue and yellow, the reason being two-fold: they are the colors of the Swedish flag, and other netball 
+clubs in Sweden have red and green as their team colors. All color variants have been selected using [Coolors](https://coolors.co/) to compliment 
+each other, and provide a feeling of safety and calm, as required in the strategy.
+![Color choices](assets/images/color-codes.jpg)
 ### Favicon: 
 # Technologies used
 ## Languages:
