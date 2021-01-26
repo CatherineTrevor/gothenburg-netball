@@ -241,14 +241,15 @@ form {
 
 /********************Photo gallery***/
 
-/***.photo-gallery {
-    margin-bottom: 80px;
-    margin: 0 auto;
-}***/
+#photo-gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0px;
+}
 
-.photo-gallery img {
-    max-width: 100%;
-    max-height: 100%;
+#photo-gallery img {
+    width: 100%;
 }
 
 /********************Footer***/
@@ -398,5 +399,9 @@ form {
         max-width: 250px;
         float: right;
     }
+
+    #photo-gallery {
+        column-count: 3;
+    }    
 
 }
