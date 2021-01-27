@@ -9,7 +9,7 @@ body {
         color: #515751;
 }
 
-/******************Background Color***/
+/******************Background Colors***/
 
 .navbar {
         background-color: #e3d888;
@@ -23,11 +23,15 @@ body {
         background-color: rgba(81, 87, 81, 0.10);
 }
 
+.main-section {
+        background-color: white;
+}
+
 /******************Navbar***/
 
 .navbar i {
         color: #5c95ff;
-        font-size: 160%;
+        font-size: 180%;
 }
 
 .navbar i:hover {
@@ -54,7 +58,6 @@ body {
 .nav-item {
         margin-left: 20px;
         margin-right: 20px;
-        float: right;
         text-align: right;
         font-family: "Permanent Marker", "Lato", sans-serif;
 }
@@ -106,7 +109,6 @@ p {
 
 .main-section {
         margin-bottom: 90px;
-        background-color: white;
 }
 
 .hr-line {
@@ -116,7 +118,7 @@ p {
         margin-bottom: 10px;
 }
 
-/********************Main body top text and image section***/
+/********************Main body top text and image section for all pages***/
 
 .hr-line-top {
         max-width: 100%;
@@ -148,31 +150,6 @@ p {
         border-radius: 8px;        
 }
 
-/***.large-image-top img {
-        display: block;
-        margin: 0 auto;
-        padding-top: 0px;
-        border-radius: 8px;***/
-}
-
-#home-page-image img {
-        border-radius: 8px;
-        margin-top: 10px;
-}
-
-#play-schedule {
-    margin: 0 auto;
-    color: #5c95ff;
-    font-weight: bold;
-}
-
-#play-schedule i {
-    font-size: 150%;
-}
-#netball-image {
-        margin-top: 0px;
-}
-
 /********************Main body content sections***/
 
 p {
@@ -181,13 +158,6 @@ p {
 
 .text-section p {
         text-align: left;
-}
-
-.text-section-homepage i {
-        font-size: 125%;
-        color: #5c95ff;
-        margin-right: 10px;
-        margin-top: 5px;
 }
 
 .text-section i {
@@ -221,8 +191,27 @@ p {
         max-height: 100%;
 }
 
+/********************Index.html***/
+
+.text-section-homepage i {
+        font-size: 125%;
+        color: #5c95ff;
+        margin-right: 10px;
+        margin-top: 5px;
+}
+
 .text-section-homepage p {
         text-align: left;
+}
+
+#play-schedule {
+    margin: 0 auto;
+    color: #5c95ff;
+    font-weight: bold;
+}
+
+#play-schedule i {
+    font-size: 150%;
 }
 
 /******************Contact button***/
@@ -324,12 +313,11 @@ form {
 
 /********************Media queries***/
 
-/***min-width inline with Bootstrap tabelt screen measurements***/
+/***min-width inline with Bootstrap tablet screen measurements***/
 
 @media only screen and (min-width: 768px) {
-    .netball-graphic img {
-        height: 100px;
-        width: 100px;
+    #netball-court img {
+        max-width: 100%;
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -338,6 +326,9 @@ form {
 /***min-width inline with Bootstrap large screen measurements***/
 
 @media only screen and (min-width: 992px) {
+
+/********************General***/  
+
     h3 {
             font-size: 150%;
     }
@@ -354,8 +345,13 @@ form {
             margin-top: 90px;
             margin-bottom: 60px;
             font-size: 130%;
-
     }
+    .hr-line {
+            display: none;
+    }
+    .hr-line-top {
+            max-width: 75%;   
+    }   
     .color-row {
         background-color: #e3d888;
         height: 300px;        
@@ -370,14 +366,7 @@ form {
     .large-text-top h2 {
             font-size: 175%;
     }
-    .hr-line {
-            display: none;
-    }
-    .hr-line-top {
-            max-width: 75%;   
-    }
     #color-row-welcome {
-        /***background-color: #5c95ff;***/
         padding-top: 10px;
         margin: 0 auto;
     }
@@ -393,7 +382,10 @@ form {
     }    
     .image-section img {
             width: 80%;
-    }  
+    } 
+
+/********************Index.html***/      
+
     .text-section-homepage p {
             text-align: center;
             max-width: 85%;
@@ -423,6 +415,9 @@ form {
     .list-text i {
             margin-right: 10px;
     }
+
+    /********************Contact.html***/  
+
     .contact-form {
             margin: 0 auto;
             width: 850px;

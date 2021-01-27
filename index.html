@@ -15,22 +15,22 @@
     <body>
         <header>
             <nav class="navbar navbar-light navbar-expand-lg">
-                <a class="navbar-brand" href="index.html"><i class="fas fa-basketball-ball" aria-hidden="true"></i>
+                <a class="navbar-brand" href="index.html" sr-only="Button back to homepage"><i class="fas fa-basketball-ball" aria-hidden="true"></i>
                 </a>
                 <button class="navbar-toggler bg-light collapsed" type="button" data-toggle="collapse" data-target="#menunavbar" aria-controls="menunavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse justify-content-end" id="menunavbar">
                     <ul class="navbar-nav" id="menu-text">                
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Home</a>
+                            <a class="nav-link active" href="index.html" sr-only="Button to homepage">Home</a>
                         </li>                
                         <li class="nav-item">
-                            <a class="nav-link" href="netball.html">What is netball?</a>
+                            <a class="nav-link" href="netball.html" sr-only="Button to What is netball page">What is netball?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Get in touch!</a>
+                            <a class="nav-link" href="contact.html" sr-only="Button to contact page">Get in touch!</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="photos.html">Photo gallery</a>
+                            <a class="nav-link" href="photos.html" sr-only="Button to photo gallery page">Photo gallery</a>
                         </li>                                                
                     </ul>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="row">
                     <br>
                     <div class="col-12 .large-image-top" id="large-image-top-graphic">
-                        <img src="assets/images/photo-gallery/group-1.jpg" alt="Gothenburg netball club" aria-hidden="true">                                              
+                        <img src="assets/images/photo-gallery/group-1.jpg" alt="Gothenburg netball club during practice" aria-hidden="true">                                              
                     </div>
                     <br>
                 </div>
@@ -103,19 +103,23 @@
                         <table class="table" id="play-schedule">
                             <tbody>
                                 <tr>
-                                    <th scope="row"><i class="fas fa-map-pin"></i></th>
+                                    <th scope="row"><i class="fas fa-map-pin"></i>
+                                    </th>
                                     <td>
                                         Katrinelundgymnasiet
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row"><i class="far fa-calendar-alt"></i></th>
+                                    <th scope="row"><i class="far fa-calendar-alt"></i>
+                                    </th>
                                     <td>
                                             TBC
                                     </td>
                                 </tr>
                                 <tr>    
-                                    <th scope="row"><i class="far fa-clock"></i></th>
+                                    <th scope="row">
+                                        <i class="far fa-clock"></i>
+                                    </th>
                                         <td>
                                             TBC
                                         </td>
@@ -127,7 +131,7 @@
                 <div class="row">
                     <div class="col-12 image-section">
                     <a href="https://www.google.se/maps/place/Katrinelundsgymnasiet/@57.7040067,11.9834824,17z/data=!3m1!4b1!4m5!3m4!1s0x464ff379b0b65051:0x5789e677b91f7e6b!8m2!3d57.7040039!4d11.9856763"                     
-                            alt="Map of Katrinelundgymnasiet" target="_blank">                   
+                            alt="Map of Katrinelundgymnasiet" target="_blank" sr-only="Link to open Google Maps pinned at Katrinelundgymnasiet in new tab">                   
                 <img src="assets/images/map.jpg" alt="Map of Katrinelundgymnasiet" aria-hidden="true">
                 </a>
                     <p><small>
@@ -206,9 +210,11 @@
         <footer>
             <div class="container-fluid fixed-bottom footer-menu">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="mailto: gothenburgnetball@gmail.com" target="_blank">gothenburgnetball@gmail.com</a></li>
+                    <li class="list-inline-item"><a href="mailto: gothenburgnetball@gmail.com" sr-only="Link to open new blank email addressed to gothenburgnetball@gmail.com" 
+                    target="_blank">gothenburgnetball@gmail.com</a></li>
                     <li class="list-inline-item">Organisation number: 1235 589 987</li>
-                    <li class="list-inline-item"><a href="https://www.facebook.com/gothenburgnetball/" target="_blank" aria-hidden="true"><i class="fab fa-facebook-square"></i></a></li>                                
+                    <li class="list-inline-item"><a href="https://www.facebook.com/gothenburgnetball/" target="_blank" sr-only="Link to open Gothenburg Netball Facebook page in new tab" 
+                    aria-hidden="true"><i class="fab fa-facebook-square"></i></a></li>                                
                 </ul>
             </div>
         </footer>
