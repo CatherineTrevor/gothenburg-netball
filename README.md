@@ -207,6 +207,8 @@ The principle colors selected are variants of blue and yellow, the reason being 
 clubs in Sweden have red and green as their team colors. All color variants have been selected using [Coolors](https://coolors.co/) to compliment 
 each other, and provide a feeling of safety and calm, as required in the strategy.
 ![Color choices](assets/images/color-codes.jpg)
+Toward the end of the project, based on feedback from Slack users and testers, I added color to the homepage to break up the white space and make it more
+asthetically pleasing. 
 ### Favicon: 
 I used the [basketball ball image from Font Awesome](https://fontawesome.com/icons/basketball-ball?style=solid) and used css styling to match the colors 
 of the website as the favicon.
