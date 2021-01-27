@@ -105,7 +105,7 @@ p {
 }
 
 .main-section {
-        margin-bottom: 100px;
+        margin-bottom: 90px;
         background-color: white;
 }
 
@@ -133,18 +133,26 @@ p {
         font-weight: bold;
         text-decoration: none;
 }
+ 
+#large-image-top-graphic {
+        max-height: 200px;
+        text-align: center;     
+}
 
-.large-image-top {
-        margin-top: 10px;
-        margin-bottom: 0px;
- }
+#large-image-top-graphic img {
+        max-height: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 8px;        
+}
 
-.large-image-top img {
-        max-width: 80%;
-        max-height: 80%;
+/***.large-image-top img {
         display: block;
         margin: 0 auto;
         padding-top: 0px;
+        border-radius: 8px;***/
 }
 
 #home-page-image img {
@@ -274,7 +282,7 @@ form {
         font-style: italic;
 }
 
-.committee-members .image-section img {
+.image-section-committee img {
         max-width: 100px;
         max-height: 100px;
         border-radius: 50%;
@@ -344,8 +352,9 @@ form {
     }
     .main-section {
             margin-top: 90px;
-            font-size: 120%;
-            margin-bottom: 80px;
+            margin-bottom: 60px;
+            font-size: 130%;
+
     }
     .color-row {
         background-color: #e3d888;
@@ -355,9 +364,6 @@ form {
         background-color: #e3d888;
         height: 100px;  
     }
-    .large-image-top {
-            max-height: 350px;
-    }  
     .large-text-top {
              margin: 0 auto;
     }
@@ -430,27 +436,22 @@ form {
             padding-top: 25px;
     }
     .committee-members p {
+            margin-top: 35px;
+            padding-right: 30px;
             text-align: left;
             font-size: 110%;
     }
     .committee-members h3 {
             text-align: center;
     }
-    .committee-members .image-section {
+    .image-section-committee {
             margin-top: 10px;
             margin-bottom: 0px;
-    }    
-    .committee-members .text-section {
-            margin-left: 50px;
-            margin-right: 50px;
+            text-align: center;
     }
-    .committee-members .image-section img {
+    .image-section-committee img {
             max-height: 200px;
-            max-width: 250px;
-            float: right;
-    }
-    #photo-gallery {
-            column-count: 3;
+            max-width: 200px;
     }
     .list-inline-item {
             font-size: 110%;
