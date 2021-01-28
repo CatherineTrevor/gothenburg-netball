@@ -31,11 +31,12 @@ body {
 
 .navbar i {
         color: #5c95ff;
-        font-size: 180%;
+        font-size: 300%;
 }
 
 .navbar i:hover {
         color: #515751;
+        font-size: 400%;
 }
 
 .nav-item .nav-link {
@@ -98,8 +99,8 @@ h3 {
         font-size: 120%;
         text-align: center;
         font-weight: 200;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 12px;
+        margin-bottom: 12px;
 }
 
 p {
@@ -123,7 +124,9 @@ p {
 .hr-line-top {
         max-width: 100%;
         border-top: 3px solid #5c95ff;
-        margin: 0 auto;    
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;            
 }
 
 .large-text-top a {
@@ -136,12 +139,12 @@ p {
         text-decoration: none;
 }
  
-#large-image-top-graphic {
+#large-image-top {
         max-height: 200px;
         text-align: center;     
 }
 
-#large-image-top-graphic img {
+#large-image-top img {
         max-height: 100%;
         display: block;
         margin: 0 auto;
@@ -204,13 +207,14 @@ p {
         text-align: left;
 }
 
-#play-schedule {
+#sessions-table {
     margin: 0 auto;
     color: #5c95ff;
     font-weight: bold;
+    margin-top: 20px;
 }
 
-#play-schedule i {
+#sessions-table i {
     font-size: 150%;
 }
 
@@ -321,6 +325,10 @@ form {
         margin-top: 5px;
         margin-bottom: 5px;
     }
+   #large-image-top {
+            max-height: 300px;
+            text-align: center;     
+    }
 }
 
 /***min-width inline with Bootstrap large screen measurements***/
@@ -381,19 +389,19 @@ form {
             margin-top: 10px;
     }    
     .image-section img {
-            width: 80%;
+            width: 100%;
     } 
 
 /********************Index.html***/      
 
+    .text-section-homepage {
+        padding-top: 30px;
+    }
     .text-section-homepage p {
             text-align: center;
             max-width: 85%;
     }
-    .text-section-homepage {
-        padding-top: 50px;
-    }
-    #play-schedule {
+    #sessions-table {
             max-width: 50%;
     }    
     .netball-graphic img {
@@ -403,7 +411,7 @@ form {
             margin-bottom: 25px;
     }
     #netball-court img {
-            height: 800px;
+            height: 600px;
     }    
     .list-text {
             margin-left: 50px;
@@ -426,7 +434,7 @@ form {
             max-width: 50%;
             margin: 0 auto;
             margin-top: 15px;
-    }
+      }
     .committee-section {
             padding-top: 25px;
     }
