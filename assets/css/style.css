@@ -36,7 +36,6 @@ body {
 
 .navbar i:hover {
         color: #515751;
-        font-size: 400%;
 }
 
 .nav-item .nav-link {
@@ -108,8 +107,12 @@ p {
         margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+}
+
 .main-section {
-        margin-bottom: 90px;
+        margin-bottom: 50px;
 }
 
 .hr-line {
@@ -138,19 +141,18 @@ p {
         font-weight: bold;
         text-decoration: none;
 }
- 
-#large-image-top {
-        max-height: 200px;
-        text-align: center;     
+
+.large-image {
+    text-align: center;
 }
 
-#large-image-top img {
-        max-height: 100%;
-        display: block;
-        margin: 0 auto;
+#large-image-top {
         padding-top: 5px;
         padding-bottom: 5px;
-        border-radius: 8px;        
+        border-radius: 8px; 
+        max-width: 65%;  
+        text-align: center;
+        position: relative;
 }
 
 /********************Main body content sections***/
@@ -207,6 +209,28 @@ p {
         text-align: left;
 }
 
+.text-section-homepage a {
+        color: #5c95ff;
+        font-weight: bold;
+}
+
+.text-section-homepage a:hover {
+        color: #515751;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+strong a {
+        color: #5c95ff;
+        font-weight: bold;
+}
+
+strong a:hover {
+        color: #515751;
+        text-decoration: none;
+        font-weight: bold;
+}  
+
 #sessions-table {
     margin: 0 auto;
     color: #5c95ff;
@@ -217,6 +241,17 @@ p {
 #sessions-table i {
     font-size: 150%;
 }
+
+#sessions-table a {
+        color: #5c95ff;
+        font-weight: bold;
+}
+
+#sessions-table a:hover {
+        color: #515751;
+        text-decoration: none;
+        font-weight: bold;
+}  
 
 /******************Contact button***/
 
@@ -321,13 +356,16 @@ form {
 
 @media only screen and (min-width: 768px) {
     #netball-court img {
-        max-width: 100%;
-        margin-top: 5px;
-        margin-bottom: 5px;
+            max-height: 100%;
+            margin-top: 5px;
+            margin-bottom: 5px;
     }
-   #large-image-top {
-            max-height: 300px;
-            text-align: center;     
+
+    .large-image {
+        text-align: center;
+    } 
+    #large-image-top {
+              max-width: 45%; 
     }
 }
 
@@ -405,8 +443,8 @@ form {
             max-width: 50%;
     }    
     .netball-graphic img {
-            height: 250px;
-            width: 250px;
+            height: 200px;
+            width: 200px;
             margin-top: 25px;
             margin-bottom: 25px;
     }
