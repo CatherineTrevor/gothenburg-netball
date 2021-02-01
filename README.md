@@ -1,16 +1,36 @@
 # Gothenburg Netball Club Project
-## A simple website providing information about Gothenburg's Netball Club.
+## A simple website providing information about Gothenburg's Netball Club to existing and prospective players.
 # Contents
 1. Project Overview
-2. UX
+
+2. UXD
 - Strategy
+    *Target audience
+    *User stories
 - Scope
+    *Features   
 - Structure
 - Skeleton
 - Surface
-3. Continue
+    *Typography
+    *Imagery
+    *Color scheme
+    *Favicon
+3. Technologies used
+
+4. Testing
+
+5. Deployment
+
+6. Credits
+
+- Content
+- Media
+- Acknowledgements
+
 # Project Overview
-This project is my Milestone Project One as part of the Full Stack Software Diploma Course with the Code Institute.
+
+This project is my Milestone Project One as part of the Diploma in Software Development Course with the Code Institute.
 
 I am on the committee for the Gothenburg Netball Club: a team of amateur netball players, set up for English-speaking adults in Gothenburg. 
 Sadly due to the current Covid-19 situation having such a negative impact on sports, we have been unable to have routine sessions, and therefore 
@@ -30,7 +50,7 @@ the club and want to join us to play, even if just once. If the site feels too c
 the user.
 
 ### Target audience
-English-speaking adults (whether native or not), aged 18 or over, who wish to meet other people, whilst playing an amateur sport. Site users are based 
+English-speaking adults (whether native or not), aged 18 or over, who wish to meet other people, whilst playing sport / improving their fitness. Site users are based 
 in Gothenburg, Sweden, or can travel to the city on a regular basis.
 
 Users can have experience of netball, perhaps having played in school or college, or no experience at all. This is not a competitive environment: 
@@ -50,7 +70,7 @@ umpiring / coaching.
 - Have fun!
 
 #### I am a new visitor to the site and want to:
-- Understand what the club is and what it provides,
+- Easily understand what the club is and what it provides,
 - Refresh my understanding of netball,
 - Learn the basics of netball,
 - Find out where and when practice is, 
@@ -82,7 +102,7 @@ umpiring / coaching.
 Utilising the trade-off equation, below details the features I have selected to be included in the intitial release, and ones to be considered 
 in the future.
 
-![Trade-off equation](assets/images/trade-off-equation.jpg)
+![Trade-off equation](assets/images/supporting-docs/trade-off-equation.jpg)
 
 | --- | Importance | Feasibility |
 | --- | :---: | :---: |
@@ -126,14 +146,14 @@ This feature has not been implemented in the first release as the club doesn't h
 
 The website is structured into four pages: Home | What is netball? | Get in touch | Photo gallery
 
-![](assets/images/site-structure.jpg)
+![Site structure](assets/images/supporting-docs/site-structure.jpg)
 
-Each page is responsive on various device sizes, has the same clean, simple structure and contain the navigation bar and footer. The navigation bar 
+Each page is responsive on various device sizes, has the same clean, simple structure, and contains the navigation bar and footer. The navigation bar 
 is static, and the favicon links back to the home page.
 
-The layout is primarily based on Bootstrap's grid design, using my own css styling rules to acheive the desired look and style.
+The layout is primarily based on [Bootstrap's grid system](https://getbootstrap.com/docs/5.0/layout/grid/), heavily modified to acheive the desired look and style.
 
-Each page will have the necessary internal links to direct the user in alignment with the relevant part of their online journey.
+Each page has the necessary internal links to direct the user in alignment with the relevant part of their online journey.
 
 ### Homepage
 #### Content
@@ -141,7 +161,7 @@ Each page will have the necessary internal links to direct the user in alignment
 - About the club
 - Next sessions dates, time and location
 - Current information about Covid-19
-#### Links
+#### Internal links
 - What is netball?
 - Get in touch
 
@@ -150,16 +170,16 @@ Each page will have the necessary internal links to direct the user in alignment
 - Basic rules and principles of the sport
 - Photos of professional play
 - Diagrams (where appropriate)
-#### Links
+#### Internal links
 - Get in touch
 - Photo gallery
 
 ### Get in touch
 #### Content
 - Contact form: Name (required), Email (required), Phone, Message
-- Contact info: club email <!---phone number not included as personal, not company number--->
+- Contact info: club email
 - Committee member basic info: photo, name, small bio
-#### Links
+#### Internal links
 - Session dates on homepage
 
 ### Photo gallery
@@ -171,100 +191,158 @@ Each page will have the necessary internal links to direct the user in alignment
 
 ## Skeleton
 
-[**Mobile device wireframe](assets/images/wireframe-mobile-device.pdf)
+[Mobile device wireframe](assets/images/supporting-docs/wireframe-mobile-device.pdf)
 
-[**Tablet devide wireframe](assets/images/wireframe-tablet.pdf)
+[Tablet devide wireframe](assets/images/supporting-docs/wireframe-tablet.pdf)
 
-[**Desktop device wireframe](assets/images/wireframe-desktop.pdf)
+[Desktop device wireframe](assets/images/supporting-docs/wireframe-desktop.pdf)
 
-The wireframes were created using [Balsamiq](http://www.balsamiq.com) and demonstrate the responsive of the site on each device size, as well as the 
-white space applied throughout the create a clean, simple structure which does not overload the user. The site presents the user with the information 
-they are looking for, in a simple and logical manner.
+The wireframes were created using <a href="http://www.balsamiq.com" target="_blank">Balsamiq</a> and demonstrate the responsive of the site on each device size, 
+as well as the clean, simple structure, which does not overload the user. The site presents the user with the information they are looking for, in a 
+simple and logical manner, using as few clicks as possible.
 
 ## Surface
 ### Typography:
 Using [Google Fonts](https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom)
-I selected Permanent Marker for all navbar text, and h1, h2 and h3 headings throughout the site, as I felt it gave a feeling of friendliness and 
-approachable that I was looking for to match the tone of the site.
+I selected Permanent Marker for all navbar text, and headings, as I felt it gives a feeling of friendliness that I was looking for to match the tone of the site.
 As per Google Font's recommendation, the accommodating font used is Lato. Sans-serif is used should either of these fonts fail to load.
-<a name="imagery"></a>### Imagery:
+
+### Imagery:
+
+Where possible, the site uses real-life images. However, this has not been possible for all images. The ball falling through a hoop is actually a basketball,
+not a netball. It was not possible to source free images of netball that meet the needs of the site. This will be updated in the future, when the club can
+take it's own photos for the site.
+
+[Netbal falling through hoop:](assets/images/ball-in-net-resize) [Sourced from Unsplash.com](https://unsplash.com/photos/jS2Cgv-Xppw)
+
 The following three images used on the photos.html page are published on Gothenburg Netball's Facebook page, for which I am an administrator.
+
 [Image 1 | ](assets/images/photo-gallery/group-1)
+
 [Image 2 | ](assets/images/photo-gallery/group-2)
-[Image 3 | ](assets/images/photo-gallery/group-4)
-The other images on the page are stock images, sources from Unsplash.com, and acknowledged here:
+
+[Image 3 | ](assets/images/photo-gallery/group-5)
+
+The other images on the page are stock images, sourced from Unsplash.com:
+
 [Image 4 | ](assets/images/photo-gallery/group-3) [Source](https://unsplash.com/@naassomz1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-[Image 5 | ](assets/images/photo-gallery/group-5) [Source](https://unsplash.com/@iamchang?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+[Image 5 | ](assets/images/photo-gallery/group-4) [Source](https://unsplash.com/@iamchang?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
 [Image 6 | ](assets/images/photo-gallery/group-6) [Source](https://unsplash.com/@linkedinsalesnavigator?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
 The images used for the committee members were also sourced from Unsplash.com:
+
 [Mark Darcy | ](assets/images/committee-members/mark-darcy.jpg) [Source](https://unsplash.com/@christianbuehner?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
 [Bridget Jones | ](assets/images/committee-members/bridget-jones.jpg) [Source](https://unsplash.com/@eugabrielsilverio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
 [Daniel Cleaver | ](assets/images/committee-members/daniel-cleaver.jpg) [Source](https://unsplash.com/@_sean_hall_?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyTex)
+
 [Helen Fielding | ](assets/images/committee-members/helen-fielding.jpg) [Source](https://unsplash.com/@clemono?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
 The flag icons were sourced from [Flacticon](http://flaticon.com) and are also sourced on the site.
+
 ### Color scheme:
+
 The principle colors selected are variants of blue and yellow, the reason being two-fold: they are the colors of the Swedish flag, and other netball 
-clubs in Sweden have red and green as their team colors. All color variants have been selected using [Coolors](https://coolors.co/) to compliment 
-each other, and provide a feeling of safety and calm, as required in the strategy.
-![Color choices](assets/images/color-codes.jpg)
-Toward the end of the project, based on feedback from Slack users and testers, I added color to the homepage to break up the white space and make it more
-asthetically pleasing. 
+clubs in Sweden have red and green as their team colors, so we needed something different. All color variants have been selected using 
+[Coolors](https://coolors.co/) to compliment each other, and provide a feeling of safety and calm, as required in the strategy.
+
+![Color choices](assets/images/supporting-docs/color-codes.jpg)
+
 ### Favicon: 
+
 I used the [basketball ball image from Font Awesome](https://fontawesome.com/icons/basketball-ball?style=solid) and used css styling to match the colors 
 of the website as the favicon.
+
 # Technologies used
+
 This project was created using the following languages:
 
  - HTML 5
  - CSS
 
-The project was created on GitPod.
+The project was created on [GitHub](http://www.github.com).
 
 This project was created using the following libraries and frameworks:
 
  - [Balsamiq](https://balsamiq.cloud/) - used to create all wireframes
  - [Bootstrap](https://getbootstrap.com/) - Bootstrap was used as the main grid structure for the site, for the navbar, including navbar toggler,
- and contact form.
- - [Google Fonts](https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom)
+ and contact form, and was heavily modified to meet the needs of the project.
+ - [Google Fonts](https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom) - Permanent Marker and Lato
  - [Font Awesome](https://fontawesome.com/) - used for the [basketball ball favicon](https://fontawesome.com/icons/basketball-ball?style=solid) and 
  [checklist icons](https://fontawesome.com/icons/check-circle?style=regular)
  - [Free Formatter HTML](https://www.freeformatter.com/html-formatter.html) - for HTML code formatting
  - [Free Formatter CSS](https://www.freeformatter.com/css-beautifier.html) - to beautify CSS code
  - [Coolors](https://coolors.co/) - to select a color pallete to match the required tone of the site
  - [Stackoverflow](http://stackoverflow.com) - help with undertanding forms and navbar toggler 
+ - [Grammarly](https://app.grammarly.com/) - the free service to double check grammar, spelling and tone
+ - [Lighthouse](https://www.webpagetest.org/result/210126_DiYW_ef25f45f403133d4937b7ce39a1adc42/)- used to score accessibility and general site performance  
 
 # Testing:
-I have created the website for mobile-usage, therefore I have used Chrome development tools throughout to ensure continuous testing of the look,
-functionality and layout of the site.
+
+See separate [Testing file](testing.md) for testing information.
 
 # Deployment:
 
+NB: During deployment, I had a few occassions where I duplicated commits, in particular at the beginning, and did not commit as often as I should. This I tried
+to rectify as I continued to build the site.
+
+This project was developed using Gitpod, committed to git and pushed to Github using the built-in functionality.
+
+To deploy the pages to Github Pages, from the Github repository, the following steps were taken:
+
+1. Log onto [Github](http://github.com).
+2. From the list of repositories, select CatherineTrevor/gothenburg-netball.
+3. From the menu bar, select Settings.
+4. Stay on this page and scroll down to Source. 
+5. Select Master branch and click save.
+5. Wait a few minutes: the live link can be retrieved from the top of the page.
+
+## How to run this project locally
+
+1. Log onto [Github](http://github.com): create an account if required.
+2. From the list of repositories, select CatherineTrevor/gothenburg-netball.
+3. Click "Code" dropdown within the menu above the commits.
+4. Copy the URL address, or Download ZIP and save locally.
+5. Using your chosen IDE, copy the URL within the CLI.
+6. Alternatively, select "Open with Github Desktop".
+
 # Credits:
+
 ## Content:
-- [Good reads](https://www.goodreads.com/author/quotes/6419544.Shanti) - provided the quote on the 
+- [Good reads](https://www.goodreads.com/author/quotes/6419544.Shanti) - the quote on
 [photo gallery](https://catherinetrevor.github.io/gothenburg-netball/photos.html) page
-- [Wikipedia](http://www.wikipedia.org) - source of basic netball info, and information about the 
-[introduction of netball](https://en.wikipedia.org/wiki/Martina_Bergman-%C3%96sterberg)
+- [Netball Sweden](https://www.netball.se/origin-of-netball) -source of basic netball info, and information about the origin of netball
 - [Play Simple Netball](https://www.simplenetball.co.uk/rules/) - used to verify my own knowlegde of the rules, to ensure what I was writing was correct
-- [Netball court illustration](assets/images/court-layout) - I drew this myself using Micorsoft Powerpoint and saved as a jpg, based on my own knowledge
+- [Netball court illustration](assets/images/court-layout) - I drew this myself using Microsoft Powerpoint and saved as a jpg, based on my own knowledge
 - [Committee member quotes](https://catherinetrevor.github.io/gothenburg-netball/contact.html) - all quotes are purely fictional, written by me
+
+All other content has been written by me.
+
 ## Media:
+
 - [Unsplash](http://www.unsplash.com) - committee members, and some photo gallery images sourced from Unsplash. Specific sources cited in the above 
 imagery section 
-- Youtube video
-- Gothenburg Netball club Facebook
-Netball and smiley face graphic
-Google maps
-basketball image
-country flags
+- [Youtube](https://www.youtube.com/embed/WGaYDvaZ4No) - what is netball video
+- [Gothenburg Netball Club Facebook](https://www.facebook.com/gothenburgnetball/)
+- [Netball and smiley face word graphic](https://wordart.com/create)
+- [Google maps](http://www.maps.google.se)
+
 ## Acknowledgements:
+
 While designing and developing this site, I took inspiration from the following websites;
+
 * [Skåne Netball Club](https://skane-netball-club.webnode.com/)
 * [Stockholm Netball Club](https://www.stockholmnetballclub.com/)
 * [Netball Sweden (Sweden's national netball federation)](https://www.netball.se/)
 * [Kent County Club](https://www.kcnc.org.uk/)
 * [Nicole Saidy](https://nicolesaidy.com/)
 * [Leen Heyne Collection](https://leenheyne.nl/jewelry-all)
-* [Inspiration document](insert link)
+* [Inspiration document](assets/images/supporting-docs/inspiration.jpg)
 
-While the club is real, the names of the other committee members are fictional and have been taken from the book Bridget Jones' Diary by Helen Fiedling.
+While the club is real, the names of the other committee members are fictional and have been taken from the book Bridget Jones' Diary by Helen Fielding.
+
+Thanks also to my mentor Aaron Sinnott, the chair of Netball Sweden for her time and feedback, Brendan, another member of slack for his time and 
+feedback.
