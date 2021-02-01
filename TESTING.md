@@ -17,7 +17,7 @@ Based on the user story requirements, I have carried out the following testing;
 
 #### I am a new visitor to the site and want to:
 - Easily understand what the club is and what it provides: offered in the opening paragraph on the homepage
-- Refresh my understanding of netball: brief guidlines on the "what is netball page"
+- Refresh my understanding of netball: brief guidelines on the "what is netball page"
 - Learn the basics of netball: brief guidelines, and a short video on the "what is netball page"
 - Find out where and when practice is: a table and map on the homepage
 - Understand the fees involved: text provided on the homepage
@@ -32,18 +32,18 @@ homepage welcome section, giving a clearer overview of the sessions.
 #### I am a regular player / frequent site visitor and want to:
 - Find out where and when practice is: a table and map on the homepage
 - Feel invited to join a session: friendly, welcoming text
-- Refresh my knowledge of netball: brief guidlines on the "what is netball page"
+- Refresh my knowledge of netball: brief guidelines on the "what is netball page"
 - Find out the latest news about netball: this has not been deployed in this version of the project, but will be a future feature, linked to the Netball
 Sweden site, based on what information members are looking for.
 - Learn about future friendly matches and tours: this has not been deployed for this project. Until regular play starts again, this information does not exist.
 
 #### I am a club committee member and want to:
-- Show case how much fun we have as a club: as per the photo gallery
+- Showcase how much fun we have as a club: as per the photo gallery
 - Encourage regular playing members: having an online presence, in a friendly tone will help achieve this
 - Build a strong, regular team so that we can attend matches and tours as a group: as above, new players will be encouraged to try us out
 - Encourage people to try a new sport: giving basic guidelines and information on the game
 - Invite players to join the committee and help us run the club: written in the chairman's bio
-- Provide clear information about who we are and what we do for future sponsorhsip opportunities: specifically sponsorhips will be addressed in future deployment,
+- Provide clear information about who we are and what we do for future sponsorship opportunities: specifically sponsorship will be addressed in future deployment,
 but information about who we are is provided on the homepage.
 
 #### Easily navigate to homepage
@@ -72,7 +72,7 @@ each page, that was not visible on Chrome development tools.
 
 ![View on Chrome development tools](assets/images/supporting-docs/mobile-view-bugfix.jpg)
 
-This was solved through increasing the specifity of the image within the div, to ensure the size on smaller screens was always small and contained within the div.
+This was solved through increasing the specificity of the image within the div, to ensure the size on smaller screens was always small and contained within the div.
 
             <div class="row">
                 <br>
@@ -109,8 +109,8 @@ Without the knowledge to fix this bug, I have chosen to hide the div on tablet s
 
 ### Too much white space
 
-Toward the end of the project, based on feedback from Slack users and testers, I added background color to the homepage to break up the white space 
-and make it more asthetically pleasing. I used the grey #515751 rgb code and added opacity to keep it in the same style, but make it subtle. I then added
+Toward the end of the project, based on feedback from Slack users and testers, I added background colour to the homepage to break up the white space 
+and make it more aesthetically pleasing. I used the grey #515751 rgb code and added opacity to keep it in the same style, but make it subtle. I then added
 white to the main section to make it stand out.
 
             .section {
@@ -120,6 +120,6 @@ white to the main section to make it stand out.
 ### Change to original layout
 
 In the original wireframe for the committee members, I had the image and text alternate to provide clarity. During development this proved too
-difficult for me to keep the responsive behaviour on all devices, therefore the layout is a simple header, image, then text layout for consistancy.
+difficult for me to keep the responsive behaviour on all devices, therefore the layout is a simple header, image, then text layout for consistency.
 
 ![Committee members layout](assets/images/supporting-docs/members-layout.jpg)

@@ -1,21 +1,28 @@
 # Gothenburg Netball Club Project
 ## A simple website providing information about Gothenburg's Netball Club to existing and prospective players.
+
+### [View the live site here.](https://catherinetrevor.github.io/gothenburg-netball/)
+
 # Contents
 1. Project Overview
 
 2. UXD
 - Strategy
-    *Target audience
-    *User stories
+    * Target audience
+    * User stories
+
 - Scope
-    *Features   
+    * Features 
+
 - Structure
 - Skeleton
 - Surface
-    *Typography
-    *Imagery
-    *Color scheme
-    *Favicon
+
+    * Typography
+    * Imagery
+    * Color scheme
+    * Favicon
+
 3. Technologies used
 
 4. Testing
@@ -36,8 +43,8 @@ I am on the committee for the Gothenburg Netball Club: a team of amateur netball
 Sadly due to the current Covid-19 situation having such a negative impact on sports, we have been unable to have routine sessions, and therefore 
 do not have a group of regular players.
 
-I am taking this opportunity to create a simple, clearly structured website to promote the club, so that when we can start playing again in the 
-spring, there is a larger awareness and interest in the club, encouring site visitors to join a session, and become paying members. It will also 
+I am taking this opportunity to create a simple, clearly structured website to promote the club so that when we can start playing again in the 
+spring, there is a larger awareness and interest in the club, encouraging site visitors to join a session and become paying members. It will also 
 serve as a place that regular players can see upcoming training dates, times and locations. 
 
 The club's current online presence is via [Facebook](https://www.facebook.com/gothenburgnetball/).
@@ -45,24 +52,24 @@ The club's current online presence is via [Facebook](https://www.facebook.com/go
 ## Strategy
 The site has been designed using a mobile-first approach to ensure ease of obtaining information.
 
-It is imperative that the look and feel of the site be friendly, feel local, and approachable: the objective is that people feel comfortable contacting 
+The look and feel must be friendly, feel local, and approachable: the objective is that people feel comfortable contacting 
 the club and want to join us to play, even if just once. If the site feels too commercial, busy, or cold it will not provide this positive feeling to 
 the user.
 
 ### Target audience
 English-speaking adults (whether native or not), aged 18 or over, who wish to meet other people, whilst playing sport / improving their fitness. Site users are based 
-in Gothenburg, Sweden, or can travel to the city on a regular basis.
+in Gothenburg, Sweden, or can travel to the city regularly.
 
 Users can have experience of netball, perhaps having played in school or college, or no experience at all. This is not a competitive environment: 
-it is meant to be fun, therefore level of playing experience, or even knowlegde of the game is immaterial. All are welcome and the site must reflect this.
+it is meant to be fun, therefore level of playing experience, or even knowledge of the game is immaterial. All are welcome and the site must reflect this.
 
-Where users have knowledge of the game and / or are interested in volunteering, we invite them to join the committee and / or provide help in 
-umpiring / coaching.
+Where users have knowledge of the game and/or are interested in volunteering, we invite them to join the committee and/or provide help in 
+umpiring/coaching.
 
 ### User stories
 #### I am an English-speaking adult in Gothenburg and want to:
-- Meet other English-speaking adults on a regular basis, and make new friends,
-- Learn a new skill / sport,
+- Meet other English-speaking adults regularly, and make new friends,
+- Learn a new skill/sport,
 - Improve my netball skills, a game I haven't played for years,
 - Improve my fitness,
 - Spend time with people that I have something in common with,
@@ -90,16 +97,16 @@ umpiring / coaching.
 - Learn about future friendly matches and tours.
 
 #### I am a club committee member and want to:
-- Show case how much fun we have as a club,
+- Showcase how much fun we have as a club,
 - Encourage regular playing members,
 - Build a strong, regular team so that we can attend matches and tours as a group,
 - Encourage people to try a new sport,
 - Invite players to join the committee and help us run the club,
-- Provide clear information about who we are and what we do for future sponsorhsip opportunities.
+- Provide clear information about who we are and what we do for future sponsorship opportunities.
 
 ## Scope
 ### Features
-Utilising the trade-off equation, below details the features I have selected to be included in the intitial release, and ones to be considered 
+Utilising the trade-off equation, below details the features I have selected to be included in the initial release, and ones to be considered 
 in the future.
 
 ![Trade-off equation](assets/images/supporting-docs/trade-off-equation.jpg)
@@ -116,9 +123,9 @@ in the future.
 
 | Feature  | Details  |
 |---|---|
-| Nav bar | Simple, easy to understand naviagtion bar, always at the top of each page.  |
+| Nav bar | Simple, easy to understand navgation bar, always at the top of each page.  |
 | Footer | Contact info, social media link (opening in new tab), membership form (opening in new tab) and organisation name and number.  |
-| Images | Clean, real life images of the players, venues and social occassions.  |
+| Images | Clean, real-life images of the players, venues and social occasions.  |
 | About  | Basic, simple information about who we are and what we do.  |
 | Guide to netball  | Basic principles of the sport, which are easy to comprehend, including visual representation.  |
 | Contact page  | Easy to use contact form. Club contact information and committee member details.  |
@@ -151,7 +158,7 @@ The website is structured into four pages: Home | What is netball? | Get in touc
 Each page is responsive on various device sizes, has the same clean, simple structure, and contains the navigation bar and footer. The navigation bar 
 is static, and the favicon links back to the home page.
 
-The layout is primarily based on [Bootstrap's grid system](https://getbootstrap.com/docs/5.0/layout/grid/), heavily modified to acheive the desired look and style.
+The layout is primarily based on [Bootstrap's grid system](https://getbootstrap.com/docs/5.0/layout/grid/), heavily modified to achieve the desired look and style.
 
 Each page has the necessary internal links to direct the user in alignment with the relevant part of their online journey.
 
@@ -191,15 +198,22 @@ Each page has the necessary internal links to direct the user in alignment with 
 
 ## Skeleton
 
-[Mobile device wireframe](assets/images/supporting-docs/wireframe-mobile-device.pdf)
+### Homepage wireframe
+![Homepage wireframe](assets/images/supporting-docs/homepage-wireframe.jpg)
 
-[Tablet devide wireframe](assets/images/supporting-docs/wireframe-tablet.pdf)
 
-[Desktop device wireframe](assets/images/supporting-docs/wireframe-desktop.pdf)
+### What is netball wireframe
+![What is netball wireframe](assets/images/supporting-docs/netball-wireframe.jpg)
+
+### Get in touch wireframe
+![Get in touch wireframe](assets/images/supporting-docs/contact-wireframe.jpg)
+
+### Photo gallery wireframe
+![Photo gallery wireframe](assets/images/supporting-docs/photos-wireframe.jpg)
 
 The wireframes were created using <a href="http://www.balsamiq.com" target="_blank">Balsamiq</a> and demonstrate the responsive of the site on each device size, 
-as well as the clean, simple structure, which does not overload the user. The site presents the user with the information they are looking for, in a 
-simple and logical manner, using as few clicks as possible.
+as well as the clean, simple structure, which does not overload the user. The site presents the user with the information they are looking for, simply and logically, 
+using as few clicks as possible.
 
 ## Surface
 ### Typography:
@@ -209,11 +223,11 @@ As per Google Font's recommendation, the accommodating font used is Lato. Sans-s
 
 ### Imagery:
 
-Where possible, the site uses real-life images. However, this has not been possible for all images. The ball falling through a hoop is actually a basketball,
-not a netball. It was not possible to source free images of netball that meet the needs of the site. This will be updated in the future, when the club can
-take it's own photos for the site.
+Where possible, the site uses real-life images. However, this has not been possible for all images. The What is netball image of the ball falling through a hoop is a basketball,
+not a netball. It was not possible to source free images of netball that meet the needs of the site. This will be updated in the future when the club can
+take its own photos for the site.
 
-[Netbal falling through hoop:](assets/images/ball-in-net-resize) [Sourced from Unsplash.com](https://unsplash.com/photos/jS2Cgv-Xppw)
+[Netball falling through a hoop:](assets/images/ball-in-net-resize) [Sourced from Unsplash.com](https://unsplash.com/photos/jS2Cgv-Xppw)
 
 The following three images used on the photos.html page are published on Gothenburg Netball's Facebook page, for which I am an administrator.
 
@@ -243,17 +257,17 @@ The images used for the committee members were also sourced from Unsplash.com:
 
 The flag icons were sourced from [Flacticon](http://flaticon.com) and are also sourced on the site.
 
-### Color scheme:
+### Colour scheme:
 
-The principle colors selected are variants of blue and yellow, the reason being two-fold: they are the colors of the Swedish flag, and other netball 
-clubs in Sweden have red and green as their team colors, so we needed something different. All color variants have been selected using 
-[Coolors](https://coolors.co/) to compliment each other, and provide a feeling of safety and calm, as required in the strategy.
+The principle colours selected are variants of blue and yellow, the reason being two-fold: they are the colours of the Swedish flag, and other netball 
+clubs in Sweden have red and green as their team colours, so we needed something different. All colour variants have been selected using 
+[Coolors](https://coolors.co/) to compliment each other and provide a feeling of safety and calm, as required in the strategy.
 
 ![Color choices](assets/images/supporting-docs/color-codes.jpg)
 
 ### Favicon: 
 
-I used the [basketball ball image from Font Awesome](https://fontawesome.com/icons/basketball-ball?style=solid) and used css styling to match the colors 
+I used the [basketball ball image from Font Awesome](https://fontawesome.com/icons/basketball-ball?style=solid) and used css styling to match the colours 
 of the website as the favicon.
 
 # Technologies used
@@ -286,7 +300,7 @@ See separate [Testing file](testing.md) for testing information.
 
 # Deployment:
 
-NB: During deployment, I had a few occassions where I duplicated commits, in particular at the beginning, and did not commit as often as I should. This I tried
+NB: During deployment, I had a few occasions where I duplicated commits, in particular at the beginning, and did not commit as often as I should. This I tried
 to rectify as I continued to build the site.
 
 This project was developed using Gitpod, committed to git and pushed to Github using the built-in functionality.
@@ -315,7 +329,7 @@ To deploy the pages to Github Pages, from the Github repository, the following s
 - [Good reads](https://www.goodreads.com/author/quotes/6419544.Shanti) - the quote on
 [photo gallery](https://catherinetrevor.github.io/gothenburg-netball/photos.html) page
 - [Netball Sweden](https://www.netball.se/origin-of-netball) -source of basic netball info, and information about the origin of netball
-- [Play Simple Netball](https://www.simplenetball.co.uk/rules/) - used to verify my own knowlegde of the rules, to ensure what I was writing was correct
+- [Play Simple Netball](https://www.simplenetball.co.uk/rules/) - used to verify my own knowledge of the rules, to ensure what I was writing was correct
 - [Netball court illustration](assets/images/court-layout) - I drew this myself using Microsoft Powerpoint and saved as a jpg, based on my own knowledge
 - [Committee member quotes](https://catherinetrevor.github.io/gothenburg-netball/contact.html) - all quotes are purely fictional, written by me
 
@@ -344,5 +358,5 @@ While designing and developing this site, I took inspiration from the following 
 
 While the club is real, the names of the other committee members are fictional and have been taken from the book Bridget Jones' Diary by Helen Fielding.
 
-Thanks also to my mentor Aaron Sinnott, the chair of Netball Sweden for her time and feedback, Brendan, another member of slack for his time and 
+Thanks also to my mentor at Code Institute Aaron Sinnott, the chair of Netball Sweden for her time and feedback, as well as Brendan, another member of slack for his time and 
 feedback.
