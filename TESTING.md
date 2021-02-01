@@ -16,35 +16,38 @@ As part of the testing process, I also sent the site to the chair of Netball Swe
 Based on the user story requirements, I have carried out the following testing;
 
 #### I am a new visitor to the site and want to:
-- Easily understand what the club is and what it provides: offered in the opening paragraph on the homepage
-- Refresh my understanding of netball: brief guidelines on the "what is netball page"
-- Learn the basics of netball: brief guidelines, and a short video on the "what is netball page"
-- Find out where and when practice is: a table and map on the homepage
-- Understand the fees involved: text provided on the homepage
-- Feel invited to join a session: friendly images, and welcome text inviting the user to join a session
-- Feel comfortable contacting someone for more information: friendly contact form, and email address provided
-- Connect to the club's social media channels: link to Facebook always in the footer
-- Understand what I need to join: section on homepage giving such information
-- Understand what I will gain from coming to a session: during the testing phase, this information was not clear enough, so I added some extra text to the
-homepage welcome section, giving a clearer overview of the sessions. 
-- Have an overview of the committee members: bio and picture provided on the contact page.
+| User story | How the site meets the requirement
+|---|---|
+| Easily understand what the club is and what it provides | Offered in the opening paragraph on the homepage |
+| Refresh my understanding of netball | Brief guidelines on the "what is netball page" |
+| Learn the basics of netball | Brief guidelines, and a short video on the "what is netball page" |
+| Find out where and when practice is | A table and map on the homepage |
+| Understand the fees involved | Text provided on the homepage |
+| Feel invited to join a session | Friendly images, and welcome text inviting the user to join a session |
+| Feel comfortable contacting someone for more information | Friendly contact form, and email address provided |
+| Connect to the club's social media channels | Link to Facebook always in the footer |
+| Understand what I need to join | Section on homepage giving such information |
+| Understand what I will gain from coming to a session | During the testing phase, this information was not clear enough, so I added some extra text to the homepage welcome section, giving a clearer overview of the sessions. |
+| Have an overview of the committee members | Bio and picture provided on the contact page |
 
 #### I am a regular player / frequent site visitor and want to:
-- Find out where and when practice is: a table and map on the homepage
-- Feel invited to join a session: friendly, welcoming text
-- Refresh my knowledge of netball: brief guidelines on the "what is netball page"
-- Find out the latest news about netball: this has not been deployed in this version of the project, but will be a future feature, linked to the Netball
-Sweden site, based on what information members are looking for.
-- Learn about future friendly matches and tours: this has not been deployed for this project. Until regular play starts again, this information does not exist.
+| User story | How the site meets the requirement |
+|---|---|
+| Find out where and when practice is | A table and map on the homepage |
+| Feel invited to join a session | Friendly, welcoming text |
+| Refresh my knowledge of netball | Brief guidelines on the "what is netball page" |
+| Find out the latest news about netball | This has not been deployed in this version of the project, but will be a future feature, linked to the Netball Sweden site, based on what information members are looking for |
+| Learn about future friendly matches and tours | This has not been deployed for this project. Until regular play starts again, this information does not exist |
 
 #### I am a club committee member and want to:
-- Showcase how much fun we have as a club: as per the photo gallery
-- Encourage regular playing members: having an online presence, in a friendly tone will help achieve this
-- Build a strong, regular team so that we can attend matches and tours as a group: as above, new players will be encouraged to try us out
-- Encourage people to try a new sport: giving basic guidelines and information on the game
-- Invite players to join the committee and help us run the club: written in the chairman's bio
-- Provide clear information about who we are and what we do for future sponsorship opportunities: specifically sponsorship will be addressed in future deployment,
-but information about who we are is provided on the homepage.
+| User story | How the site meets the requirement |
+|---|---|
+| Showcase how much fun we have as a club | As per the photo gallery
+| Encourage regular playing members | Having an online presence, in a friendly tone will help achieve this |
+| Build a strong, regular team so that we can attend matches and tours as a group | as above, new players will be encouraged to try us out |
+| Encourage people to try a new sport | giving basic guidelines and information on the game |
+| Invite players to join the committee and help us run the club | written in the chairman's bio |
+| Provide clear information about who we are and what we do for future sponsorship opportunities | specifically sponsorship will be addressed in future deployment, but information about who we are is provided on the homepage |
 
 #### Easily navigate to homepage
 
@@ -53,8 +56,8 @@ but information about who we are is provided on the homepage.
 
 #### Easily contact the club
 
-1. Click on the email address in the footer
-2. This opens a new blank email message, with the club email address in the To friendly
+1. Click on the email address in the footer of each page
+2. This opens a new blank email message, with the club email address in the "To" field
 
 1. Navigate to Get in touch page
 2. Fill in contact form
@@ -72,7 +75,9 @@ each page, that was not visible on Chrome development tools.
 
 ![View on Chrome development tools](assets/images/supporting-docs/mobile-view-bugfix.jpg)
 
-This was solved through increasing the specificity of the image within the div, to ensure the size on smaller screens was always small and contained within the div.
+Researching the problem, I read one article on [David Walsh's blog](https://davidwalsh.name/image-max-width) regarding image width, and after revaluating my css, understood my specificity was not high enough to control the image size.
+
+This was solved through increasing the specificity of the image within the div by adding an ID to the image, to ensure the size on smaller screens was always small and contained within the div.
 
             <div class="row">
                 <br>
@@ -86,9 +91,10 @@ This was solved through increasing the specificity of the image within the div, 
 
 When testing the site on the iPad, the Youtube video on the "What is netball" page doesn't display. 
 
-After doing online research reading various sites, including [Apple discussions](https://discussions.apple.com/thread/2386735) and information 
-from [XSPDF](https://www.xspdf.com/resolution/58337652.html) to see if it was browser specific. I also tested [Netball Sweden](http://www.netball.se)
-and the same happens for their Youtube videos. I assume the cause is related to capability between the tablet and Youtube, but am not sure. 
+To understand the problem, I read articles online including [Apple discussions](https://discussions.apple.com/thread/2386735), 
+and [XSPDF](https://www.xspdf.com/resolution/58337652.html). Initially I thought it might be browser specific. 
+I also tested [Netball Sweden](http://www.netball.se) on the tabelt and the same happens for their Youtube videos. I assume the cause is related to capability 
+between the tablet and Youtube, but am not sure. 
 Without the knowledge to fix this bug, I have chosen to hide the div on tablet sized devices, using Bootstrap's "d-md-none" class on the row.
 
                 <div class="row d-md-none">
@@ -123,3 +129,7 @@ In the original wireframe for the committee members, I had the image and text al
 difficult for me to keep the responsive behaviour on all devices, therefore the layout is a simple header, image, then text layout for consistency.
 
 ![Committee members layout](assets/images/supporting-docs/members-layout.jpg)
+
+### Code validator
+[css: no errors found](https://jigsaw.w3.org/css-validator/validator)
+

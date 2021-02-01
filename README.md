@@ -20,7 +20,7 @@
 
     * Typography
     * Imagery
-    * Color scheme
+    * Colour scheme
     * Favicon
 
 3. Technologies used
@@ -52,7 +52,7 @@ The club's current online presence is via [Facebook](https://www.facebook.com/go
 ## Strategy
 The site has been designed using a mobile-first approach to ensure ease of obtaining information.
 
-The look and feel must be friendly, feel local, and approachable: the objective is that people feel comfortable contacting 
+The look and feel must be friendly, local, and approachable: the objective is that people feel comfortable contacting 
 the club and want to join us to play, even if just once. If the site feels too commercial, busy, or cold it will not provide this positive feeling to 
 the user.
 
@@ -149,6 +149,10 @@ this option into the site.
 **Feature 3:** Sponsorship opportunities.
 This feature has not been implemented in the first release as the club doesn't have the necessary presence yet to create interest from potential sponsors.
 
+**Feature 4:** Membership form.
+This was intended to be included in the original release, however for now it will be emailed to potential members and will be deployed in a future release, as part
+of the digital requirements in Feature 1.
+
 ## Structure
 
 The website is structured into four pages: Home | What is netball? | Get in touch | Photo gallery
@@ -211,7 +215,7 @@ Each page has the necessary internal links to direct the user in alignment with 
 ### Photo gallery wireframe
 ![Photo gallery wireframe](assets/images/supporting-docs/photos-wireframe.jpg)
 
-The wireframes were created using <a href="http://www.balsamiq.com" target="_blank">Balsamiq</a> and demonstrate the responsive of the site on each device size, 
+The wireframes were created using <a href="http://www.balsamiq.com" target="_blank">Balsamiq</a> and demonstrate the responsive behaviour of the site on each device size, 
 as well as the clean, simple structure, which does not overload the user. The site presents the user with the information they are looking for, simply and logically, 
 using as few clicks as possible.
 
@@ -227,33 +231,41 @@ Where possible, the site uses real-life images. However, this has not been possi
 not a netball. It was not possible to source free images of netball that meet the needs of the site. This will be updated in the future when the club can
 take its own photos for the site.
 
-[Netball falling through a hoop:](assets/images/ball-in-net-resize) [Sourced from Unsplash.com](https://unsplash.com/photos/jS2Cgv-Xppw)
+[Netball falling through a hoop |](assets/images/ball-in-net-resize.jpg) 
+[Andres Siimon](https://unsplash.com/photos/jS2Cgv-Xppw)*
 
 The following three images used on the photos.html page are published on Gothenburg Netball's Facebook page, for which I am an administrator.
 
-[Image 1 | ](assets/images/photo-gallery/group-1)
+[Image 1 ](assets/images/photo-gallery/group-1.jpg)
 
-[Image 2 | ](assets/images/photo-gallery/group-2)
+[Image 2 ](assets/images/photo-gallery/group-2.jpg)
 
-[Image 3 | ](assets/images/photo-gallery/group-5)
+[Image 3 ](assets/images/photo-gallery/group-5.jpg)
 
 The other images on the page are stock images, sourced from Unsplash.com:
 
-[Image 4 | ](assets/images/photo-gallery/group-3) [Source](https://unsplash.com/@naassomz1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Image 4 | ](assets/images/photo-gallery/group-3.jpg)
+[Naassomz1](https://unsplash.com/@naassomz1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[Image 5 | ](assets/images/photo-gallery/group-4) [Source](https://unsplash.com/@iamchang?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Image 5 | ](assets/images/photo-gallery/group-4.jpg) 
+[I am chang](https://unsplash.com/@iamchang?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[Image 6 | ](assets/images/photo-gallery/group-6) [Source](https://unsplash.com/@linkedinsalesnavigator?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Image 6 | ](assets/images/photo-gallery/group-6.jpg) 
+[LinkedIn](https://unsplash.com/@linkedinsalesnavigator?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 The images used for the committee members were also sourced from Unsplash.com:
 
-[Mark Darcy | ](assets/images/committee-members/mark-darcy.jpg) [Source](https://unsplash.com/@christianbuehner?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Mark Darcy | ](assets/images/committee-members/mark-darcy.jpg)
+[Christian Buehner](https://unsplash.com/@christianbuehner?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[Bridget Jones | ](assets/images/committee-members/bridget-jones.jpg) [Source](https://unsplash.com/@eugabrielsilverio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Bridget Jones | ](assets/images/committee-members/bridget-jones.jpg) 
+[Eugabriel Silverio](https://unsplash.com/@eugabrielsilverio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[Daniel Cleaver | ](assets/images/committee-members/daniel-cleaver.jpg) [Source](https://unsplash.com/@_sean_hall_?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyTex)
+[Daniel Cleaver | ](assets/images/committee-members/daniel-cleaver.jpg) 
+[Sean Hall](https://unsplash.com/@_sean_hall_?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyTex)
 
-[Helen Fielding | ](assets/images/committee-members/helen-fielding.jpg) [Source](https://unsplash.com/@clemono?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Helen Fielding | ](assets/images/committee-members/helen-fielding.jpg) 
+[Clemono](https://unsplash.com/@clemono?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 The flag icons were sourced from [Flacticon](http://flaticon.com) and are also sourced on the site.
 
@@ -272,31 +284,34 @@ of the website as the favicon.
 
 # Technologies used
 
-This project was created using the following languages:
+This project uses the following languages:
 
  - HTML 5
  - CSS
 
-The project was created on [GitHub](http://www.github.com).
+This project was created on [GitHub](http://www.github.com).
 
-This project was created using the following libraries and frameworks:
+This project uses the following libraries and frameworks:
 
  - [Balsamiq](https://balsamiq.cloud/) - used to create all wireframes
  - [Bootstrap](https://getbootstrap.com/) - Bootstrap was used as the main grid structure for the site, for the navbar, including navbar toggler,
- and contact form, and was heavily modified to meet the needs of the project.
+ and contact form, and was heavily modified to meet the needs of the project
  - [Google Fonts](https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom) - Permanent Marker and Lato
  - [Font Awesome](https://fontawesome.com/) - used for the [basketball ball favicon](https://fontawesome.com/icons/basketball-ball?style=solid) and 
  [checklist icons](https://fontawesome.com/icons/check-circle?style=regular)
+ - [Tiny PNG](https://tinypng.com/) - used to resize images to reduce site loading time  
  - [Free Formatter HTML](https://www.freeformatter.com/html-formatter.html) - for HTML code formatting
  - [Free Formatter CSS](https://www.freeformatter.com/css-beautifier.html) - to beautify CSS code
  - [Coolors](https://coolors.co/) - to select a color pallete to match the required tone of the site
- - [Stackoverflow](http://stackoverflow.com) - help with undertanding forms and navbar toggler 
+ - [Stackoverflow](http://stackoverflow.com) - general help to undertand forms, image sizing and navbar toggler 
+ - [W3 School](https://www.w3schools.com/html/html_tables.asp) - help understanding the table html code
  - [Grammarly](https://app.grammarly.com/) - the free service to double check grammar, spelling and tone
- - [Lighthouse](https://www.webpagetest.org/result/210126_DiYW_ef25f45f403133d4937b7ce39a1adc42/)- used to score accessibility and general site performance  
+ - [Lighthouse](https://www.webpagetest.org/result/210126_DiYW_ef25f45f403133d4937b7ce39a1adc42/) - used to score accessibility and general site performance 
+ - [Monday.com](http://www.monday.com) - I used this site for project management, to ensure tasks were completed on time 
 
 # Testing:
 
-See separate [Testing file](testing.md) for testing information.
+See separate [Testing file](TESTING.md) for testing information.
 
 # Deployment:
 
@@ -308,29 +323,29 @@ This project was developed using Gitpod, committed to git and pushed to Github u
 To deploy the pages to Github Pages, from the Github repository, the following steps were taken:
 
 1. Log onto [Github](http://github.com).
-2. From the list of repositories, select CatherineTrevor/gothenburg-netball.
-3. From the menu bar, select Settings.
-4. Stay on this page and scroll down to Source. 
-5. Select Master branch and click save.
+2. From the list of repositories, select **CatherineTrevor/gothenburg-netball**.
+3. From the menu bar, select **Settings**.
+4. Stay on this page and scroll down to **Source**. 
+5. Select **Master branch** and click **save**.
 5. Wait a few minutes: the live link can be retrieved from the top of the page.
 
 ## How to run this project locally
 
 1. Log onto [Github](http://github.com): create an account if required.
-2. From the list of repositories, select CatherineTrevor/gothenburg-netball.
-3. Click "Code" dropdown within the menu above the commits.
+2. From the list of repositories, select **CatherineTrevor/gothenburg-netball**.
+3. Click the **"Code"** dropdown within the menu above the commits.
 4. Copy the URL address, or Download ZIP and save locally.
 5. Using your chosen IDE, copy the URL within the CLI.
-6. Alternatively, select "Open with Github Desktop".
+6. Alternatively, select **"Open with Github Desktop"**.
 
 # Credits:
 
 ## Content:
 - [Good reads](https://www.goodreads.com/author/quotes/6419544.Shanti) - the quote on
 [photo gallery](https://catherinetrevor.github.io/gothenburg-netball/photos.html) page
-- [Netball Sweden](https://www.netball.se/origin-of-netball) -source of basic netball info, and information about the origin of netball
-- [Play Simple Netball](https://www.simplenetball.co.uk/rules/) - used to verify my own knowledge of the rules, to ensure what I was writing was correct
-- [Netball court illustration](assets/images/court-layout) - I drew this myself using Microsoft Powerpoint and saved as a jpg, based on my own knowledge
+- [Netball Sweden](https://www.netball.se/origin-of-netball) - source of basic netball info, and information about the origin of netball
+- [Play Simple Netball](https://www.simplenetball.co.uk/rules/) - the list of players and their roles has been taken from this site. I also used it to verify my own knowledge of the rules, to ensure what I was writing was correct
+- [Netball court illustration](assets/images/court-layout.jpg) - I drew this myself using Microsoft Powerpoint and saved as a jpg, based on my own knowledge
 - [Committee member quotes](https://catherinetrevor.github.io/gothenburg-netball/contact.html) - all quotes are purely fictional, written by me
 
 All other content has been written by me.
@@ -341,7 +356,7 @@ All other content has been written by me.
 imagery section 
 - [Youtube](https://www.youtube.com/embed/WGaYDvaZ4No) - what is netball video
 - [Gothenburg Netball Club Facebook](https://www.facebook.com/gothenburgnetball/)
-- [Netball and smiley face word graphic](https://wordart.com/create)
+- [Netball word graphic on the photo gallery](https://catherinetrevor.github.io/gothenburg-netball/photos.html) and [contact word graphic on the Get in touch page](https://catherinetrevor.github.io/gothenburg-netball/contact.html) were created using [Word Art](https://wordart.com)
 - [Google maps](http://www.maps.google.se)
 
 ## Acknowledgements:
@@ -354,7 +369,6 @@ While designing and developing this site, I took inspiration from the following 
 * [Kent County Club](https://www.kcnc.org.uk/)
 * [Nicole Saidy](https://nicolesaidy.com/)
 * [Leen Heyne Collection](https://leenheyne.nl/jewelry-all)
-* [Inspiration document](assets/images/supporting-docs/inspiration.jpg)
 
 While the club is real, the names of the other committee members are fictional and have been taken from the book Bridget Jones' Diary by Helen Fielding.
 
