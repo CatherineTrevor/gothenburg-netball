@@ -296,6 +296,10 @@ strong a:hover {
         width: 100%;
 }
 
+.small-text {
+        margin: 0 auto;
+}
+
 /********************Contact.html***/
 
 form {

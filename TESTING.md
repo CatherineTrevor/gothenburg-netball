@@ -103,29 +103,22 @@ This was solved through increasing the specificity of the image within the div b
 
 ### Youtube video not displaying on iPad
 
-When testing the site on the iPad, the Youtube video on the "What is netball" page doesn't display. 
+When testing the site on the iPad, the Youtube video on the "What is netball" page doesn't display. Initially, I removed it from tablet-sized devices, however
+following a discussion with my mentor, and further research, this would mean that anyone watching the video on a tablet other than an iPad, will not be able to
+view the video also.
 
-To understand the problem, I read articles online including [Apple discussions](https://discussions.apple.com/thread/2386735), 
-and [XSPDF](https://www.xspdf.com/resolution/58337652.html). Initially I thought it might be browser specific. 
-I also tested [Netball Sweden](http://www.netball.se) on the tabelt and the same happens for their Youtube videos. I assume the cause is related to capability 
-between the tablet and Youtube, but am not sure. 
-Without the knowledge to fix this bug, I have chosen to hide the div on tablet sized devices, using Bootstrap's "d-md-none" class on the row.
+I also tested [Netball Sweden](http://www.netball.se) on the tablet and the same happens for their Youtube videos, where they do not appear.
 
-                <div class="row d-md-none">
-                    <div class="col-12">
-                        <h3>
-                            Take a look...
-                        </h3>
-                    </div>
-                </div>
-                <br>
-                <div class="row d-md-none">
-                    <div class="col-12" id="youtube-video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WGaYDvaZ4No" frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
-                        sr-only="Youtube video explaining rules and facts of netball"></iframe>                
-                    </div>
-                </div>
+As part of my research to understand the problem, I read articles online including [Apple discussions](https://discussions.apple.com/thread/2386735), 
+and [XSPDF](https://www.xspdf.com/resolution/58337652.html). I thought it might be browser specific. 
+[This article from E-Learning Heroes](https://community.articulate.com/discussions/articulate-storyline/embedded-youtube-video-will-not-play-on-ipad) provides a
+clearer explanation.
+
+In conclusion, the video remains on the site, but with this known problem. It is not my video, so I cannot fix its compatibility, although I understand the bug can be 
+fixed using Javascript: I do not yet have the knowledge for this. I have therefore added small text underneath the video, to explain the reason, 
+if a visitor does not see the video, until the bug has been fixed.
+
+![YouTube bug fix](supporting-docs/youtube-bug-fix.jpg)
 
 ### Too much white space
 
