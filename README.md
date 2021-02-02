@@ -2,7 +2,10 @@
 
 ![Am I Responsive image](supporting-docs/responsiveness-image.jpg)
 
-## A simple website providing information about Gothenburg's Netball Club to existing and prospective players.
+This project is my Milestone One project with the Code Institute. It is a website that presents clear and relevant 
+information about Gothenburg's Netball Club for its stakeholders, such as members, committee members and future players. 
+The object is to provide a digital communication platform, which will increase awareness and interest in the club, with the 
+aim of attracting regular paying members. 
 
 ### [View the live site here.](https://catherinetrevor.github.io/gothenburg-netball/)
 
