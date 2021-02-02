@@ -73,7 +73,7 @@ At the bottom homepage and what is netball page, there is a large "get in touch"
 As a result of testing the site on a mobile device, the chair of Netball Sweden and myself discovered a big bug for the images at the top of 
 each page, that was not visible on Chrome development tools.
 
-![View on Chrome development tools](assets/images/supporting-docs/mobile-view-bugfix.jpg)
+![View on Chrome development tools](supporting-docs/mobile-view-bugfix.jpg)
 
 Researching the problem, I read one article on [David Walsh's blog](https://davidwalsh.name/image-max-width) regarding image width, and after revaluating my css, understood my specificity was not high enough to control the image size.
 
@@ -128,7 +128,7 @@ white to the main section to make it stand out.
 In the original wireframe for the committee members, I had the image and text alternate to provide clarity. During development this proved too
 difficult for me to keep the responsive behaviour on all devices, therefore the layout is a simple header, image, then text layout for consistency.
 
-![Committee members layout](assets/images/supporting-docs/members-layout.jpg)
+![Committee members layout](supporting-docs/members-layout.jpg)
 
 ### Code validator
 [css: no errors found](https://jigsaw.w3.org/css-validator/validator)

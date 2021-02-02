@@ -1,4 +1,7 @@
 # Gothenburg Netball Club Project
+
+![Am I Responsive image](supporting-docs/responsiveness-image.jpg)
+
 ## A simple website providing information about Gothenburg's Netball Club to existing and prospective players.
 
 ### [View the live site here.](https://catherinetrevor.github.io/gothenburg-netball/)
