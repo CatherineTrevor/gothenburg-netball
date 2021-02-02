@@ -204,6 +204,12 @@ The layout is primarily based on [Bootstrap's grid system](https://getbootstrap.
 
 Each page has the necessary internal links to direct the user in alignment with the relevant part of their online journey.
 
+This structure has changed in the live site. To maintain common industry standards, the contact.html page has been moved to the last position in the navigation bar.
+
+**Updated structure**
+
+Home | What is netball? | Photo gallery | Get in touch
+
 **Homepage**
 *Contents*
 - Welcome message
