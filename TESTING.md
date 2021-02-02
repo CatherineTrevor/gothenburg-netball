@@ -15,31 +15,32 @@ As part of the testing process, I sent the site to the chair of Netball Sweden, 
 
 **User story testing**
 
-Testing has been carried out to ensure the site meets the needs of visitors, inline with the user stories.  
+Testing has been carried out to ensure the site meets the needs of visitors, inline with the user stories. Below explains how the requirements are met, including
+a link to an image to give clarity on where in the site specifically. 
 
 **First time visitor goals:**
 
 | User story | How the site meets the requirement
 |---|---|
-| a. As a first time visitor I want to, easily understand what the club is and what it provides. | [Detailed in the opening paragraph of the homepage](supporting-docs/uat1.jpg) |
-| b. As a first time visitor I want to, refresh my understanding of netball. | [Brief guidelines on the "what is netball page"](supporting-docs/uat2.jpg) |
-| c. As a first time visitor I want to, learn the basics of netball. | [Brief guidelines, and a short video on the "what is netball page"](supporting-docs/uat3.jpg) |
-| d. As a first time visitor I want to, find out where and when practice is.  | [A table and map on the homepage](supporting-docs/uat4.jpg) |
-| e. As a first time visitor I want to, understand the fees involved. | [Text provided on the homepage](supporting-docs/uat5.jpg) |
-| f. As a first time visitor I want to, feel invited to join a session. | [Friendly images, and welcome text inviting the user to join a session](supporting-docs/uat6.jpg) |
-| g. As a first time visitor I want to, feel comfortable contacting someone for more information. | [Friendly contact form, and email address provided](supporting-docs/uat7.jpg) |
-| h. As a first time visitor I want to, connect to the club's social media channels. | [Link to Facebook always in the footer, across all devices](supporting-docs/uat8.jpg) |
-| i. As a first time visitor I want to, understand what I need to join. | [Section on homepage that provides this information](supporting-docs/uat9.jpg) |
+| a. As a first time visitor I want to, easily understand what the club is and what it provides. | [Details of the club are provided in the opening paragraph of the homepage](supporting-docs/uat1.jpg) |
+| b. As a first time visitor I want to, refresh my understanding of netball. | [There are brief guidelines on the "what is netball page"](supporting-docs/uat2.jpg) |
+| c. As a first time visitor I want to, learn the basics of netball. | [Brief guidelines, and a short video is offered on the "what is netball page"](supporting-docs/uat3.jpg) |
+| d. As a first time visitor I want to, find out where and when practice is.  | [A table and map with details is on the homepage](supporting-docs/uat4.jpg) |
+| e. As a first time visitor I want to, understand the fees involved. | [Text explaining the fees is provided on the homepage](supporting-docs/uat5.jpg) |
+| f. As a first time visitor I want to, feel invited to join a session. | [Friendly images are included throughout, as well as welcome text inviting the user to join a session](supporting-docs/uat6.jpg) |
+| g. As a first time visitor I want to, feel comfortable contacting someone for more information. | [Friendly contact form, with basic information requested, and email address provided](supporting-docs/uat7.jpg) |
+| h. As a first time visitor I want to, connect to the club's social media channels. | [There is a link to Facebook always in the footer, across all devices](supporting-docs/uat8.jpg) |
+| i. As a first time visitor I want to, understand what I need to join. | [There is a section on the homepage specific to this information](supporting-docs/uat9.jpg) |
 | j. As a first time visitor I want to, understand what I will gain from coming to a session. | [During the testing phase, this information was not clear enough, so I added some extra text to the homepage welcome section, giving a clearer overview of the sessions.](supporting-docs/uat1.jpg) |
-| k. As a first time visitor I want to, have an overview of the committee members. | [Bio and picture provided on the contact page](supporting-docs/uat(a).jpg) |
+| k. As a first time visitor I want to, have an overview of the committee members. | [A short bio and picture is provided on the contact page](supporting-docs/uat(a).jpg) |
 
 **Returning visitor goals:**
 
 | User story | How the site meets the requirement |
 |---|---|
-| a. As a returning visitor I want to, find out where and when practice is. | [A table and map on the homepage](supporting-docs/uat(b).jpg) |
-| b. As a returning visitor I want to, feel invited to join a session. | [Friendly, welcoming text](supporting-docs/uat(c).jpg) |
-| c. As a returning visitor I want to, refresh my knowledge of netball. | [Brief guidelines on the "what is netball page"](supporting-docs/uat2.jpg) |
+| a. As a returning visitor I want to, find out where and when practice is. | [A table and map is provided on the homepage](supporting-docs/uat(b).jpg) |
+| b. As a returning visitor I want to, feel invited to join a session. | [The site contains friendly, welcoming text](supporting-docs/uat(c).jpg) |
+| c. As a returning visitor I want to, refresh my knowledge of netball. | [Brief guidelines provided on the "what is netball page"](supporting-docs/uat2.jpg) |
 | d. As a returning visitor I want to, find out the latest news about netball. | This has not been deployed in this version of the project, but will be a future feature, linked to the Netball Sweden site, based on what information members are looking for |
 | e. As a returning visitor I want to, learn about future friendly matches and tours. | This has not been deployed for this project. Until regular play starts again, this information does not exist |
 
@@ -47,11 +48,11 @@ Testing has been carried out to ensure the site meets the needs of visitors, inl
 
 | User story | How the site meets the requirement |
 |---|---|
-| a. As a frequent site visitor I want to, showcase how much fun we have as a club on a digital platform.| [Displayed in the photo gallery](supporting-docs/uat(d).jpg)
+| a. As a frequent site visitor I want to, showcase how much fun we have as a club on a digital platform.| [Photos displayed in the photo gallery](supporting-docs/uat(d).jpg)
 | b. As a frequent site visitor I want to, encourage regular playing members. | [Having an online presence, in a friendly tone will help achieve this](supporting-docs/uat(c).jpg) |
 | c. As a frequent site visitor I want to, build a strong, regular team so that we can attend matches and tours as a group.| A digital platform will help encourage new players to join |
-| d. As a frequent site visitor I want to, encourage people to try a new sport.| [Basic guidelines and information on the game](supporting-docs/uat3.jpg) |
-| e. As a frequent site visitor I want to, invite players to join the committee and help us run the club. | [Provided in the chairman's bio](supporting-docs/uat(e).jpg) |
+| d. As a frequent site visitor I want to, encourage people to try a new sport.| [Basic guidelines and information on the game is offered](supporting-docs/uat3.jpg) |
+| e. As a frequent site visitor I want to, invite players to join the committee and help us run the club. | [This information is given in the chairman's bio](supporting-docs/uat(e).jpg) |
 | f. As a frequent site visitor I want to, provide clear information about who we are and what we do for future sponsorship opportunities. | Sponsorship will be addressed in future deployment: at present [information about who we are is provided on the homepage](supporting-docs/uat1.jpg) |
 
 #### Easily navigate to homepage
