@@ -55,20 +55,28 @@ a link to an image to give clarity on where in the site specifically.
 | e. As a frequent site visitor I want to, invite players to join the committee and help us run the club. | [This information is given in the chairman's bio](supporting-docs/uat(e).jpg) |
 | f. As a frequent site visitor I want to, provide clear information about who we are and what we do for future sponsorship opportunities. | Sponsorship will be addressed in future deployment: at present [information about who we are is provided on the homepage](supporting-docs/uat1.jpg) |
 
-#### Easily navigate to homepage
+**Testing ease of use**
 
-1. Click on the favicon on each page
-2. This will take the user back to the homepage
+**Easily navigate to homepage from any page**
 
-#### Easily contact the club
+1. Click on the favicon in the top left of each page, available on all devices.
+![favicon](supporting-docs/favicon.jpg)
 
-1. Click on the email address in the footer of each page
-2. This opens a new blank email message, with the club email address in the "To" field
+2. This will take the user back to the homepage everytime.
 
-1. Navigate to Get in touch page
-2. Fill in contact form
-3. The form will not submit without a name and valid email address
-4. For this project, the submit button does not navigate anywhere
+**Easily contact the club**
+
+1. Click on the email address in the footer of each page.
+![email-address](supporting-docs/email-address.jpg)
+
+2. This opens a new blank email message, with the club email address in the "To" field.
+
+1. Navigate to Get in touch page, via the navigation bar, or Get in touch buttons.
+![contact-buton](supporting-docs/contact-button.jpg)
+
+2. Fill in contact form.
+3. The form will not submit without a name and valid email address.
+4. For this project, the submit button at the bottom of the form does not navigate anywhere. This will be corrected in future releases.
 
 At the bottom homepage and what is netball page, there is a large "get in touch" button, linking to the contact page. 
 
