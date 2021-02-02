@@ -10,36 +10,26 @@ aim of attracting regular paying members.
 ### [View the live site here.](https://catherinetrevor.github.io/gothenburg-netball/)
 
 # Contents
-1. Project Overview
 
-2. UXD
-- Strategy
-    * Target audience
-    * User stories
+- [Project Overview](#project-overview)
+- [User Experience Design](#user-experience-design)
+  * [Strategy](#strategy)
+    + [Target audience](#target-audience)
+    + [User stories](#user-stories)
+  * [Scope](#scope)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+  * [Surface](#surface)
+    + [Typography](#typography)
+    + [Imagery](#imagery)
+    + [Colour scheme](#colour-scheme)
+    + [Favicon](#favicon)
+- [Technologies used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-- Scope
-    * Features 
-
-- Structure
-- Skeleton
-- Surface
-
-    * Typography
-    * Imagery
-    * Colour scheme
-    * Favicon
-
-3. Technologies used
-
-4. Testing
-
-5. Deployment
-
-6. Credits
-
-- Content
-- Media
-- Acknowledgements
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # Project Overview
 
@@ -54,7 +44,9 @@ spring, there is a larger awareness and interest in the club, encouraging site v
 serve as a place that regular players can see upcoming training dates, times and locations. 
 
 The club's current online presence is via [Facebook](https://www.facebook.com/gothenburgnetball/).
-# User Experience Design (UXD)
+
+# User Experience Design
+
 ## Strategy
 The site has been designed using a mobile-first approach to ensure ease of obtaining information.
 
@@ -73,7 +65,7 @@ Where users have knowledge of the game and/or are interested in volunteering, we
 umpiring/coaching.
 
 ### User stories
-#### I am an English-speaking adult in Gothenburg and want to:
+**I am an English-speaking adult in Gothenburg and want to:**
 - Meet other English-speaking adults regularly, and make new friends,
 - Learn a new skill/sport,
 - Improve my netball skills, a game I haven't played for years,
@@ -82,7 +74,7 @@ umpiring/coaching.
 - Get out of the house,
 - Have fun!
 
-#### I am a new visitor to the site and want to:
+**I am a new visitor to the site and want to:**
 - Easily understand what the club is and what it provides,
 - Refresh my understanding of netball,
 - Learn the basics of netball,
@@ -95,14 +87,14 @@ umpiring/coaching.
 - Understand what I will gain from coming to a session,
 - Have an overview of the committee members.
 
-#### I am a regular player / frequent site visitor and want to:
+**I am a regular player / frequent site visitor and want to:**
 - Find out where and when practice is,
 - Feel invited to join a session,
 - Refresh my knowledge of netball,
 - Find out the latest news about netball,
 - Learn about future friendly matches and tours.
 
-#### I am a club committee member and want to:
+**I am a club committee member and want to:**
 - Showcase how much fun we have as a club,
 - Encourage regular playing members,
 - Build a strong, regular team so that we can attend matches and tours as a group,
@@ -111,7 +103,7 @@ umpiring/coaching.
 - Provide clear information about who we are and what we do for future sponsorship opportunities.
 
 ## Scope
-### Features
+**Features**
 Utilising the trade-off equation, below details the features I have selected to be included in the initial release, and ones to be considered 
 in the future.
 
@@ -125,7 +117,7 @@ in the future.
 | 4. Create sponsorship opportunities | 2 | 1 |
 | 5. Build a basic online presence | 4 | 4 |
 
-### Existing features
+**Existing features**
 
 | Feature  | Details  |
 |---|---|
@@ -140,7 +132,7 @@ in the future.
 | Favicon  | A constant reminder to the site user of the site they are on.  |
 | What is needed to play | Checklist and fee information. |
 
-### Future features planned
+**Future features**
 
 Once play resumes, the website is live and more people start playing there will be many opportunities to build on the website and expand it to meet 
 the growing and changing needs of the club.
@@ -172,53 +164,49 @@ The layout is primarily based on [Bootstrap's grid system](https://getbootstrap.
 
 Each page has the necessary internal links to direct the user in alignment with the relevant part of their online journey.
 
-### Homepage
-#### Content
+**Homepage**
+*Contents*
 - Welcome message
 - About the club
 - Next sessions dates, time and location
 - Current information about Covid-19
-#### Internal links
+*Internal links*
 - What is netball?
 - Get in touch
 
-### What is netball?
-#### Content
+**What is netball?**
+*Contents*
 - Basic rules and principles of the sport
 - Photos of professional play
 - Diagrams (where appropriate)
-#### Internal links
+*Internal links*
 - Get in touch
 - Photo gallery
 
-### Get in touch
-#### Content
+**Get in touch**
+*Contents*
 - Contact form: Name (required), Email (required), Phone, Message
 - Contact info: club email
 - Committee member basic info: photo, name, small bio
-#### Internal links
+*Internal links*
 - Session dates on homepage
 
-### Photo gallery
-#### Content
+**Photo gallery**
+*Contents*
 - Player and sports-related photo gallery
-
-### Error 404
-- In case users are directed to a broken link
 
 ## Skeleton
 
-### Homepage wireframe
+**Homepage wireframe**
 ![Homepage wireframe](supporting-docs/homepage-wireframe.jpg)
 
-
-### What is netball wireframe
+**What is netball wireframe**
 ![What is netball wireframe](supporting-docs/netball-wireframe.jpg)
 
-### Get in touch wireframe
+**Get in touch wireframe**
 ![Get in touch wireframe](supporting-docs/contact-wireframe.jpg)
 
-### Photo gallery wireframe
+**Photo gallery wireframe**
 ![Photo gallery wireframe](supporting-docs/photos-wireframe.jpg)
 
 The wireframes were created using <a href="http://www.balsamiq.com" target="_blank">Balsamiq</a> and demonstrate the responsive behaviour of the site on each device size, 
@@ -226,12 +214,13 @@ as well as the clean, simple structure, which does not overload the user. The si
 using as few clicks as possible.
 
 ## Surface
-### Typography:
+### Typography
+
 Using [Google Fonts](https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom)
 I selected Permanent Marker for all navbar text, and headings, as I felt it gives a feeling of friendliness that I was looking for to match the tone of the site.
 As per Google Font's recommendation, the accommodating font used is Lato. Sans-serif is used should either of these fonts fail to load.
 
-### Imagery:
+### Imagery
 
 Where possible, the site uses real-life images. However, this has not been possible for all images. The What is netball image of the ball falling through a hoop is a basketball,
 not a netball. It was not possible to source free images of netball that meet the needs of the site. This will be updated in the future when the club can
@@ -275,7 +264,7 @@ The images used for the committee members were also sourced from Unsplash.com:
 
 The flag icons were sourced from [Flacticon](http://flaticon.com) and are also sourced on the site.
 
-### Colour scheme:
+### Colour scheme
 
 The principle colours selected are variants of blue and yellow, the reason being two-fold: they are the colours of the Swedish flag, and other netball 
 clubs in Sweden have red and green as their team colours, so we needed something different. All colour variants have been selected using 
@@ -283,7 +272,7 @@ clubs in Sweden have red and green as their team colours, so we needed something
 
 ![Color choices](supporting-docs/color-codes.jpg)
 
-### Favicon: 
+### Favicon
 
 I used the [basketball ball image from Font Awesome](https://fontawesome.com/icons/basketball-ball?style=solid) and used css styling to match the colours 
 of the website as the favicon.
@@ -314,12 +303,13 @@ This project uses the following libraries and frameworks:
  - [Grammarly](https://app.grammarly.com/) - the free service to double check grammar, spelling and tone
  - [Lighthouse](https://www.webpagetest.org/result/210126_DiYW_ef25f45f403133d4937b7ce39a1adc42/) - used to score accessibility and general site performance 
  - [Monday.com](http://www.monday.com) - I used this site for project management, to ensure tasks were completed on time 
+ - [Am I responsive](http://ami.responsivedesign.is/) - supplied the responsive image for the top of README.md
 
-# Testing:
+# Testing
 
 See separate [Testing file](TESTING.md) for testing information.
 
-# Deployment:
+# Deployment
 
 NB: During deployment, I had a few occasions where I duplicated commits, in particular at the beginning, and did not commit as often as I should. This I tried
 to rectify as I continued to build the site.
@@ -335,7 +325,7 @@ To deploy the pages to Github Pages, from the Github repository, the following s
 5. Select **Master branch** and click **save**.
 5. Wait a few minutes: the live link can be retrieved from the top of the page.
 
-## How to run this project locally
+**How to run this project locally**
 
 1. Log onto [Github](http://github.com): create an account if required.
 2. From the list of repositories, select **CatherineTrevor/gothenburg-netball**.
@@ -344,9 +334,10 @@ To deploy the pages to Github Pages, from the Github repository, the following s
 5. Using your chosen IDE, copy the URL within the CLI.
 6. Alternatively, select **"Open with Github Desktop"**.
 
-# Credits:
+# Credits
 
-## Content:
+**Content**
+
 - [Good reads](https://www.goodreads.com/author/quotes/6419544.Shanti) - the quote on
 [photo gallery](https://catherinetrevor.github.io/gothenburg-netball/photos.html) page
 - [Netball Sweden](https://www.netball.se/origin-of-netball) - source of basic netball info, and information about the origin of netball
@@ -356,7 +347,7 @@ To deploy the pages to Github Pages, from the Github repository, the following s
 
 All other content has been written by me.
 
-## Media:
+**Media**
 
 - [Unsplash](http://www.unsplash.com) - committee members, and some photo gallery images sourced from Unsplash. Specific sources cited in the above 
 imagery section 
@@ -365,7 +356,7 @@ imagery section
 - [Netball word graphic on the photo gallery](https://catherinetrevor.github.io/gothenburg-netball/photos.html) and [contact word graphic on the Get in touch page](https://catherinetrevor.github.io/gothenburg-netball/contact.html) were created using [Word Art](https://wordart.com)
 - [Google maps](http://www.maps.google.se)
 
-## Acknowledgements:
+**Acknowledgements**
 
 While designing and developing this site, I took inspiration from the following websites;
 
