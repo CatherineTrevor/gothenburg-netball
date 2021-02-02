@@ -65,42 +65,82 @@ Where users have knowledge of the game and/or are interested in volunteering, we
 umpiring/coaching.
 
 ### User stories
-**I am an English-speaking adult in Gothenburg and want to:**
-- Meet other English-speaking adults regularly, and make new friends,
-- Learn a new skill/sport,
-- Improve my netball skills, a game I haven't played for years,
-- Improve my fitness,
-- Spend time with people that I have something in common with,
-- Get out of the house,
-- Have fun!
 
-**I am a new visitor to the site and want to:**
-- Easily understand what the club is and what it provides,
-- Refresh my understanding of netball,
-- Learn the basics of netball,
-- Find out where and when practice is, 
-- Understand the fees involved,
-- Feel invited to join a session,
-- Feel comfortable contacting someone for more information,
-- Connect to the club's social media channels,
-- Understand what I need to join,
-- Understand what I will gain from coming to a session,
-- Have an overview of the committee members.
+**The overall goals of the organisation:**
 
-**I am a regular player / frequent site visitor and want to:**
-- Find out where and when practice is,
-- Feel invited to join a session,
-- Refresh my knowledge of netball,
-- Find out the latest news about netball,
-- Learn about future friendly matches and tours.
+    a. To increase the number of paying members.
 
-**I am a club committee member and want to:**
-- Showcase how much fun we have as a club,
-- Encourage regular playing members,
-- Build a strong, regular team so that we can attend matches and tours as a group,
-- Encourage people to try a new sport,
-- Invite players to join the committee and help us run the club,
-- Provide clear information about who we are and what we do for future sponsorship opportunities.
+    b. To increase the number of attendees to trial sessions.
+
+    c. To have a strong platform for digital communication.
+
+    d. To showcase the organisation to potential future sponsors. 
+
+**The overall goals of potential and existing players:**
+
+    a. Meet other English-speaking adults regularly, and make new friends.
+
+    b. Learn a new skill/sport.
+
+    c. Improve my netball skills, a game I haven't played for years.
+
+    d. Improve my fitness.
+
+    e. Spend time with people that I have something in common with.
+
+    f. Get out of the house.
+
+    g. Have fun!
+
+**First time visitor goals:**
+
+    a. As a first time visitor I want to, easily understand what the club is and what it provides.
+
+    b. As a first time visitor I want to, refresh my understanding of netball.
+
+    c. As a first time visitor I want to, learn the basics of netball.
+
+    d. As a first time visitor I want to, find out where and when practice is. 
+
+    e. As a first time visitor I want to, understand the fees involved.
+
+    f. As a first time visitor I want to, feel invited to join a session.
+
+    g. As a first time visitor I want to, feel comfortable contacting someone for more information.
+
+    h. As a first time visitor I want to, connect to the club's social media channels.
+
+    i. As a first time visitor I want to, understand what I need to join.
+
+    j. As a first time visitor I want to, understand what I will gain from coming to a session.
+
+    k. As a first time visitor I want to, have an overview of the committee members.
+
+**Returning visitor goals:**
+
+    a. As a returning visitor I want to, find out where and when practice is.
+
+    b. As a returning visitor I want to, feel invited to join a session.
+
+    c. As a returning visitor I want to, refresh my knowledge of netball.
+
+    d. As a returning visitor I want to, find out the latest news about netball.
+
+    e. As a returning visitor I want to, learn about future friendly matches and tours.
+
+**Frequent visitor/committee member goals:**
+
+    a. As a frequent site visitor I want to, showcase how much fun we have as a club on a digital platform.
+
+    b. As a frequent site visitor I want to, encourage regular playing members.
+
+    c. As a frequent site visitor I want to, build a strong, regular team so that we can attend matches and tours as a group.
+
+    d. As a frequent site visitor I want to, encourage people to try a new sport.
+
+    e. As a frequent site visitor I want to, invite players to join the committee and help us run the club.
+
+    f. As a frequent site visitor I want to, provide clear information about who we are and what we do for future sponsorship opportunities.
 
 ## Scope
 **Features**
