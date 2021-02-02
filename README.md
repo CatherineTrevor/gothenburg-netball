@@ -109,7 +109,7 @@ umpiring/coaching.
 Utilising the trade-off equation, below details the features I have selected to be included in the initial release, and ones to be considered 
 in the future.
 
-![Trade-off equation](assets/images/supporting-docs/trade-off-equation.jpg)
+![Trade-off equation](supporting-docs/trade-off-equation.jpg)
 
 | --- | Importance | Feasibility |
 | --- | :---: | :---: |
@@ -157,7 +157,7 @@ of the digital requirements in Feature 1.
 
 The website is structured into four pages: Home | What is netball? | Get in touch | Photo gallery
 
-![Site structure](assets/images/supporting-docs/site-structure.jpg)
+![Site structure](supporting-docs/site-structure.jpg)
 
 Each page is responsive on various device sizes, has the same clean, simple structure, and contains the navigation bar and footer. The navigation bar 
 is static, and the favicon links back to the home page.
@@ -203,17 +203,17 @@ Each page has the necessary internal links to direct the user in alignment with 
 ## Skeleton
 
 ### Homepage wireframe
-![Homepage wireframe](assets/images/supporting-docs/homepage-wireframe.jpg)
+![Homepage wireframe](supporting-docs/homepage-wireframe.jpg)
 
 
 ### What is netball wireframe
-![What is netball wireframe](assets/images/supporting-docs/netball-wireframe.jpg)
+![What is netball wireframe](supporting-docs/netball-wireframe.jpg)
 
 ### Get in touch wireframe
-![Get in touch wireframe](assets/images/supporting-docs/contact-wireframe.jpg)
+![Get in touch wireframe](supporting-docs/contact-wireframe.jpg)
 
 ### Photo gallery wireframe
-![Photo gallery wireframe](assets/images/supporting-docs/photos-wireframe.jpg)
+![Photo gallery wireframe](supporting-docs/photos-wireframe.jpg)
 
 The wireframes were created using <a href="http://www.balsamiq.com" target="_blank">Balsamiq</a> and demonstrate the responsive behaviour of the site on each device size, 
 as well as the clean, simple structure, which does not overload the user. The site presents the user with the information they are looking for, simply and logically, 
@@ -275,7 +275,7 @@ The principle colours selected are variants of blue and yellow, the reason being
 clubs in Sweden have red and green as their team colours, so we needed something different. All colour variants have been selected using 
 [Coolors](https://coolors.co/) to compliment each other and provide a feeling of safety and calm, as required in the strategy.
 
-![Color choices](assets/images/supporting-docs/color-codes.jpg)
+![Color choices](supporting-docs/color-codes.jpg)
 
 ### Favicon: 
 
