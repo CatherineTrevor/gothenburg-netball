@@ -1,6 +1,10 @@
 # Gothenburg Netball Club Project
 
-![Am I Responsive image](supporting-docs/responsiveness-image.jpg)
+<div align="center">
+    <img src="supporting-docs/responsiveness-image.jpg">
+</div>
+
+<!--code copied from "https://davidwells.io/snippets/how-to-align-images-in-markdown" to center align the image-->
 
 This project is my Milestone One project with the Code Institute. It is a website that presents clear and relevant 
 information about Gothenburg's Netball Club for its stakeholders, such as members, committee members and future players. 

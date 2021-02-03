@@ -60,21 +60,35 @@ a link to an image to give clarity on where in the site specifically.
 **Easily navigate to homepage from any page**
 
 1. Click on the favicon in the top left of each page, available on all devices.
-![favicon](supporting-docs/favicon.jpg)
+
+<div align="center">
+    <img src="supporting-docs/favicon.jpg" height="400">
+</div>
 
 2. This will take the user back to the homepage everytime.
 
 **Easily contact the club**
 
 1. Click on the email address in the footer of each page.
-![email-address](supporting-docs/email-address.jpg)
+
+<div align="center">
+    <img src="supporting-docs/email-address.jpg" height="400">
+</div>
 
 2. This opens a new blank email message, with the club email address in the "To" field.
 
 1. Navigate to Get in touch page, via the navigation bar, or Get in touch buttons.
-![contact-buton](supporting-docs/contact-button.jpg)
+
+<div align="center">
+    <img src="supporting-docs/contact-button.jpg" height="400">
+</div>
 
 2. Fill in contact form.
+
+<div align="center">
+    <img src="supporting-docs/contact-form.jpg" height="400">
+</div>
+
 3. The form will not submit without a name and valid email address.
 4. For this project, the submit button at the bottom of the form does not navigate anywhere. This will be corrected in future releases.
 
