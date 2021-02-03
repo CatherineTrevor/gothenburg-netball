@@ -151,6 +151,14 @@ difficult for me to keep the responsive behaviour on all devices, therefore the 
 
 ![Committee members layout](supporting-docs/members-layout.jpg)
 
+### Top margin hiding text for internal anchors
+
+The internal link from index.html to contact.html which opens at the committee members section, as well as the link from "How do I join" to "When and where"
+also on index.html, were not showing correctly: this was due to the margin at the top of each page, which is used to compensate for the space taken by the 
+navigation bar. To the visitor, it looked that the anchor point was taking them to the wrong part of the page.
+
+To fix this, the anchor links to a few rows above the text, so when clicked the visitor sees the correct section of text.
+
 ### Code validator
 [css: no errors found](https://jigsaw.w3.org/css-validator/validator)
 
