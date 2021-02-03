@@ -358,7 +358,7 @@ This project uses the following libraries and frameworks:
  - [W3 School](https://www.w3schools.com/html/html_tables.asp) - help understanding the table html code
  - [Grammarly](https://app.grammarly.com/) - the free service to double check grammar, spelling and tone
  - [Lighthouse](https://www.webpagetest.org/result/210126_DiYW_ef25f45f403133d4937b7ce39a1adc42/) - used to score accessibility and general site performance 
- - [Monday.com](http://www.monday.com) - I used this site for project management, to ensure tasks were completed on time 
+ - [Monday.com](https://view.monday.com/967209329-13bb5298e3c2fc86a8d6f5871d899558?r=use1) - used for project/task management 
  - [Am I responsive](http://ami.responsivedesign.is/) - supplied the responsive image for the top of README.md
 
 # Testing
@@ -428,7 +428,7 @@ feedback.
 **Lessons learnt**
 
 A particular learning curve for me regarding this project has been using Git and the need for frequent commits and clear, precise commit messages. An example
-being at the beginning of the project, where I was more focused on the coding, meaning there are on occasion duplicate commits and unclear commit messages. 
+being at the beginning of the project, where I was more focused on the coding, meaning there are, on occasion, duplicate commits and unclear commit messages. 
 
 Following a project review with my mentor, and feedback from fellow students, it became apparent that my version control was not specific enough. I was making 
 a lot of changes to the code and README.md before making a commit, potentially making it difficult to follow the logic.
@@ -436,4 +436,5 @@ a lot of changes to the code and README.md before making a commit, potentially m
 Since 26 January I have focused more on this aspect of the project, and I hope it is more apparent towards the end that I have committed more frequently,
 using more coherent messages, providing clarity to other developers who may read the material.
 
-For project management I have used Monday.com, allowing me to manage the tasks for the project as needed. Click here to link to my Monday.com page.
+For project management I have used Monday.com, allowing me to manage the tasks for the project as needed. 
+[Click here](https://view.monday.com/967209329-13bb5298e3c2fc86a8d6f5871d899558?r=use1) to link to my Monday.com project page.
