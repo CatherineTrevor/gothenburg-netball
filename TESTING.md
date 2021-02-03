@@ -59,7 +59,13 @@ a link to an image to give clarity on where in the site specifically.
 
 - [Lighthouse](https://www.webpagetest.org/result/210126_DiYW_ef25f45f403133d4937b7ce39a1adc42/) - used to score accessibility and general site performance
 
-![Lighthouse report](supporting-docs/lighthouse-report.jpg)
+**Desktop**
+
+<img src="supporting-docs/lighthouse-desktop.jpg" height="300">
+
+**Mobile**
+
+<img src="supporting-docs/lighthouse-mobile.jpg" height="300">
 
 **Testing ease of use**
 
