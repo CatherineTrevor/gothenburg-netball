@@ -263,6 +263,12 @@ The wireframes were created using <a href="http://www.balsamiq.com" target="_bla
 as well as the clean, simple structure, which does not overload the user. The site presents the user with the information they are looking for, simply and logically, 
 using as few clicks as possible.
 
+Throughout the project there have been some changes to the layout, from the original wireframes. Mainly on index.html where an image was positioned to the left 
+of text, and then this layout swap for the section underneath, so the image was positioned to the right. When reviewing the layout at the start of the project, 
+this format did not work for mobile devices, as it was too cluttered.
+
+This layout format has also changed for Meet the committee. The layout is now clearer and less cluttered on a smaller screen. 
+
 ## Surface
 ### Typography
 
