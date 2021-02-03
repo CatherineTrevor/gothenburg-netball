@@ -1,504 +1,511 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700;1,900&family=Permanent+Marker&display=swap');
 * {
-        margin: 0;
-        padding: 0;
-    }
+	margin: 0;
+	padding: 0;
+}
 
 body {
-        font-family: "Lato", sans-serif;
-        color: #515751;
+	font-family: "Lato", sans-serif;
+	color: #515751;
 }
+
 
 /******************Background Colors***/
 
 .navbar {
-        background-color: #e3d888;
+	background-color: #e3d888;
 }
 
 .footer-menu {
-        background-color: #e3d888;
+	background-color: #e3d888;
 }
 
 .section {
-        background-color: rgba(81, 87, 81, 0.10);
+	background-color: rgba(81, 87, 81, 0.10);
 }
 
 .main-section {
-        background-color: white;
+	background-color: white;
 }
+
 
 /******************Navbar***/
 
 .navbar i {
-        color: #5c95ff;
-        font-size: 300%;
+	color: #5c95ff;
+	font-size: 300%;
 }
 
 .navbar i:hover {
-        color: #515751;
+	color: #515751;
 }
 
 .nav-item .nav-link {
-        color: #5c95ff;
-        font-size: 120%;
+	color: #5c95ff;
+	font-size: 120%;
 }
 
 #menu-text a {
-        color: #5c95ff;
+	color: #5c95ff;
 }
 
 #menu-text li a:hover {
-        color: #515751;
+	color: #515751;
 }
 
 #menu-text li .active {
-        color: #515751;
+	color: #515751;
 }
 
 .nav-item {
-        margin-left: 20px;
-        margin-right: 20px;
-        text-align: right;
-        font-family: "Permanent Marker", "Lato", sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: right;
+	font-family: "Permanent Marker", "Lato", sans-serif;
 }
+
 
 /********************Footer***/
 
 .list-inline {
-        text-align: center;
-        margin-top: 8px;
+	text-align: center;
+	margin-top: 8px;
 }
 
 .list-inline-item {
-        color: #5c95ff;
-        font-size: 75%;
+	color: #5c95ff;
+	font-size: 75%;
 }
 
 .list-inline-item a {
-        color: #5c95ff;
-        font-weight: bold;
+	color: #5c95ff;
+	font-weight: bold;
 }
 
 .list-inline-item a:hover {
-        color: #515751;
-        text-decoration: none;
-        font-weight: bold;
+	color: #515751;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .fa-facebook-square {
-        font-size: 200%;
+	font-size: 200%;
 }
+
 
 /********************Main body general***/
 
 h1,
 h2,
 h3 {
-        font-family: "Permanent Marker", "Lato", sans-serif;
-        font-size: 120%;
-        text-align: center;
-        font-weight: 200;
-        margin-top: 12px;
-        margin-bottom: 12px;
+	font-family: "Permanent Marker", "Lato", sans-serif;
+	font-size: 120%;
+	text-align: center;
+	font-weight: 200;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
 
 p {
-        font-size: 90%;
-        margin: 0 auto;
+	font-size: 90%;
+	margin: 0 auto;
 }
 
 img {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 .main-section {
-        margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .hr-line {
-        border-top: 3px solid #5c95ff;
-        margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
+	border-top: 3px solid #5c95ff;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
+
 
 /********************Main body top text and image section for all pages***/
 
 .hr-line-top {
-        max-width: 100%;
-        border-top: 3px solid #5c95ff;
-        margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 10px;            
+	max-width: 100%;
+	border-top: 3px solid #5c95ff;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .large-text-top a {
-        color: #5c95ff;
+	color: #5c95ff;
 }
 
 .large-text-top a:hover {
-        color: #515751;
-        font-weight: bold;
-        text-decoration: none;
+	color: #515751;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .large-image {
-    text-align: center;
+	text-align: center;
 }
 
 #large-image-top {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-radius: 8px; 
-        max-width: 65%;  
-        text-align: center;
-        position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 8px;
+	max-width: 65%;
+	text-align: center;
+	position: relative;
 }
+
 
 /********************Main body content sections***/
 
 p {
-    text-align: center;
+	text-align: center;
 }
 
 .text-section p {
-        text-align: left;
+	text-align: left;
 }
 
 .text-section i {
-        font-size: 125%;
-        color: #5c95ff;
-        margin-right: 10px;
-        margin-top: 5px;
+	font-size: 125%;
+	color: #5c95ff;
+	margin-right: 10px;
+	margin-top: 5px;
 }
 
 .text-section a {
-        color: #5c95ff;
-        font-weight: bold;
+	color: #5c95ff;
+	font-weight: bold;
 }
 
 .text-section a:hover {
-        color: #515751;
-        text-decoration: none;
-        font-weight: bold;
+	color: #515751;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .image-section {
-        margin: auto 0;
+	margin: auto 0;
 }
 
 .image-section img {
-        display: block;
-        margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        max-width: 100%;
-        max-height: 100%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-width: 100%;
+	max-height: 100%;
 }
+
 
 /********************Index.html***/
 
 .text-section-homepage i {
-        font-size: 125%;
-        color: #5c95ff;
-        margin-right: 10px;
-        margin-top: 5px;
+	font-size: 125%;
+	color: #5c95ff;
+	margin-right: 10px;
+	margin-top: 5px;
 }
 
 .text-section-homepage p {
-        text-align: left;
+	text-align: left;
 }
 
 .text-section-homepage a {
-        color: #5c95ff;
-        font-weight: bold;
+	color: #5c95ff;
+	font-weight: bold;
 }
 
 .text-section-homepage a:hover {
-        color: #515751;
-        text-decoration: none;
-        font-weight: bold;
+	color: #515751;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 strong a {
-        color: #5c95ff;
-        font-weight: bold;
+	color: #5c95ff;
+	font-weight: bold;
 }
 
 strong a:hover {
-        color: #515751;
-        text-decoration: none;
-        font-weight: bold;
-}  
+	color: #515751;
+	text-decoration: none;
+	font-weight: bold;
+}
 
 #sessions-table {
-    margin: 0 auto;
-    color: #5c95ff;
-    font-weight: bold;
-    margin-top: 20px;
+	margin: 0 auto;
+	color: #5c95ff;
+	font-weight: bold;
+	margin-top: 20px;
 }
 
 #sessions-table i {
-    font-size: 150%;
+	font-size: 150%;
 }
 
 #sessions-table a {
-        color: #5c95ff;
-        font-weight: bold;
+	color: #5c95ff;
+	font-weight: bold;
 }
 
 #sessions-table a:hover {
-        color: #515751;
-        text-decoration: none;
-        font-weight: bold;
-}  
+	color: #515751;
+	text-decoration: none;
+	font-weight: bold;
+}
+
 
 /******************Contact button***/
 
 .contact-button {
-        border: 3px solid #5c95ff;
-        border-radius: 8px;
-        display: block;
-        justify-content: center;
-        width: 100%;
-        background-color: #5c95ff;
-        margin-top: 8px;
+	border: 3px solid #5c95ff;
+	border-radius: 8px;
+	display: block;
+	justify-content: center;
+	width: 100%;
+	background-color: #5c95ff;
+	margin-top: 8px;
 }
 
 .contact-button {
-        color: #515751;
+	color: #515751;
 }
 
 .contact-button:hover {
-        color: #e3d888;
-        text-decoration: none;
+	color: #e3d888;
+	text-decoration: none;
 }
+
 
 /********************Netball.html***/
 
 #netball-court {
-        text-align: center;
+	text-align: center;
 }
 
 #netball-court img {
-        height: 200px;
+	height: 200px;
 }
 
 #youtube-video {
-        width: 80%;
-        max-width: 640px;
-        margin-top: 30px;
-        margin: 0 auto;
-        position: relative; 
+	width: 80%;
+	max-width: 640px;
+	margin-top: 30px;
+	margin: 0 auto;
+	position: relative;
 }
 
 #youtube-video iframe {
-        width: 100%;
+	width: 100%;
 }
 
 .small-text {
-        margin: 0 auto;
+	margin: 0 auto;
 }
+
 
 /********************Contact.html***/
 
 form {
-        margin: 0 auto;
+	margin: 0 auto;
 }
 
 .form-control {
-        border-radius: 8px;
+	border-radius: 8px;
 }
 
 .committee-members p {
-        font-style: italic;
+	font-style: italic;
 }
 
 .image-section-committee img {
-        max-width: 100px;
-        max-height: 100px;
-        border-radius: 50%;
+	max-width: 100px;
+	max-height: 100px;
+	border-radius: 50%;
 }
 
 .small-text {
-        text-align: center;
+	text-align: center;
 }
 
 .small-text a {
-        color: #5c95ff;
-        font-weight: bold;
+	color: #5c95ff;
+	font-weight: bold;
 }
 
 .small-text a:hover {
-        color: #515751;
-        text-decoration: none;
-        font-weight: bold;
+	color: #515751;
+	text-decoration: none;
+	font-weight: bold;
 }
+
 
 /********************Photo gallery***/
 
 #photo-gallery {
-        clear: both;
-        line-height: 0;
-        column-count: 1;
-        column-gap: 0px;   
+	clear: both;
+	line-height: 0;
+	column-count: 1;
+	column-gap: 0px;
 }
 
 #photo-gallery .photo {
-    padding-right: 0;
-    padding-left: 0;
+	padding-right: 0;
+	padding-left: 0;
 }
 
 #photo-gallery img {
-        width: 100%;
-        height: 100%;   
+	width: 100%;
+	height: 100%;
 }
 
+
 /********************Media queries***/
+
 
 /***min-width inline with Bootstrap tablet screen measurements***/
 
 @media only screen and (min-width: 768px) {
-    #netball-court img {
-            max-height: 100%;
-            margin-top: 5px;
-            margin-bottom: 5px;
-    }
-
-    .large-image {
-        text-align: center;
-    } 
-    #large-image-top {
-              max-width: 45%; 
-    }
+	#netball-court img {
+		max-height: 100%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.large-image {
+		text-align: center;
+	}
+	#large-image-top {
+		max-width: 45%;
+	}
 }
+
 
 /***min-width inline with Bootstrap large screen measurements***/
 
 @media only screen and (min-width: 992px) {
-
-/********************General***/  
-
-    h3 {
-            font-size: 150%;
-    }
-    .navbar {
-            height: 90px;
-            margin-bottom: 0;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1;
-            font-size: 150%;
-    }
-    .main-section {
-            margin-top: 90px;
-            margin-bottom: 60px;
-            font-size: 130%;
-    }
-    .hr-line {
-            display: none;
-    }
-    .hr-line-top {
-            max-width: 75%;   
-    }   
-    .color-row {
-        background-color: #e3d888;
-        height: 300px;        
-    }
-    .color-heading {
-        background-color: #e3d888;
-        height: 100px;  
-    }
-    .large-text-top {
-             margin: 0 auto;
-    }
-    .large-text-top h2 {
-            font-size: 175%;
-    }
-    #welcome {
-        padding-top: 10px;
-        margin: 0 auto;
-    }
-    #welcome p {
-        text-align: center;
-    }    
-    #color-row-table {
-        background-color: #e3d888;
-        padding-top: 10px;
-    }    
-    .image-section {
-            margin-top: 10px;
-    }    
-    .image-section img {
-            width: 100%;
-    } 
-
-/********************Index.html***/      
-
-    .text-section-homepage {
-        padding-top: 30px;
-    }
-    .text-section-homepage p {
-            text-align: center;
-            max-width: 85%;
-    }
-    #sessions-table {
-            max-width: 50%;
-    }    
-    .netball-graphic img {
-            height: 200px;
-            width: 200px;
-            margin-top: 25px;
-            margin-bottom: 25px;
-    }
-    #netball-court img {
-            height: 600px;
-    }    
-    .list-text {
-            margin-left: 50px;
-            margin: 0 auto;
-    }
-    .list-text p {
-            text-align: left;
-    }
-    .list-text i {
-            margin-right: 10px;
-    }
-
-    /********************Contact.html***/  
-
-    .contact-form {
-            margin: 0 auto;
-            width: 850px;
-    }
-    .contact-button {
-            max-width: 50%;
-            margin: 0 auto;
-            margin-top: 15px;
-      }
-    .committee-section {
-            padding-top: 25px;
-    }
-    .committee-members p {
-            margin-top: 35px;
-            padding-right: 30px;
-            text-align: left;
-            font-size: 110%;
-    }
-    .committee-members h3 {
-            text-align: center;
-    }
-    .image-section-committee {
-            margin-top: 10px;
-            margin-bottom: 0px;
-            text-align: center;
-    }
-    .image-section-committee img {
-            max-height: 200px;
-            max-width: 200px;
-    }
-    .list-inline-item {
-            font-size: 110%;
-    }    
+	/********************General***/
+	h3 {
+		font-size: 150%;
+	}
+	.navbar {
+		height: 90px;
+		margin-bottom: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+		font-size: 150%;
+	}
+	.main-section {
+		margin-top: 90px;
+		margin-bottom: 60px;
+		font-size: 130%;
+	}
+	.hr-line {
+		display: none;
+	}
+	.hr-line-top {
+		max-width: 75%;
+	}
+	.color-row {
+		background-color: #e3d888;
+		height: 300px;
+	}
+	.color-heading {
+		background-color: #e3d888;
+		height: 100px;
+	}
+	.large-text-top {
+		margin: 0 auto;
+	}
+	.large-text-top h2 {
+		font-size: 175%;
+	}
+	#welcome {
+		padding-top: 10px;
+		margin: 0 auto;
+	}
+	#welcome p {
+		text-align: center;
+	}
+	#color-row-table {
+		background-color: #e3d888;
+		padding-top: 10px;
+	}
+	.image-section {
+		margin-top: 10px;
+	}
+	.image-section img {
+		width: 100%;
+	}
+	/********************Index.html***/
+	.text-section-homepage {
+		padding-top: 30px;
+	}
+	.text-section-homepage p {
+		text-align: center;
+		max-width: 85%;
+	}
+	#sessions-table {
+		max-width: 50%;
+	}
+	.netball-graphic img {
+		height: 200px;
+		width: 200px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	#netball-court img {
+		height: 600px;
+	}
+	.list-text {
+		margin-left: 50px;
+		margin: 0 auto;
+	}
+	.list-text p {
+		text-align: left;
+	}
+	.list-text i {
+		margin-right: 10px;
+	}
+	/********************Contact.html***/
+	.contact-form {
+		margin: 0 auto;
+		width: 850px;
+	}
+	.contact-button {
+		max-width: 50%;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	.committee-section {
+		padding-top: 25px;
+	}
+	.committee-members p {
+		margin-top: 35px;
+		padding-right: 30px;
+		text-align: left;
+		font-size: 110%;
+	}
+	.committee-members h3 {
+		text-align: center;
+	}
+	.image-section-committee {
+		margin-top: 10px;
+		margin-bottom: 0px;
+		text-align: center;
+	}
+	.image-section-committee img {
+		max-height: 200px;
+		max-width: 200px;
+	}
+	.list-inline-item {
+		font-size: 110%;
+	}
 }
