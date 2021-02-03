@@ -356,8 +356,7 @@ This project uses the following libraries and frameworks:
  - [Coolors](https://coolors.co/) - to select a color pallete to match the required tone of the site
  - [Stackoverflow](http://stackoverflow.com) - general help to undertand forms, image sizing, anchors not nesting inside buttons, and navbar toggler 
  - [W3 School](https://www.w3schools.com/html/html_tables.asp) - help understanding the table html code
- - [Grammarly](https://app.grammarly.com/) - the free service to double check grammar, spelling and tone
- - [Lighthouse](https://www.webpagetest.org/result/210126_DiYW_ef25f45f403133d4937b7ce39a1adc42/) - used to score accessibility and general site performance 
+ - [Grammarly](https://app.grammarly.com/) [(Example)](supporting-docs/grammarly-example.jpg) - the free service to double check grammar and spelling 
  - [Monday.com](https://view.monday.com/967209329-13bb5298e3c2fc86a8d6f5871d899558?r=use1) - used for project/task management 
  - [Am I responsive](http://ami.responsivedesign.is/) - supplied the responsive image for the top of README.md
 

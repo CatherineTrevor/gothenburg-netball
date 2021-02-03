@@ -55,6 +55,12 @@ a link to an image to give clarity on where in the site specifically.
 | e. As a frequent site visitor I want to, invite players to join the committee and help us run the club. | [This information is given in the chairman's bio](supporting-docs/uat(e).jpg) |
 | f. As a frequent site visitor I want to, provide clear information about who we are and what we do for future sponsorship opportunities. | Sponsorship will be addressed in future deployment: at present [information about who we are is provided on the homepage](supporting-docs/uat1.jpg) |
 
+**Lighthouse testing**
+
+- [Lighthouse](https://www.webpagetest.org/result/210126_DiYW_ef25f45f403133d4937b7ce39a1adc42/) - used to score accessibility and general site performance
+
+![Lighthouse report](supporting-docs/lighthouse-report.jpg)
+
 **Testing ease of use**
 
 **Easily navigate to homepage from any page**
