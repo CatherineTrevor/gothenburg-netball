@@ -151,7 +151,7 @@
                     <div class="col-12" id="youtube-video">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/WGaYDvaZ4No" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
-                        sr-only="Youtube video explaining rules and facts of netball"></iframe>                
+                        sr-only="Youtube video explaining rules and facts of netball"></iframe><!--remove frameborder as per html validator error-->                
                     </div>
 <!--text added below the video should a visitor not see the video: link provided so they can watch it on a new tab-->
                     <div class="small-text">
@@ -175,12 +175,10 @@
                 <hr class="hr-line"> 
                 <div class="row">
                     <div class="col-12">
-                        <button type="button" class="btn btn-lg contact-button">
-                            <a href="contact.html" sr-only>
-                                <h3>Got a question?</h3>
-                                <h3>Get in touch!</h3>
-                            </a>
-                        </button>
+                        <a role="button" class="btn btn-lg contact-button" href="contact.html" sr-only="Click button to go to Get in touch page">
+                            <h3>Got a question?</h3>
+                            <h3>Get in touch!</h3>
+                        </a>
                         <br>
                     </div>
                 </div>                                     

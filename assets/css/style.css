@@ -265,11 +265,11 @@ strong a:hover {
         margin-top: 8px;
 }
 
-.contact-button a {
+.contact-button {
         color: #515751;
 }
 
-.contact-button a:hover {
+.contact-button:hover {
         color: #e3d888;
         text-decoration: none;
 }
