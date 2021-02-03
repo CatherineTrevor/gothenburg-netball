@@ -367,9 +367,6 @@ See separate [Testing file](TESTING.md) for testing information.
 
 # Deployment
 
-NB: During deployment, I had a few occasions where I duplicated commits, in particular at the beginning, and did not commit as often as I should. This I tried
-to rectify as I continued to build the site.
-
 This project was developed using Gitpod, committed to git and pushed to Github using the built-in functionality.
 
 To deploy the pages to Github Pages, from the Github repository, the following steps were taken:
@@ -427,3 +424,16 @@ While the club is real, the names of the other committee members are fictional a
 
 Thanks also to my mentor at Code Institute Aaron Sinnott, the chair of Netball Sweden for her time and feedback, as well as Brendan, another member of slack for his time and 
 feedback.
+
+**Lessons learnt**
+
+A particular learning curve for me regarding this project has been using Git and the need for frequent commits and clear, precise commit messages. An example
+being at the beginning of the project, where I was more focused on the coding, meaning there are on occasion duplicate commits and unclear commit messages. 
+
+Following a project review with my mentor, and feedback from fellow students, it became apparent that my version control was not specific enough. I was making 
+a lot of changes to the code and README.md before making a commit, potentially making it difficult to follow the logic.
+
+Since 26 January I have focused more on this aspect of the project, and I hope it is more apparent towards the end that I have committed more frequently,
+using more coherent messages, providing clarity to other developers who may read the material.
+
+For project management I have used Monday.com, allowing me to manage the tasks for the project as needed. Click here to link to my Monday.com page.
