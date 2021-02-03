@@ -1,17 +1,18 @@
 # Gothenburg Netball Club Project
 
 <div align="center">
-    <img src="supporting-docs/responsiveness-image.jpg">
+    <img src="supporting-docs/responsiveness-image.jpg" width="100%">
 </div>
 
 <!--code copied from "https://davidwells.io/snippets/how-to-align-images-in-markdown" to center align the image-->
 
+
 This project is my Milestone One project with the Code Institute. It is a website that presents clear and relevant 
 information about Gothenburg's Netball Club for its stakeholders, such as members, committee members and future players. 
 The object is to provide a digital communication platform, which will increase awareness and interest in the club, with the 
-aim of attracting regular paying members. 
+aim of attracting regular paying members. A mobile-frist approach was used in design, to make information easy to access on a mobile device.
 
-### [View the live site here.](https://catherinetrevor.github.io/gothenburg-netball/)
+### <a href="https://catherinetrevor.github.io/gothenburg-netball/" target="_blank">View the live site here</a>
 
 # Contents
 
@@ -47,7 +48,7 @@ I am taking this opportunity to create a simple, clearly structured website to p
 spring, there is a larger awareness and interest in the club, encouraging site visitors to join a session and become paying members. It will also 
 serve as a place that regular players can see upcoming training dates, times and locations. 
 
-The club's current online presence is via [Facebook](https://www.facebook.com/gothenburgnetball/).
+The club's current online presence is via <a href="https://www.facebook.com/gothenburgnetball/" target="_blank">Facebook</a>.
 
 # User Experience Design
 
@@ -204,45 +205,59 @@ The website is structured into four pages: Home | What is netball? | Get in touc
 Each page is responsive on various device sizes, has the same clean, simple structure, and contains the navigation bar and footer. The navigation bar 
 is static, and the favicon links back to the home page.
 
-The layout is primarily based on [Bootstrap's grid system](https://getbootstrap.com/docs/5.0/layout/grid/), heavily modified to achieve the desired look and style.
+The layout is primarily based on <a href="https://getbootstrap.com/docs/5.0/layout/grid/" target="_blank">Bootstrap's grid system</a>, heavily modified to achieve the desired look and style.
 
 Each page has the necessary internal links to direct the user in alignment with the relevant part of their online journey.
 
-This structure has changed in the live site. To maintain common industry standards, the contact.html page has been moved to the last position in the navigation bar.
-
 **Updated structure**
+
+This structure has changed in the live site. To maintain common industry standards, the contact.html page has been moved to the last position in the navigation bar.
 
 Home | What is netball? | Photo gallery | Get in touch
 
 **Homepage**
+
 *Contents*
+
 - Welcome message
 - About the club
 - Next sessions dates, time and location
 - Current information about Covid-19
+
 *Internal links*
+
 - What is netball?
 - Get in touch
 
 **What is netball?**
+
 *Contents*
+
 - Basic rules and principles of the sport
 - Photos of professional play
 - Diagrams (where appropriate)
+
 *Internal links*
+
 - Get in touch
 - Photo gallery
 
 **Get in touch**
+
 *Contents*
+
 - Contact form: Name (required), Email (required), Phone, Message
 - Contact info: club email
 - Committee member basic info: photo, name, small bio
+
 *Internal links*
+
 - Session dates on homepage
 
 **Photo gallery**
+
 *Contents*
+
 - Player and sports-related photo gallery
 
 ## Skeleton
@@ -263,6 +278,8 @@ The wireframes were created using <a href="http://www.balsamiq.com" target="_bla
 as well as the clean, simple structure, which does not overload the user. The site presents the user with the information they are looking for, simply and logically, 
 using as few clicks as possible.
 
+**Updated wireframes**
+
 Throughout the project there have been some changes to the layout, from the original wireframes. Mainly on index.html where an image was positioned to the left 
 of text, and then this layout swap for the section underneath, so the image was positioned to the right. When reviewing the layout at the start of the project, 
 this format did not work for mobile devices, as it was too cluttered.
@@ -272,7 +289,7 @@ This layout format has also changed for Meet the committee. The layout is now cl
 ## Surface
 ### Typography
 
-Using [Google Fonts](https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom)
+Using <a href="https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom" target="_blank">Google Fonts</a>
 I selected Permanent Marker for all navbar text, and headings, as I felt it gives a feeling of friendliness that I was looking for to match the tone of the site.
 As per Google Font's recommendation, the accommodating font used is Lato. Sans-serif is used should either of these fonts fail to load.
 
@@ -283,40 +300,87 @@ not a netball. It was not possible to source free images of netball that meet th
 take its own photos for the site.
 
 [Netball falling through a hoop |](assets/images/ball-in-net-resize.jpg) 
-[Andres Siimon](https://unsplash.com/photos/jS2Cgv-Xppw)*
+<a href="https://unsplash.com/photos/jS2Cgv-Xppw" target="_blank">Andres Siimon</a>
 
 The following three images used on the photos.html page are published on Gothenburg Netball's Facebook page, for which I am an administrator.
 
-[Image 1 ](assets/images/photo-gallery/group-1.jpg)
+**Image 1**
 
-[Image 2 ](assets/images/photo-gallery/group-2.jpg)
+<div align="left">
+    <img src="assets/images/photo-gallery/group-1.jpg" height="150">
+</div>
 
-[Image 3 ](assets/images/photo-gallery/group-5.jpg)
+**Image 2**
+
+<div align="left">
+    <img src="assets/images/photo-gallery/group-2.jpg" height="150">
+</div>
+
+**Image 3**
+
+<div align="left">
+    <img src="assets/images/photo-gallery/group-5.jpg" height="150">
+</div>
 
 The other images on the page are stock images, sourced from Unsplash.com:
 
-[Image 4 | ](assets/images/photo-gallery/group-3.jpg)
-[Naassomz1](https://unsplash.com/@naassomz1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+**Image 4**
 
-[Image 5 | ](assets/images/photo-gallery/group-4.jpg) 
-[I am chang](https://unsplash.com/@iamchang?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+<div align="left">
+    <img src="assets/images/photo-gallery/group-3.jpg" height="150">
+</div>
 
-[Image 6 | ](assets/images/photo-gallery/group-6.jpg) 
-[LinkedIn](https://unsplash.com/@linkedinsalesnavigator?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Credit: <a href="https://unsplash.com/photos/KrfID_ZQxWs" target="_blank">Chang Duong</a>
+
+**Image 5**
+
+<div align="left">
+    <img src="assets/images/photo-gallery/group-4.jpg" height="150">
+</div>
+
+Credit: <a href="https://unsplash.com/photos/Q_Sei-TqSlc" target="_blank">Naassom Azevedo</a>
+
+**Image 6**
+
+<div align="left">
+    <img src="assets/images/photo-gallery/group-6.jpg" height="150">
+</div>
+
+Credit: <a href="https://unsplash.com/photos/IjkIOe-2fF4" target="_blank">LinkedIn Sales Navigator</a>
 
 The images used for the committee members were also sourced from Unsplash.com:
 
-[Mark Darcy | ](assets/images/committee-members/mark-darcy.jpg)
-[Christian Buehner](https://unsplash.com/@christianbuehner?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+**Mark Darcy**
 
-[Bridget Jones | ](assets/images/committee-members/bridget-jones.jpg) 
-[Eugabriel Silverio](https://unsplash.com/@eugabrielsilverio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+<div align="left">
+    <img src="assets/images/committee-members/mark-darcy.jpg" height="150">
+</div>
 
-[Daniel Cleaver | ](assets/images/committee-members/daniel-cleaver.jpg) 
-[Sean Hall](https://unsplash.com/@_sean_hall_?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyTex)
+Credit: <a href="https://unsplash.com/photos/DItYlc26zVI" target="_blank">Christian Buehner</a>
 
-[Helen Fielding | ](assets/images/committee-members/helen-fielding.jpg) 
-[Clemono](https://unsplash.com/@clemono?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+**Bridget Jones**
+
+<div align="left">
+    <img src="assets/images/committee-members/bridget-jones.jpg" height="150">
+</div>
+
+Credit: <a href="https://unsplash.com/photos/u3WmDyKGsrY" target="_blank">Gabriel Silvério</a>
+
+**Daniel Cleaver**
+
+<div align="left">
+    <img src="assets/images/committee-members/daniel-cleaver.jpg" height="150">
+</div>
+
+Credit: <a href="https://unsplash.com/photos/EpKqRPT1lP0" target="_blank">Sean Hall</a>
+
+**Helen Fielding**
+
+<div align="left">
+    <img src="assets/images/committee-members/helen-fielding.jpg" height="150">
+</div>
+
+Credit: <a href="https://unsplash.com/photos/FbTOrJ2G8KI" target="_blank">Clem Onojeghuo</a>
 
 The flag icons were sourced from [Flacticon](http://flaticon.com) and are also sourced on the site.
 
@@ -324,14 +388,14 @@ The flag icons were sourced from [Flacticon](http://flaticon.com) and are also s
 
 The principle colours selected are variants of blue and yellow, the reason being two-fold: they are the colours of the Swedish flag, and other netball 
 clubs in Sweden have red and green as their team colours, so we needed something different. All colour variants have been selected using 
-[Coolors](https://coolors.co/) to compliment each other and provide a feeling of safety and calm, as required in the strategy.
+<a href="https://coolors.co/" target="_blank">Coolors</a> to compliment each other and provide a feeling of safety and calm, as required in the strategy.
 
 ![Color choices](supporting-docs/color-codes.jpg)
 
 ### Favicon
 
-I used the [basketball ball image from Font Awesome](https://fontawesome.com/icons/basketball-ball?style=solid) and used css styling to match the colours 
-of the website as the favicon.
+I used the <a href="https://fontawesome.com/icons/basketball-ball?style=solid" target="_blank">basketball ball image from Font Awesome</a> and used 
+css styling to match the colours of the website as the favicon.
 
 # Technologies used
 
