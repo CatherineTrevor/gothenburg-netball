@@ -1,7 +1,7 @@
 # Gothenburg Netball Club Project
 
 <div align="center">
-    <img src="supporting-docs/responsiveness-image.jpg" width="100%">
+    <img src="supporting-docs/responsiveness-image.jpg" width="500">
 </div>
 
 <!--code copied from "https://davidwells.io/snippets/how-to-align-images-in-markdown" to center align the image-->
