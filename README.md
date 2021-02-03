@@ -354,7 +354,7 @@ This project uses the following libraries and frameworks:
  - [Free Formatter HTML](https://www.freeformatter.com/html-formatter.html) - for HTML code formatting
  - [Free Formatter CSS](https://www.freeformatter.com/css-beautifier.html) - to beautify CSS code
  - [Coolors](https://coolors.co/) - to select a color pallete to match the required tone of the site
- - [Stackoverflow](http://stackoverflow.com) - general help to undertand forms, image sizing and navbar toggler 
+ - [Stackoverflow](http://stackoverflow.com) - general help to undertand forms, image sizing, anchors not nesting inside buttons, and navbar toggler 
  - [W3 School](https://www.w3schools.com/html/html_tables.asp) - help understanding the table html code
  - [Grammarly](https://app.grammarly.com/) - the free service to double check grammar, spelling and tone
  - [Lighthouse](https://www.webpagetest.org/result/210126_DiYW_ef25f45f403133d4937b7ce39a1adc42/) - used to score accessibility and general site performance 

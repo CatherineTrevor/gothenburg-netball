@@ -40,7 +40,7 @@
             <div class="container main-section">
                 <div class="row">
                     <div class="col-12 large-image">
-                        <img src="assets/images/contact-page-graphic.jpeg" id="large-image-top" alt="Image of netball in hoop" aria-hidden="true" sr-only="Image of netball falling into hoop">
+                        <img src="assets/images/contact-page-graphic.jpeg" id="large-image-top" alt="Image of netball falling into hoop" aria-hidden="true">
                     </div>
                 </div>
                 <hr class="hr-line-top">
@@ -61,22 +61,22 @@
                 <div class="row">              
                     <form class="contact-form">
                         <div class="col-12">
+<!--asterix added to Name and Email Address to illustrate required field to visitor-->                            
                             <label for="name" class="form-label">
-<!--asterix added to Name and Email Address to illustrate required field to visitor-->
                                 <h2>
                                     Name*:
                                 </h2></label>
-                                <input type="text" class="form-control" id="name" aria-describedby="enter name" required>
+                                <input type="text" class="form-control" id="name" aria-describedby="name" required>
                             <label for="email" class="form-label">
                                 <h2>
                                     Email Address*:
                                 </h2></label>
-                                <input type="email" class="form-control" id="email" aria-describedby="enter email address" required>
+                                <input type="email" class="form-control" id="email" aria-describedby="email" required>
                             <label for="message" class="form-label">
                                 <h2>
                                     Your Message:
                                 </h2></label>
-                                <textarea class="form-control" id="message" rows="5"></textarea>
+                                <textarea class="form-control" id="message" rows="5" aria-describedby="entermessage"></textarea>
                             <div id="entermessage" class="form-text">
                                 Don't forget to include your phone number if you want us to call you!
                             </div> 
@@ -108,12 +108,12 @@
                             <h2>
                                 Mark Darcy, Chairman
                                 <span>
-                                    <img src="assets/images/committee-members/new-zealand-flag.png" alt="New Zealand country flag" aria-hidden="true">
+                                    <img src="assets/images/committee-members/new-zealand-flag.png" alt="New Zealand country flag">
                                 </span>
                             </h2>
                         </div>
                         <div class="col-4 col-md-6 col-lg-6 image-section-committee">
-                            <img src="assets/images/committee-members/mark-darcy.jpg" alt="Mark Darcy photo" aria-hidden="true">                         
+                            <img src="assets/images/committee-members/mark-darcy.jpg" alt="Photo of Mark Darcy">                         
                         </div>
 <!--blockquotes used to improve semantic elements of the site-->
                         <blockquote class="col-8 col-md-6 col-lg-6 text-section">
@@ -126,12 +126,12 @@
                             <h2>
                                 Bridget Jones, Vice Chairman
                                 <span>
-                                    <img src="assets/images/committee-members/england-flag.png" alt="England country flag" aria-hidden="true">
+                                    <img src="assets/images/committee-members/england-flag.png" alt="England country flag">
                                 </span>
                             </h2>
                         </div>
                         <div class="col-4 col-md-6 col-lg-6 image-section-committee">
-                            <img src="assets/images/committee-members/bridget-jones.jpg" alt="Bridget Jones photo" aria-hidden="true">
+                            <img src="assets/images/committee-members/bridget-jones.jpg" alt="Photo of Bridget Jones">
                         </div>                     
                         <blockquote class="col-8 col-md-6 col-lg-6 text-section">
                             <p>
@@ -143,12 +143,12 @@
                             <h2>
                                 Daniel Clever, Secretary
                                 <span>
-                                    <img src="assets/images/committee-members/usa-flag.png" alt="England country flag" aria-hidden="true">
+                                    <img src="assets/images/committee-members/usa-flag.png" alt="USA country flag">
                                 </span>
                             </h2>
                         </div>
                         <div class="col-4 col-md-6 col-lg-6 image-section-committee">
-                            <img src="assets/images/committee-members/daniel-cleaver.jpg" alt="Netball graphic" aria-hidden="true">
+                            <img src="assets/images/committee-members/daniel-cleaver.jpg" alt="Photo of Daniel Cleaver">
                         </div>                    
                         <blockquote class="col-8 col-md-6 col-lg-6 text-section">
                             <p>
@@ -160,12 +160,12 @@
                             <h2>
                                 Helen Fielding, Treasurer
                                 <span>
-                                <img src="assets/images/committee-members/sweden-flag.png" alt="England country flag" aria-hidden="true">
+                                <img src="assets/images/committee-members/sweden-flag.png" alt="Sweden country flag">
                                 </span>
                             </h2>
                         </div>
                         <div class="col-4 col-md-6 col-lg-6 image-section-committee">
-                            <img src="assets/images/committee-members/helen-fielding.jpg" alt="Netball graphic" aria-hidden="true">
+                            <img src="assets/images/committee-members/helen-fielding.jpg" alt="Photo of Helen Fielding">
                         </div>                      
                         <blockquote class="col-8 col-md-6 col-lg-6 text-section">
                             <p>
@@ -191,8 +191,11 @@
                     <li class="list-inline-item"><a href="mailto: gothenburgnetball@gmail.com" sr-only="Link to open new blank email addressed to gothenburgnetball@gmail.com" 
                     target="_blank">gothenburgnetball@gmail.com</a></li>
                     <li class="list-inline-item">Organisation number: 1235 589 987</li>
-                    <li class="list-inline-item"><a href="https://www.facebook.com/gothenburgnetball/" target="_blank" sr-only="Link to open Gothenburg Netball Facebook page in new tab" 
-                    aria-hidden="true"><i class="fab fa-facebook-square"></i></a></li>                                
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/gothenburgnetball/" target="_blank" sr-only="Link to open Gothenburg Netball Facebook page in new tab"> 
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+                    </li>                                
                 </ul>
             </div>
         </footer>

@@ -160,5 +160,13 @@ navigation bar. To the visitor, it looked that the anchor point was taking them 
 To fix this, the anchor links to a few rows above the text, so when clicked the visitor sees the correct section of text.
 
 ### Code validator
+
+**css**
 [css: no errors found](https://jigsaw.w3.org/css-validator/validator)
 
+**html**
+
+1. Bug fix: anchor element was inside button element. Button amended to anchor and pseudo css styling fixed to ensure yellow text on hover. Referred to 
+[Stackoverflow](https://stackoverflow.com/questions/16280684/nesting-a-inside-button-doesnt-work-in-firefox) for support.
+2. Bug fix: YouTube frameborder removed.
+3. 
