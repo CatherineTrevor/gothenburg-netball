@@ -416,11 +416,11 @@ form {
     .large-text-top h2 {
             font-size: 175%;
     }
-    #color-row-welcome {
+    #welcome {
         padding-top: 10px;
         margin: 0 auto;
     }
-    #color-row-welcome p {
+    #welcome p {
         text-align: center;
     }    
     #color-row-table {
