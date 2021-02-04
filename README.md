@@ -1,18 +1,18 @@
 # Gothenburg Netball Club Project
 
+This project is my Milestone One project with the Code Institute. It is a website that presents clear and relevant 
+information about Gothenburg's Netball Club for its stakeholders, such as members, committee members and future players. 
+The object is to provide a digital communication platform, which will increase awareness and interest in the club, to attract regular paying members. 
+A mobile-first approach was used in design, to make information easy to access on a mobile device.
+
+
 <div align="center">
     <img src="supporting-docs/responsiveness-image.jpg" width="500">
 </div>
 
 <!--code copied from "https://davidwells.io/snippets/how-to-align-images-in-markdown" to center align the image-->
 
-
-This project is my Milestone One project with the Code Institute. It is a website that presents clear and relevant 
-information about Gothenburg's Netball Club for its stakeholders, such as members, committee members and future players. 
-The object is to provide a digital communication platform, which will increase awareness and interest in the club, with the 
-aim of attracting regular paying members. A mobile-frist approach was used in design, to make information easy to access on a mobile device.
-
-### <a href="https://catherinetrevor.github.io/gothenburg-netball/" target="_blank">View the live site here</a>
+### [View the live site here](https://catherinetrevor.github.io/gothenburg-netball/)
 
 # Contents
 
@@ -148,7 +148,9 @@ umpiring/coaching.
     f. As a frequent site visitor I want to, provide clear information about who we are and what we do for future sponsorship opportunities.
 
 ## Scope
+
 **Features**
+
 Utilising the trade-off equation, below details the features I have selected to be included in the initial release, and ones to be considered 
 in the future.
 
@@ -211,7 +213,7 @@ Each page has the necessary internal links to direct the user in alignment with 
 
 **Updated structure**
 
-This structure has changed in the live site. To maintain common industry standards, the contact.html page has been moved to the last position in the navigation bar.
+This structure has changed in the live site. To maintain common industry standards, the contact.html (Get in touch) page has been moved to the last position in the navigation bar.
 
 Home | What is netball? | Photo gallery | Get in touch
 
@@ -262,16 +264,20 @@ Home | What is netball? | Photo gallery | Get in touch
 
 ## Skeleton
 
-**Homepage wireframe**
+**index.html wireframe**
+
 ![Homepage wireframe](supporting-docs/homepage-wireframe.jpg)
 
-**What is netball wireframe**
+**netball.html wireframe**
+
 ![What is netball wireframe](supporting-docs/netball-wireframe.jpg)
 
-**Get in touch wireframe**
+**contact.html wireframe**
+
 ![Get in touch wireframe](supporting-docs/contact-wireframe.jpg)
 
-**Photo gallery wireframe**
+**photos.html wireframe**
+
 ![Photo gallery wireframe](supporting-docs/photos-wireframe.jpg)
 
 The wireframes were created using <a href="http://www.balsamiq.com" target="_blank">Balsamiq</a> and demonstrate the responsive behaviour of the site on each device size, 
@@ -295,11 +301,16 @@ As per Google Font's recommendation, the accommodating font used is Lato. Sans-s
 
 ### Imagery
 
-Where possible, the site uses real-life images. However, this has not been possible for all images. The What is netball image of the ball falling through a hoop is a basketball,
+Where possible, the site uses real-life images. However, this has not been possible for all images. The picture of the ball falling through a hoop is a basketball,
 not a netball. It was not possible to source free images of netball that meet the needs of the site. This will be updated in the future when the club can
 take its own photos for the site.
 
-[Netball falling through a hoop |](assets/images/ball-in-net-resize.jpg) 
+**Ball falling through hoop**
+
+<div align="left">
+    <img src="assets/images/ball-in-net-resize.jpg" height="150">
+</div>
+
 <a href="https://unsplash.com/photos/jS2Cgv-Xppw" target="_blank">Andres Siimon</a>
 
 The following three images used on the photos.html page are published on Gothenburg Netball's Facebook page, for which I am an administrator.
@@ -321,6 +332,7 @@ The following three images used on the photos.html page are published on Gothenb
 <div align="left">
     <img src="assets/images/photo-gallery/group-5.jpg" height="150">
 </div>
+
 
 The other images on the page are stock images, sourced from Unsplash.com:
 
@@ -382,7 +394,7 @@ Credit: <a href="https://unsplash.com/photos/EpKqRPT1lP0" target="_blank">Sean H
 
 Credit: <a href="https://unsplash.com/photos/FbTOrJ2G8KI" target="_blank">Clem Onojeghuo</a>
 
-The flag icons were sourced from [Flacticon](http://flaticon.com) and are also sourced on the site.
+The flag icons were sourced from [Flacticon](http://flaticon.com) and are also cited on the site.
 
 ### Colour scheme
 
@@ -412,8 +424,9 @@ This project uses the following libraries and frameworks:
  - [Bootstrap](https://getbootstrap.com/) - Bootstrap was used as the main grid structure for the site, for the navbar, including navbar toggler,
  and contact form, and was heavily modified to meet the needs of the project
  - [Google Fonts](https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom) - Permanent Marker and Lato
- - [Font Awesome](https://fontawesome.com/) - used for the [basketball ball favicon](https://fontawesome.com/icons/basketball-ball?style=solid) and 
- [checklist icons](https://fontawesome.com/icons/check-circle?style=regular)
+ - [Font Awesome](https://fontawesome.com/) - used for the [basketball ball favicon](https://fontawesome.com/icons/basketball-ball?style=solid); 
+ [checklist icons](https://fontawesome.com/icons/check-circle?style=regular); [calendar](https://fontawesome.com/icons/calendar-alt?style=regular);
+ [location pointer](https://fontawesome.com/icons/map-marker-alt?style=solid); [clock](https://fontawesome.com/icons/clock?style=regular)
  - [Tiny PNG](https://tinypng.com/) - used to resize images to reduce site loading time  
  - [Free Formatter HTML](https://www.freeformatter.com/html-formatter.html) - for HTML code formatting
  - [Free Formatter CSS](https://www.freeformatter.com/css-beautifier.html) - to beautify CSS code
@@ -438,8 +451,17 @@ To deploy the pages to Github Pages, from the Github repository, the following s
 2. From the list of repositories, select **CatherineTrevor/gothenburg-netball**.
 3. From the menu bar, select **Settings**.
 4. Stay on this page and scroll down to **Source**. 
-5. Select **Master branch** and click **save**.
+5. Select **Master branch** from the dropdown titled none, and click **save**.
 5. Wait a few minutes: the live link can be retrieved from the top of the page.
+
+**How to fork the GutHub Repository**
+
+Forking the repository allows you to make a copy of the original in your GitHub account, and make changes without affecting the original.
+
+1. Log onto [Github](http://github.com).
+2. From the list of repositories, select **CatherineTrevor/gothenburg-netball**.
+3. At the top of the repository, select the "Fork" button.
+4. This should create a copy within your account.
 
 **How to run this project locally**
 
@@ -447,8 +469,9 @@ To deploy the pages to Github Pages, from the Github repository, the following s
 2. From the list of repositories, select **CatherineTrevor/gothenburg-netball**.
 3. Click the **"Code"** dropdown within the menu above the commits.
 4. Copy the URL address, or Download ZIP and save locally.
-5. Using your chosen IDE, copy the URL within the CLI.
-6. Alternatively, select **"Open with Github Desktop"**.
+5. Open your chosen IDE and navigate to the location you want the cloned directory to be saved.
+6. Type `git clone` and copy the URL within the CLI and press enter.
+7. Alternatively, select **"Open with Github Desktop"**.
 
 # Credits
 
@@ -465,12 +488,14 @@ All other content has been written by me.
 
 **Media**
 
-- [Unsplash](http://www.unsplash.com) - committee members, and some photo gallery images sourced from Unsplash. Specific sources cited in the above 
+- [Unsplash](http://www.unsplash.com/) - committee members, and some photo gallery images sourced from Unsplash. Specific sources cited in the above 
 imagery section 
-- [Youtube](https://www.youtube.com/embed/WGaYDvaZ4No) - what is netball video
+- [Youtube](https://www.youtube.com/embed/WGaYDvaZ4No) - What is netball video
 - [Gothenburg Netball Club Facebook](https://www.facebook.com/gothenburgnetball/)
-- [Netball word graphic on the photo gallery](https://catherinetrevor.github.io/gothenburg-netball/photos.html) and [contact word graphic on the Get in touch page](https://catherinetrevor.github.io/gothenburg-netball/contact.html) were created using [Word Art](https://wordart.com)
-- [Google maps](http://www.maps.google.se)
+- [Netball word graphic on the What is netball](https://catherinetrevor.github.io/gothenburg-netball/netball.html) and 
+[contact word graphic on the Get in touch page](https://catherinetrevor.github.io/gothenburg-netball/contact.html) were created using 
+[Word Art](https://wordart.com)
+- [Google maps](http://www.maps.google.se/)
 
 **Acknowledgements**
 
@@ -483,15 +508,18 @@ While designing and developing this site, I took inspiration from the following 
 * [Nicole Saidy](https://nicolesaidy.com/)
 * [Leen Heyne Collection](https://leenheyne.nl/jewelry-all)
 
-While the club is real, the names of the other committee members are fictional and have been taken from the book Bridget Jones' Diary by Helen Fielding.
+While the club is real, the names of the committee members are fictional and have been taken from the book Bridget Jones' Diary by Helen Fielding.
 
-Thanks also to my mentor at Code Institute Aaron Sinnott, the chair of Netball Sweden for her time and feedback, as well as Brendan, another member of slack for his time and 
-feedback.
+Thanks also to my mentor at Code Institute Aaron Sinnott for his time and support, the chair of Netball Sweden for her time and feedback, and other members of slack
+ for their time and feedback.
 
 **Lessons learnt**
 
-A particular learning curve for me regarding this project has been using Git and the need for frequent commits and clear, precise commit messages. An example
-being at the beginning of the project, where I was more focused on the coding, meaning there are, on occasion, duplicate commits and unclear commit messages. 
+A particular learning curve for me regarding this project has been using Git and the need for frequent commits and clear, precise commit messages. This is a new
+subject for me, and required some additional research ([example reading](https://www.sitepoint.com/how-good-are-your-html-and-css-comments/)).
+
+An example of my lack of clarity is at the beginning of the project, where I was more focused on the coding. On occasion there are duplicate commits 
+and unclear commit messages. 
 
 Following a project review with my mentor, and feedback from fellow students, it became apparent that my version control was not specific enough. I was making 
 a lot of changes to the code and README.md before making a commit, potentially making it difficult to follow the logic.
