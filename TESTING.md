@@ -1,17 +1,29 @@
-# Testing:
+# Testing
 
 Having created the website for mobile-usage, I used Chrome development tools throughout to ensure continuous testing of the look,
 functionality and layout of the site, whilst building it.
 
-I made sure to also come out of the development tool and test it on real devices: my phone (iPhone SE2020), my husband's phone 
-(iPhone 12) and a tablet device (iPad Pro 9.7").
+The site was also tested outside of the development tool;
 
-As part of the testing process, I sent the site to the chair of Netball Sweden, who provided the following feedback;
+* iPhone SE2020
+* iPhone 12 
+* iPad Pro 9.7"
 
- - The top images on all pages took over the size of the page when viewed on a mobile device.
- - Suggested wording for an introduction to netball, as based on <a href="http://www.netballsweden.se" target="_blank">
+All on iOS 14.3.
+
+It was also tested on the following browsers;
+
+* Safari
+* Chrome
+* Microsoft Edge
+* Firefox
+
+Family and friends were also invited to test it, as was the chair of Netball Sweden, who provided the following feedback;
+
+* The top images on all pages took over the size of the page when viewed on a mobile device. 
+* Suggested wording for an introduction to netball, as based on <a href="http://www.netballsweden.se" target="_blank">
  Netball Sweden's site</a>. 
- - Get in touch page is very friendly and welcoming.
+* Get in touch page is very friendly and welcoming.
 
 **User story testing**
 
@@ -27,7 +39,7 @@ a link to an image to give clarity on where in the site specifically.
 | c. As a first time visitor I want to, learn the basics of netball. | [Brief guidelines, and a short video is offered on the "what is netball page"](supporting-docs/uat3.jpg) |
 | d. As a first time visitor I want to, find out where and when practice is.  | [A table and map with details is on the homepage](supporting-docs/uat4.jpg) |
 | e. As a first time visitor I want to, understand the fees involved. | [Text explaining the fees is provided on the homepage](supporting-docs/uat5.jpg) |
-| f. As a first time visitor I want to, feel invited to join a session. | [Friendly images are included throughout, as well as welcome text inviting the user to join a session](supporting-docs/uat6.jpg) |
+| f. As a first time visitor I want to, feel invited to join a session. | [Friendly images are included throughout, as well as welcome text inviting the visitor to join a session](supporting-docs/uat6.jpg) |
 | g. As a first time visitor I want to, feel comfortable contacting someone for more information. | [Friendly contact form, with basic information requested, and email address provided](supporting-docs/uat7.jpg) |
 | h. As a first time visitor I want to, connect to the club's social media channels. | [There is a link to Facebook always in the footer, across all devices](supporting-docs/uat8.jpg) |
 | i. As a first time visitor I want to, understand what I need to join. | [There is a section on the homepage specific to this information](supporting-docs/uat9.jpg) |
@@ -50,14 +62,14 @@ a link to an image to give clarity on where in the site specifically.
 |---|---|
 | a. As a frequent site visitor I want to, showcase how much fun we have as a club on a digital platform.| [Photos displayed in the photo gallery](supporting-docs/uat(d).jpg)
 | b. As a frequent site visitor I want to, encourage regular playing members. | [Having an online presence, in a friendly tone will help achieve this](supporting-docs/uat(c).jpg) |
-| c. As a frequent site visitor I want to, build a strong, regular team so that we can attend matches and tours as a group.| A digital platform will help encourage new players to join |
+| c. As a frequent site visitor I want to, build a strong, regular team so that we can attend matches and tours as a group.| A digital platform will increase communication possibilities, and help encourage new players to join |
 | d. As a frequent site visitor I want to, encourage people to try a new sport.| [Basic guidelines and information on the game is offered](supporting-docs/uat3.jpg) |
 | e. As a frequent site visitor I want to, invite players to join the committee and help us run the club. | [This information is given in the chairman's bio](supporting-docs/uat(e).jpg) |
 | f. As a frequent site visitor I want to, provide clear information about who we are and what we do for future sponsorship opportunities. | Sponsorship will be addressed in future deployment: at present [information about who we are is provided on the homepage](supporting-docs/uat1.jpg) |
 
 **Lighthouse testing**
 
-- [Lighthouse](https://www.webpagetest.org/result/210126_DiYW_ef25f45f403133d4937b7ce39a1adc42/) - used to score accessibility and general site performance
+- [Lighthouse](https://www.webpagetest.org) - used to score accessibility and general site performance
 
 **Desktop**
 
@@ -89,6 +101,8 @@ a link to an image to give clarity on where in the site specifically.
 
 2. This opens a new blank email message, with the club email address in the "To" field.
 
+**Or**
+
 1. Navigate to Get in touch page, via the navigation bar, or Get in touch buttons.
 
 <div align="center">
@@ -110,8 +124,8 @@ At the bottom homepage and what is netball page, there is a large "get in touch"
 
 ### Top images on mobile device
 
-As a result of testing the site on a mobile device, the chair of Netball Sweden and myself discovered a big bug for the images at the top of 
-each page, that was not visible on Chrome development tools.
+Upon testing, a major bug was discovered, where the images at the top of each page spread across the screen: this errors had not been visible on 
+Chrome development tools.
 
 ![View on Chrome development tools](supporting-docs/mobile-view-bugfix.jpg)
 
@@ -127,9 +141,9 @@ This was solved through increasing the specificity of the image within the div b
                 <br>
             </div>
 
-### Youtube video not displaying on iPad
+### YouTube video not displaying on iPad
 
-When testing the site on the iPad, the Youtube video on the "What is netball" page doesn't display. Initially, I removed it from tablet-sized devices, however
+When testing the site on the iPad, the YouTube video on the "What is netball" page doesn't display. Initially, I removed it from tablet-sized devices, however
 following a discussion with my mentor, and further research, this would mean that anyone watching the video on a tablet other than an iPad, will not be able to
 view the video also.
 
@@ -173,12 +187,17 @@ To fix this, the anchor links to a few rows above the text, so when clicked the 
 
 ### Code validator
 
-**css**
-[css: no errors found](https://jigsaw.w3.org/css-validator/validator)
+**CSS**
 
-![CSS validator](supporting-docs/css-validator)
+[CSS: no errors found](https://jigsaw.w3.org/css-validator/)
 
-**html**
+![CSS validator](supporting-docs/css-validator.jpg)
+
+**HTML**
+
+[HTML validator](https://validator.w3.org/)
+
+![HTML validator report](supporting-docs/html-validator.jpg)
 
 1. Bug fix: anchor element was inside button element. Button amended to anchor and pseudo css styling fixed to ensure yellow text on hover. Referred to 
 [Stackoverflow](https://stackoverflow.com/questions/16280684/nesting-a-inside-button-doesnt-work-in-firefox) for support.
@@ -187,4 +206,3 @@ To fix this, the anchor links to a few rows above the text, so when clicked the 
 
 All other errors found related to external links, such as Bootstrap and Fontawesome.
 
-[HTML validator report](supporting-docs/html-validator.jpg)
