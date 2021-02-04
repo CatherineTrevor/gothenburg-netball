@@ -198,6 +198,16 @@ This feature has not been implemented in the first release as the club doesn't h
 This was intended to be included in the original release, however for now it will be emailed to potential members and will be deployed in a future release, as part
 of the digital requirements in Feature 1.
 
+**Feature 5:** Latest news.
+This was intended for inclusion in the first release, but will be a future feature, linked to the Netball Sweden site, based on the information members 
+are looking for, once we have regular attendees.
+
+**Feature 6:** Future matches and tours.
+This was intended for inclusion in the first release, but will be a future feature once play starts again and there is information to give.
+
+**Feature 7:** Submit email form.
+Once completed the form does not submit the visitors information. This will be changed in a future release when I have the knowledge to do so.
+
 ## Structure
 
 The website is structured into four pages: Home | What is netball? | Get in touch | Photo gallery
