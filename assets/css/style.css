@@ -9,7 +9,6 @@ body {
 	color: #515751;
 }
 
-
 /******************Background Colors***/
 
 .navbar {
@@ -27,7 +26,6 @@ body {
 .main-section {
 	background-color: white;
 }
-
 
 /******************Navbar***/
 
@@ -64,7 +62,6 @@ body {
 	font-family: "Permanent Marker", "Lato", sans-serif;
 }
 
-
 /********************Footer***/
 
 .list-inline {
@@ -91,7 +88,6 @@ body {
 .fa-facebook-square {
 	font-size: 200%;
 }
-
 
 /********************Main body general***/
 
@@ -126,7 +122,6 @@ img {
 	margin-bottom: 10px;
 }
 
-
 /********************Main body top text and image section for all pages***/
 
 .hr-line-top {
@@ -159,7 +154,6 @@ img {
 	text-align: center;
 	position: relative;
 }
-
 
 /********************Main body content sections***/
 
@@ -201,7 +195,6 @@ p {
 	max-width: 100%;
 	max-height: 100%;
 }
-
 
 /********************Index.html***/
 
@@ -260,7 +253,6 @@ strong a:hover {
 	font-weight: bold;
 }
 
-
 /******************Contact button***/
 
 .contact-button {
@@ -281,7 +273,6 @@ strong a:hover {
 	color: #e3d888;
 	text-decoration: none;
 }
-
 
 /********************Netball.html***/
 
@@ -308,7 +299,6 @@ strong a:hover {
 .small-text {
 	margin: 0 auto;
 }
-
 
 /********************Contact.html***/
 
@@ -345,7 +335,6 @@ form {
 	font-weight: bold;
 }
 
-
 /********************Photo gallery***/
 
 #photo-gallery {
@@ -365,34 +354,43 @@ form {
 	height: 100%;
 }
 
-
 /********************Media queries***/
-
 
 /***min-width inline with Bootstrap tablet screen measurements***/
 
 @media only screen and (min-width: 768px) {
-	#netball-court img {
+    
+    .netball-graphic img {
+		height: 200px;
+        width: 200px;    
+    }
+    
+	.large-image {
+		text-align: center;
+    }
+    
+	#large-image-top {
+		max-width: 45%;
+    }
+    
+    #netball-court img {
 		max-height: 100%;
 		margin-top: 5px;
 		margin-bottom: 5px;
-	}
-	.large-image {
-		text-align: center;
-	}
-	#large-image-top {
-		max-width: 45%;
-	}
+    }    
 }
 
 
 /***min-width inline with Bootstrap large screen measurements***/
 
 @media only screen and (min-width: 992px) {
-	/********************General***/
+    
+    /********************General***/
+
 	h3 {
 		font-size: 150%;
-	}
+    }
+    
 	.navbar {
 		height: 90px;
 		margin-bottom: 0;
@@ -401,110 +399,139 @@ form {
 		width: 100%;
 		z-index: 1;
 		font-size: 150%;
-	}
+    }
+    
 	.main-section {
 		margin-top: 90px;
 		margin-bottom: 60px;
 		font-size: 130%;
-	}
+    }
+    
 	.hr-line {
 		display: none;
-	}
+    }
+    
 	.hr-line-top {
 		max-width: 75%;
-	}
+    }
+    
 	.color-row {
 		background-color: #e3d888;
 		height: 300px;
-	}
+    }
+    
 	.color-heading {
 		background-color: #e3d888;
 		height: 100px;
-	}
+    }
+    
 	.large-text-top {
 		margin: 0 auto;
-	}
+    }
+    
 	.large-text-top h2 {
 		font-size: 175%;
-	}
+    }
+    
 	#welcome {
 		padding-top: 10px;
 		margin: 0 auto;
-	}
+    }
+    
 	#welcome p {
 		text-align: center;
-	}
+    }
+    
 	#color-row-table {
 		background-color: #e3d888;
 		padding-top: 10px;
-	}
+    }
+    
 	.image-section {
 		margin-top: 10px;
-	}
+    }
+    
 	.image-section img {
 		width: 100%;
-	}
-	/********************Index.html***/
+    }
+    
+    /********************Index.html***/
+    
 	.text-section-homepage {
 		padding-top: 30px;
-	}
+    }
+    
 	.text-section-homepage p {
 		text-align: center;
 		max-width: 85%;
-	}
+    }
+    
 	#sessions-table {
 		max-width: 50%;
-	}
+    }
+    
 	.netball-graphic img {
 		height: 200px;
 		width: 200px;
 		margin-top: 25px;
 		margin-bottom: 25px;
-	}
+    }
+    
 	#netball-court img {
 		height: 600px;
-	}
+    }
+    
 	.list-text {
 		margin-left: 50px;
 		margin: 0 auto;
 	}
 	.list-text p {
 		text-align: left;
-	}
+    }
+    
 	.list-text i {
 		margin-right: 10px;
-	}
-	/********************Contact.html***/
+    }
+    
+    /********************Contact.html***/
+    
 	.contact-form {
 		margin: 0 auto;
 		width: 850px;
-	}
+    }
+    
 	.contact-button {
 		max-width: 50%;
 		margin: 0 auto;
 		margin-top: 15px;
-	}
+    }
+    
 	.committee-section {
 		padding-top: 25px;
-	}
+    }
+    
 	.committee-members p {
 		margin-top: 35px;
 		padding-right: 30px;
 		text-align: left;
 		font-size: 110%;
-	}
+    }
+    
 	.committee-members h3 {
 		text-align: center;
-	}
+    }
+    
 	.image-section-committee {
 		margin-top: 10px;
 		margin-bottom: 0px;
 		text-align: center;
-	}
+    }
+    
 	.image-section-committee img {
 		max-height: 200px;
 		max-width: 200px;
-	}
+    }
+    
 	.list-inline-item {
 		font-size: 110%;
 	}
