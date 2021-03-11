@@ -306,6 +306,15 @@ form {
 	margin: 0 auto;
 }
 
+label {
+	font-size: 120%;
+    text-transform: uppercase;
+    font-family: "Permanent Marker", "Lato", sans-serif;    
+	font-weight: 400;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
 .form-control {
 	border-radius: 8px;
 }
