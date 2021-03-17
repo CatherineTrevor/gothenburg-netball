@@ -1,0 +1,56 @@
+/********************Index.html***/
+
+.text-section-homepage i {
+	font-size: 125%;
+	color: #5c95ff;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.text-section-homepage p {
+	text-align: left;
+}
+
+.text-section-homepage a {
+	color: #5c95ff;
+	font-weight: bold;
+}
+
+.text-section-homepage a:hover {
+	color: #515751;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+strong a {
+	color: #5c95ff;
+	font-weight: bold;
+}
+
+strong a:hover {
+	color: #515751;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#sessions-table {
+	margin: 0 auto;
+	color: #5c95ff;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+#sessions-table i {
+	font-size: 150%;
+}
+
+#sessions-table a {
+	color: #5c95ff;
+	font-weight: bold;
+}
+
+#sessions-table a:hover {
+	color: #515751;
+	text-decoration: none;
+	font-weight: bold;
+}

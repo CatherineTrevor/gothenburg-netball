@@ -1,0 +1,43 @@
+/********************Contact.html***/
+
+form {
+	margin: 0 auto;
+}
+
+label {
+	font-size: 120%;
+    text-transform: uppercase;
+    font-family: "Permanent Marker", "Lato", sans-serif;    
+	font-weight: 400;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.form-control {
+	border-radius: 8px;
+}
+
+.committee-members p {
+	font-style: italic;
+}
+
+.image-section-committee img {
+	max-width: 100px;
+	max-height: 100px;
+	border-radius: 50%;
+}
+
+.small-text {
+	text-align: center;
+}
+
+.small-text a {
+	color: #5c95ff;
+	font-weight: bold;
+}
+
+.small-text a:hover {
+	color: #515751;
+	text-decoration: none;
+	font-weight: bold;
+}

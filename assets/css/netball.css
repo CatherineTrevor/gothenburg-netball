@@ -1,0 +1,25 @@
+/********************Netball.html***/
+
+#netball-court {
+	text-align: center;
+}
+
+#netball-court img {
+	height: 200px;
+}
+
+#youtube-video {
+	width: 80%;
+	max-width: 640px;
+	margin-top: 30px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#youtube-video iframe {
+	width: 100%;
+}
+
+.small-text {
+	margin: 0 auto;
+}

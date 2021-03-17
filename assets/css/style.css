@@ -9,8 +9,7 @@ body {
 	color: #515751;
 }
 
-/******************Background Colors***/
-
+/******************Background Colors all pages***/
 .navbar {
 	background-color: #e3d888;
 }
@@ -27,8 +26,7 @@ body {
 	background-color: white;
 }
 
-/******************Navbar***/
-
+/******************Navbar top all pages***/
 .navbar i {
 	color: #5c95ff;
 	font-size: 300%;
@@ -62,8 +60,7 @@ body {
 	font-family: "Permanent Marker", "Lato", sans-serif;
 }
 
-/********************Footer***/
-
+/********************Footer all pages***/
 .list-inline {
 	text-align: center;
 	margin-top: 8px;
@@ -89,8 +86,7 @@ body {
 	font-size: 200%;
 }
 
-/********************Main body general***/
-
+/********************Main body content all pages***/
 h1,
 h2,
 h3 {
@@ -104,7 +100,8 @@ h3 {
 
 p {
 	font-size: 90%;
-	margin: 0 auto;
+    margin: 0 auto;
+	text-align: center;    
 }
 
 img {
@@ -122,8 +119,7 @@ img {
 	margin-bottom: 10px;
 }
 
-/********************Main body top text and image section for all pages***/
-
+/********************Main body top text and hero image section for all pages***/
 .hr-line-top {
 	max-width: 100%;
 	border-top: 3px solid #5c95ff;
@@ -155,12 +151,7 @@ img {
 	position: relative;
 }
 
-/********************Main body content sections***/
-
-p {
-	text-align: center;
-}
-
+/********************Main body content sections all pages***/
 .text-section p {
 	text-align: left;
 }
@@ -196,64 +187,7 @@ p {
 	max-height: 100%;
 }
 
-/********************Index.html***/
-
-.text-section-homepage i {
-	font-size: 125%;
-	color: #5c95ff;
-	margin-right: 10px;
-	margin-top: 5px;
-}
-
-.text-section-homepage p {
-	text-align: left;
-}
-
-.text-section-homepage a {
-	color: #5c95ff;
-	font-weight: bold;
-}
-
-.text-section-homepage a:hover {
-	color: #515751;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-strong a {
-	color: #5c95ff;
-	font-weight: bold;
-}
-
-strong a:hover {
-	color: #515751;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-#sessions-table {
-	margin: 0 auto;
-	color: #5c95ff;
-	font-weight: bold;
-	margin-top: 20px;
-}
-
-#sessions-table i {
-	font-size: 150%;
-}
-
-#sessions-table a {
-	color: #5c95ff;
-	font-weight: bold;
-}
-
-#sessions-table a:hover {
-	color: #515751;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-/******************Contact button***/
+/******************Large contact button at the bottom of index and what is netball pages***/
 
 .contact-button {
 	border: 3px solid #5c95ff;
@@ -272,95 +206,6 @@ strong a:hover {
 .contact-button:hover {
 	color: #e3d888;
 	text-decoration: none;
-}
-
-/********************Netball.html***/
-
-#netball-court {
-	text-align: center;
-}
-
-#netball-court img {
-	height: 200px;
-}
-
-#youtube-video {
-	width: 80%;
-	max-width: 640px;
-	margin-top: 30px;
-	margin: 0 auto;
-	position: relative;
-}
-
-#youtube-video iframe {
-	width: 100%;
-}
-
-.small-text {
-	margin: 0 auto;
-}
-
-/********************Contact.html***/
-
-form {
-	margin: 0 auto;
-}
-
-label {
-	font-size: 120%;
-    text-transform: uppercase;
-    font-family: "Permanent Marker", "Lato", sans-serif;    
-	font-weight: 400;
-	margin-top: 12px;
-	margin-bottom: 12px;
-}
-
-.form-control {
-	border-radius: 8px;
-}
-
-.committee-members p {
-	font-style: italic;
-}
-
-.image-section-committee img {
-	max-width: 100px;
-	max-height: 100px;
-	border-radius: 50%;
-}
-
-.small-text {
-	text-align: center;
-}
-
-.small-text a {
-	color: #5c95ff;
-	font-weight: bold;
-}
-
-.small-text a:hover {
-	color: #515751;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-/********************Photo gallery***/
-
-#photo-gallery {
-	clear: both;
-	line-height: 0;
-	column-count: 1;
-	column-gap: 0px;
-}
-
-#photo-gallery .photo {
-	padding-right: 0;
-	padding-left: 0;
-}
-
-#photo-gallery img {
-	width: 100%;
-	height: 100%;
 }
 
 /********************Media queries***/
@@ -394,7 +239,7 @@ label {
 
 @media only screen and (min-width: 992px) {
     
-    /********************General***/
+    /********************All pages***/
 
 	h3 {
 		font-size: 150%;
