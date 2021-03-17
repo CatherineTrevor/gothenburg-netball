@@ -7,7 +7,8 @@
       <meta name="Gothenburg Netball Club" content="Learn new skills | Refresh existing netball skills | Join us for netball in Gothenburg!"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/cosmo/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" 
+      crossorigin="anonymous">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link rel="stylesheet" href="assets/css/style.css">
       <link rel="stylesheet" href="assets/css/photos.css">      
@@ -16,9 +17,12 @@
    <body>
       <header>
          <nav class="navbar navbar-light navbar-expand-lg">
+            <!--favicon back to index.html-->
             <a class="navbar-brand" href="index.html"><i class="fas fa-basketball-ball" aria-hidden="true"></i>
-            </a><!---toggler navbar on mobile device only: menu aligned right on desktop device-->
-            <button class="navbar-toggler bg-light collapsed" type="button" data-toggle="collapse" data-target="#menunavbar" aria-controls="menunavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            </a>
+            <!---toggler navbar on mobile device only: menu aligned right on desktop device-->
+            <button class="navbar-toggler bg-light collapsed" type="button" data-toggle="collapse" data-target="#menunavbar" aria-controls="menunavbar" aria-expanded="false" 
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse justify-content-end" id="menunavbar">
                <ul class="navbar-nav" id="menu-text">
                   <li class="nav-item">
@@ -37,17 +41,21 @@
             </div>
          </nav>
       </header>
-      <section class="section"><!--class to colour the background of the main section rgba(81, 87, 81, 0.10) to reduce white space and improve look-->
-         <div class="container main-section"><!--top section of each file with large image and page intro text-->
+      <!--class to colour the background of the main section rgba(81, 87, 81, 0.10) to reduce white space and improve look-->
+      <section class="section">
+          <!--top section of each file with large image and page intro text-->
+         <div class="container main-section">
             <div class="row">
-               <div class="col-12 large-image"><!--large image at the top center of each file for consistency-->
+                <!--large image at the top center of each file for consistency-->
+               <div class="col-12 large-image">
                   <img src="assets/images/ball-in-net-resize.jpg" id="large-image-top" alt="Ball through netball post">
                </div>            
             </div>
             <hr class="hr-line-top">
             <div class="row">
                <div class="col-12 col-lg-6 large-text-top">
-                  <figure class="text-center"><!--inspirational quote-->
+                   <!--inspirational quote-->
+                  <figure class="text-center">
                      <h2>"At the end of the day, your feet should be dirty, your hair messy and your eyes sparkling"</h2>
                      <figcaption class="blockquote-footer">
                         Shanti
@@ -58,7 +66,8 @@
             <hr class="hr-line-top">
             <br>             
             <div class="row" id="photo-gallery">
-               <div class="col-12 col-md-6 col-lg-4 photo"><!--photos to display in one column on a small screen, two columns on medium, then four on large-->
+                <!--photos to display in one column on a small screen, two columns on medium, then four on large-->
+               <div class="col-12 col-md-6 col-lg-4 photo">
                   <img src="assets/images/photo-gallery/group-1.jpg" alt="Photo 1 of netball practice at Gothenburg Netball club">
                </div>
                <div class="col-12 col-md-6 col-lg-4 photo">
@@ -79,8 +88,9 @@
             </div>
          </div>
       </section>
+       <!--footer fixed at bottom of page consistency-->
       <footer>
-         <div class="container-fluid fixed-bottom footer-menu"><!--footer fixed at bottom of page to provide consistent look and feel across all files-->
+         <div class="container-fluid fixed-bottom footer-menu">
             <ul class="list-inline">
                <li class="list-inline-item"><a href="mailto:gothenburgnetball@gmail.com" target="_blank">gothenburgnetball@gmail.com</a></li>
                <li class="list-inline-item">Organisation number: 1235 589 987</li>
@@ -93,7 +103,9 @@
          </div>
       </footer>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+      crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+      crossorigin="anonymous"></script>
    </body>
 </html>

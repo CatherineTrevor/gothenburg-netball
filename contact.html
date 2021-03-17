@@ -7,7 +7,8 @@
       <meta name="Gothenburg Netball Club" content="Learn new skills | Refresh existing netball skills | Join us for netball in Gothenburg!"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/cosmo/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" 
+      crossorigin="anonymous">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link rel="stylesheet" href="assets/css/style.css">
       <link rel="stylesheet" href="assets/css/contact.css">      
@@ -16,9 +17,12 @@
    <body>
       <header>
          <nav class="navbar navbar-light navbar-expand-lg">
+            <!--favicon back to index.html-->
             <a class="navbar-brand" href="index.html"><i class="fas fa-basketball-ball" aria-hidden="true"></i>
-            </a><!---toggler navbar on mobile device only: menu aligned right on desktop device-->
-            <button class="navbar-toggler bg-light collapsed" type="button" data-toggle="collapse" data-target="#menunavbar" aria-controls="menunavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            </a>
+            <!---toggler navbar on mobile device only: menu aligned right on desktop device-->
+            <button class="navbar-toggler bg-light collapsed" type="button" data-toggle="collapse" data-target="#menunavbar" aria-controls="menunavbar" aria-expanded="false" 
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse justify-content-end" id="menunavbar">
                <ul class="navbar-nav" id="menu-text">
                   <li class="nav-item">
@@ -37,16 +41,19 @@
             </div>
          </nav>
       </header>
-      <section class="section"><!--class to colour the background of the main section rgba(81, 87, 81, 0.10) to reduce white space and improve look-->
-         <div class="container main-section"><!--top section of each file with large image and page intro text-->
+      <!--class to colour the background of the main section rgba(81, 87, 81, 0.10) to reduce white space and improve look-->
+      <section class="section">
+          <!--top section of each file with large image and page intro text-->
+         <div class="container main-section">
             <div class="row">
-               <div class="col-12 large-image"><!--large image at the top center of each file for consistency-->
+                <!--large image at the top center of each file for consistency-->
+               <div class="col-12 large-image">
                   <img src="assets/images/contact-page-graphic.jpeg" id="large-image-top" alt="Image of netball falling into hoop" aria-hidden="true">
                </div>
             </div>
             <hr class="hr-line-top">
             <div class="row">
-               <div class="col-12 large-text-top"><!--inviting visitors to contact the club in a friendly, welcoming way-->
+               <div class="col-12 large-text-top">
                   <h2>
                      Have questions, or fancy a chat?
                   </h2>
@@ -81,17 +88,19 @@
                      <div class="form-text">
                         *Required info
                      </div>
-                     <!--the submit button is not sent to a database: feature to be added in future release-->                               
+                     <!--the submit button is not sent to a database: feature to be added in future release-->     
                      <a role="button" class="btn btn-lg contact-button" href="contact.html">
+                        <!--the "meet-committee" anchor for the link from the homepage is here to compensate for the margin space at the top of the page so it displays correctly-->    
                         <h3 id="meet-committee">Submit</h3>
                      </a>
                   </div>
-                  <!--the "meet-committee" anchor for the link from the homepage is here to compensate for the margin space at the top of the page so it displays correctly-->                                                                                         
+                                                                                       
                </form>
             </div>
             <br>                    
             <div class="row color-heading">
-               <div class="col-12 committee-section"><!--section to introduce committee members. Can be added to as more people join-->
+                <!--section to introduce committee members. Can be added to as more people join-->
+               <div class="col-12 committee-section">
                   <hr class="hr-line">
                   <h3>
                      Meet our committee!
@@ -101,19 +110,21 @@
             <hr class="hr-line">
             <div class="row committee-members">
                <div class="col-12">
-                  <!--h2 for committee members uses col-12 to ensure space consistency when viewed across all devices-->
-                  <h2><!--committee member name-->
+                  <!--committee member name-->
+                  <h2>
                      Mark Darcy, Chairman
                      <span>
-                     <img src="assets/images/committee-members/new-zealand-flag.png" alt="New Zealand country flag"><!--country flags added to indicate the international nature and inclusiveness of the club-->
+                     <!--country flags added to indicate the international nature and inclusiveness of the club-->
+                     <img src="assets/images/committee-members/new-zealand-flag.png" alt="New Zealand country flag">
                      </span>
                   </h2>
                </div>
+               <!--committee member photo-->  
                <div class="col-4 col-md-6 col-lg-6 image-section-committee">
-                  <img src="assets/images/committee-members/mark-darcy.jpg" alt="Photo of Mark Darcy"><!--committee member photo-->                        
+                  <img src="assets/images/committee-members/mark-darcy.jpg" alt="Photo of Mark Darcy">                      
                </div>
-               <!--blockquotes used to improve semantic elements of the site-->
-               <blockquote class="col-8 col-md-6 col-lg-6 text-section"><!--words from the committee member to make it more friendly-->
+               <!--blockquotes used to improve semantics-->
+               <blockquote class="col-8 col-md-6 col-lg-6 text-section">
                   <p>
                      "I moved to Gothenburg in 2008 - I had never played netball before, but the more I play, the more I love it! We're always looking 
                      for volunteers to help us run the club, including umpiring and coaching. If you can help, get in touch!"
@@ -128,9 +139,9 @@
                   </h2>
                </div>
                <div class="col-4 col-md-6 col-lg-6 image-section-committee">
-                  <img src="assets/images/committee-members/bridget-jones.jpg" alt="Photo of Bridget Jones"><!--committee member photo-->
-               </div><!--blockquotes used to improve semantic elements of the site-->
-               <blockquote class="col-8 col-md-6 col-lg-6 text-section"><!--words from the committee member to make it more friendly-->
+                  <img src="assets/images/committee-members/bridget-jones.jpg" alt="Photo of Bridget Jones">
+               </div>
+               <blockquote class="col-8 col-md-6 col-lg-6 text-section">
                   <p>
                      "I have played netball since I was in primary school, so was very excited when I found this club on Facebook and could 
                      refresh my skills and make new friends at the same time!"
@@ -145,9 +156,9 @@
                   </h2>
                </div>
                <div class="col-4 col-md-6 col-lg-6 image-section-committee">
-                  <img src="assets/images/committee-members/daniel-cleaver.jpg" alt="Photo of Daniel Cleaver"><!--committee member photo-->
-               </div><!--blockquotes used to improve semantic elements of the site-->
-               <blockquote class="col-8 col-md-6 col-lg-6 text-section"><!--words from the committee member to make it more friendly-->
+                  <img src="assets/images/committee-members/daniel-cleaver.jpg" alt="Photo of Daniel Cleaver">
+               </div>
+               <blockquote class="col-8 col-md-6 col-lg-6 text-section">
                   <p>
                      "I am originally from Chicago and moved here in 2019. I had never heard of netball but wanted to learn a new sport and I'm 
                      glad I did! I need to practice my footwork though as I sometimes forget you can't move with the ball!"
@@ -162,9 +173,9 @@
                   </h2>
                </div>
                <div class="col-4 col-md-6 col-lg-6 image-section-committee">
-                  <img src="assets/images/committee-members/helen-fielding.jpg" alt="Photo of Helen Fielding"><!--committee member photo-->
-               </div><!--blockquotes used to improve semantic elements of the site-->
-               <blockquote class="col-8 col-md-6 col-lg-6 text-section"><!--words from the committee member to make it more friendly-->
+                  <img src="assets/images/committee-members/helen-fielding.jpg" alt="Photo of Helen Fielding">
+               </div>
+               <blockquote class="col-8 col-md-6 col-lg-6 text-section">
                   <p>
                      "With two small children, I originally joined the club to meet new people and get out of the house! 
                      My improved fitness is certainly the icing on the cake though!"
@@ -174,7 +185,8 @@
             <hr class="hr-line">
             <div class="row">
                <div class="col-12">
-                  <p class="small-text"><small><!--cite source for flag icons-->
+                   <!--cite source for flag icons-->
+                  <p class="small-text"><small>
                      Thank you to <a href="https://www.flaticon.com" target="_blank">
                      Flaticons</a> for supplying the flag icons!
                      </small>
@@ -184,8 +196,9 @@
             </div>
          </div>
       </section>
+      <!--footer fixed at bottom of each page for consistency-->
       <footer>
-         <div class="container-fluid fixed-bottom footer-menu"><!--footer fixed at bottom of page to provide consistent look and feel across all files-->
+         <div class="container-fluid fixed-bottom footer-menu">
             <ul class="list-inline">
                <li class="list-inline-item"><a href="mailto:gothenburgnetball@gmail.com" target="_blank">gothenburgnetball@gmail.com</a></li>
                <li class="list-inline-item">Organisation number: 1235 589 987</li>
@@ -198,7 +211,9 @@
          </div>
       </footer>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+      crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+      crossorigin="anonymous"></script>
    </body>
 </html>

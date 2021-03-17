@@ -7,7 +7,8 @@
       <meta name="Gothenburg Netball Club" content="Learn new skills | Refresh existing netball skills | Join us for netball in Gothenburg!"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/cosmo/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" 
+      crossorigin="anonymous">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link rel="stylesheet" href="assets/css/style.css">
       <link rel="stylesheet" href="assets/css/netball.css">      
@@ -16,9 +17,12 @@
    <body>
       <header>
          <nav class="navbar navbar-light navbar-expand-lg">
+            <!--favicon back to index.html-->
             <a class="navbar-brand" href="index.html"><i class="fas fa-basketball-ball" aria-hidden="true"></i>
-            </a><!---toggler navbar on mobile device only: menu aligned right on desktop device-->
-            <button class="navbar-toggler bg-light collapsed" type="button" data-toggle="collapse" data-target="#menunavbar" aria-controls="menunavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            </a>
+            <!---toggler navbar on mobile device only: menu aligned right on desktop device-->
+            <button class="navbar-toggler bg-light collapsed" type="button" data-toggle="collapse" data-target="#menunavbar" aria-controls="menunavbar" aria-expanded="false" 
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse justify-content-end" id="menunavbar">
                <ul class="navbar-nav" id="menu-text">
                   <li class="nav-item">
@@ -37,16 +41,20 @@
             </div>
          </nav>
       </header>
-      <section class="section"><!--class to colour the background of the main section rgba(81, 87, 81, 0.10) to reduce white space and improve look-->
-         <div class="container main-section"><!--top section of each file with large image and page intro text-->
+      <!--class to colour the background of the main section rgba(81, 87, 81, 0.10) to reduce white space-->
+      <section class="section">
+          <!--top section of each file with large image and page intro text-->
+         <div class="container main-section">
             <div class="row">
-               <div class="col-12 large-image"><!--large image at the top center of each file for consistency-->
+               <!--large image at the top center of each file for consistency-->
+                <div class="col-12 large-image">
                   <img src="assets/images/netball-graphic.jpeg" id="large-image-top" alt="Image using different words to depict the shape of a netball" aria-hidden="true">
                </div>
             </div>
             <hr class="hr-line-top">
             <div class="row">
-               <div class="col-12 large-text-top"><!--intro text to what is netball including link to external source-->
+               <!--intro text to what is netball including link to external source-->
+               <div class="col-12 large-text-top">
                   <h2>
                      Swedish-born 
                   </h2>
@@ -60,12 +68,13 @@
             </div>
             <hr class="hr-line-top">
             <div class="row">
+                <!--what is netball main section-->
                <div class="col-12 text-section">
                   <h3>
                      An introduction to netball
                   </h3>
                   <p>
-                     <a href="https://www.netball.se/what-is-netball/" target="_blank"><!--what is netball explained in a friendly, simple manner to encourage players-->
+                     <a href="https://www.netball.se/what-is-netball/" target="_blank">
                      Netball Sweden</a> describe netball as a gender-neutral, court-based ball sport, that can be modified and adapted to suit all physical abilities. Played by over 20 
                      million people worldwide, it is mostly popular in Commonwealth countries.
                   </p>
@@ -85,7 +94,7 @@
             <div class="row">
                <div class="col-12 text-section">
                   <p><strong>Basics:</strong></p>
-                  <!--spacing added to improve legibility of a lot of text-->
+                  <!--spacing added to improve legibility of text-->
                   <br>
                   <p><i class="far fa-check-circle" aria-hidden="true"></i>The objective is to simply score more goals than the other team, by throwing the ball into the hoop 
                      at your end of the court!
@@ -115,7 +124,8 @@
             </div>
             <hr class="hr-line">
             <div class="row">
-               <div class="col-12 col-md-6 col-lg-12 text-section"><!--consistent with the structure above and on the homepage for a better UX-->
+                <!--list of playing positions-->
+               <div class="col-12 col-md-6 col-lg-12 text-section">
                   <h3>
                      The players
                   </h3>
@@ -148,8 +158,9 @@
             <br>
             <div class="row">
                <div class="col-12" id="youtube-video">
+                   <!--remove frameborder in iframe as per html validator error-->    
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/WGaYDvaZ4No" 
-                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--remove frameborder as per html validator error-->                
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
                </div>
                <!--text added below the video should a visitor not see the video: link provided so they can watch it on a new tab-->
                <div class="small-text">
@@ -167,7 +178,8 @@
                      </small>
                   </p>
                   <h2 class="text-section">
-                     <a href="photos.html">Check out photos of us at play and fika!</a><!--internal link to photo gallery-->
+                      <!--internal link to photo gallery-->
+                     <a href="photos.html">Check out photos of us at play and fika!</a>
                   </h2>
                </div>
             </div>
@@ -183,8 +195,9 @@
             </div>
          </div>
       </section>
+      <!--footer fixed at bottom of page consistency-->
       <footer>
-         <div class="container-fluid fixed-bottom footer-menu"><!--footer fixed at bottom of page to provide consistent look and feel across all files-->
+         <div class="container-fluid fixed-bottom footer-menu">
             <ul class="list-inline">
                <li class="list-inline-item"><a href="mailto:gothenburgnetball@gmail.com" target="_blank">gothenburgnetball@gmail.com</a></li>
                <li class="list-inline-item">Organisation number: 1235 589 987</li>
@@ -197,7 +210,9 @@
          </div>
       </footer>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+      crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+      crossorigin="anonymous"></script>
    </body>
 </html>
