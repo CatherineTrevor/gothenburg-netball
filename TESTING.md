@@ -39,10 +39,10 @@ a link to an image to give clarity on where in the site specifically.
 | c. As a first time visitor I want to, learn the basics of netball. | Brief guidelines, and a short video is offered on the "what is netball page" ![c](supporting-docs/uat3.jpg) |
 | d. As a first time visitor I want to, find out where and when practice is.  | A table and map with details is on the homepage ![d](supporting-docs/uat4.jpg) |
 | e. As a first time visitor I want to, understand the fees involved. | Text explaining the fees is provided on the homepage ![e](supporting-docs/uat5.jpg) |
-| f. As a first time visitor I want to, feel invited to join a session. | Friendly images are included throughout, as well as welcome text inviting the visitor to join a session ![f](supporting-docs/uat6.jpg) |
+| f. As a first time visitor I want to, feel encouraged to join a session. | Friendly images are included throughout, as well as welcome text inviting the visitor to join a session ![f](supporting-docs/uat6.jpg) |
 | g. As a first time visitor I want to, feel comfortable contacting someone for more information. | Friendly contact form, with basic information requested, and email address provided ![g](supporting-docs/uat7.jpg) |
 | h. As a first time visitor I want to, connect to the club's social media channels. | There is a link to Facebook always in the footer, across all devices ![h](supporting-docs/uat8.jpg) |
-| i. As a first time visitor I want to, understand what I need to join. | There is a section on the homepage specific to this information ![i](supporting-docs/uat9.jpg) |
+| i. As a first time visitor I want to, understand what equipment I need to bring to a training session. | There is a section on the homepage specific to this information ![i](supporting-docs/uat9.jpg) |
 | j. As a first time visitor I want to, understand what I will gain from coming to a session. | During the testing phase, this information was not clear enough, so I added some extra text to the homepage welcome section, giving a clearer overview of the sessions. ![j](supporting-docs/uat1.jpg) |
 | k. As a first time visitor I want to, have an overview of the committee members. | A short bio and picture is provided on the contact page ![k](supporting-docs/uat(a).jpg) |
 
@@ -51,7 +51,7 @@ a link to an image to give clarity on where in the site specifically.
 | User story | How the site meets the requirement |
 |---|---|
 | a. As a returning visitor I want to, find out where and when practice is. | A table and map is provided on the homepage ![a](supporting-docs/uat(b).jpg) |
-| b. As a returning visitor I want to, feel invited to join a session. | The site contains friendly, welcoming text ![b](supporting-docs/uat(c).jpg) |
+| b. As a returning visitor I want to, feel encouraged to join a session. | The site contains friendly, welcoming text ![b](supporting-docs/uat(c).jpg) |
 | c. As a returning visitor I want to, refresh my knowledge of netball. | Brief guidelines provided on the "what is netball page" ![c](supporting-docs/uat2.jpg) |
 | d. As a returning visitor I want to, find out the latest news about netball. | This has not been deployed in this version of the project, but will be a future feature, linked to the Netball Sweden site, based on what information members are looking for |
 | e. As a returning visitor I want to, learn about future friendly matches and tours. | This has not been deployed for this project. Until regular play starts again, this information does not exist |
@@ -191,13 +191,23 @@ To fix this, the anchor links to a few rows above the text, so when clicked the 
 
 [CSS: no errors found](https://jigsaw.w3.org/css-validator/)
 
+style.css
+
 ![CSS validator: style.css](supporting-docs/style.css_validator.jpg)
+
+index.css
 
 ![CSS validator: index.css](supporting-docs/index.css_validator.jpg)
 
+netball.css
+
 ![CSS validator: netball.css](supporting-docs/netball.css_validator.jpg)
 
+photos.css
+
 ![CSS validator: photos.css](supporting-docs/photos.css_validator.jpg)
+
+index.css
 
 ![CSS validator: contact.css](supporting-docs/contact.css_validator.jpg)
 

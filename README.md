@@ -104,7 +104,7 @@ umpiring/coaching.
 
     e. As a first time visitor I want to, understand the fees involved.
 
-    f. As a first time visitor I want to, feel encourages to join a session.
+    f. As a first time visitor I want to, feel encouraged to join a session.
 
     g. As a first time visitor I want to, feel comfortable contacting someone for more information.
 
