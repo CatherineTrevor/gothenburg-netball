@@ -1,7 +1,7 @@
 # Testing
 
-Having created the website for mobile-usage, I used Chrome development tools throughout to ensure continuous testing of the look,
-functionality and layout of the site, whilst building it.
+Having created the website for mobile-usage, Chrome development tools were used throughout to ensure continuous testing of the look,
+functionality and layout of the site, during development.
 
 The site was also tested outside of the development tool;
 

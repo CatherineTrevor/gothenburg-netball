@@ -40,13 +40,12 @@ A mobile-first approach was used in design, to make information easy to access o
 
 This project is my Milestone Project One as part of the Diploma in Software Development Course with the Code Institute.
 
-I am on the committee for the Gothenburg Netball Club: a team of amateur netball players, set up for English-speaking adults in Gothenburg. 
-Sadly due to the current Covid-19 situation having such a negative impact on sports, we have been unable to have routine sessions, and therefore 
+Gothenburg Netball Club is a team of amateur netball players, set up for English-speaking adults in Gothenburg. 
+Due to the impact of Covid-19 during 2020 and 2021 on sports, the team have been unable to have training sessions, and therefore 
 do not have a group of regular players.
 
-I am taking this opportunity to create a simple, clearly structured website to promote the club so that when we can start playing again in the 
-spring, there is a larger awareness and interest in the club, encouraging site visitors to join a session and become paying members. It will also 
-serve as a place that regular players can see upcoming training dates, times and locations. 
+This website is a simple, clearly structured digitial communication platform, to promote the club increasing awareness and interest to encourage site visitors to join a training session, leading to
+regular paying members. It will also serve as a platform for regular players to find upcoming training dates, times and locations. 
 
 The club's current online presence is via <a href="https://www.facebook.com/gothenburgnetball/" target="_blank">Facebook</a>.
 
@@ -91,11 +90,7 @@ umpiring/coaching.
 
     d. Improve my fitness.
 
-    e. Spend time with people that I have something in common with.
-
-    f. Get out of the house.
-
-    g. Have fun!
+    e. Spend time and have fun with people that I have something in common with.
 
 **First time visitor goals:**
 
@@ -109,13 +104,13 @@ umpiring/coaching.
 
     e. As a first time visitor I want to, understand the fees involved.
 
-    f. As a first time visitor I want to, feel invited to join a session.
+    f. As a first time visitor I want to, feel encourages to join a session.
 
     g. As a first time visitor I want to, feel comfortable contacting someone for more information.
 
     h. As a first time visitor I want to, connect to the club's social media channels.
 
-    i. As a first time visitor I want to, understand what I need to join.
+    i. As a first time visitor I want to, understand what equipment I need to bring to a training session.
 
     j. As a first time visitor I want to, understand what I will gain from coming to a session.
 
@@ -125,7 +120,7 @@ umpiring/coaching.
 
     a. As a returning visitor I want to, find out where and when practice is.
 
-    b. As a returning visitor I want to, feel invited to join a session.
+    b. As a returning visitor I want to, feel encouraged to join a session.
 
     c. As a returning visitor I want to, refresh my knowledge of netball.
 
@@ -311,100 +306,16 @@ As per Google Font's recommendation, the accommodating font used is Lato. Sans-s
 
 ### Imagery
 
-Where possible, the site uses real-life images. However, this has not been possible for all images. The picture of the ball falling through a hoop is a basketball,
-not a netball. It was not possible to source free images of netball that meet the needs of the site. This will be updated in the future when the club can
-take its own photos for the site.
+Where possible, the site uses real-life images. 
 
-**Ball falling through hoop**
-
-<div align="left">
-    <img src="assets/images/ball-in-net-resize.jpg" height="150">
-</div>
-
-<a href="https://unsplash.com/photos/jS2Cgv-Xppw" target="_blank">Andres Siimon</a>
-
-The following three images used on the photos.html page are published on Gothenburg Netball's Facebook page, for which I am an administrator.
-
-**Image 1**
-
-<div align="left">
-    <img src="assets/images/photo-gallery/group-1.jpg" height="150">
-</div>
-
-**Image 2**
-
-<div align="left">
-    <img src="assets/images/photo-gallery/group-2.jpg" height="150">
-</div>
-
-**Image 3**
-
-<div align="left">
-    <img src="assets/images/photo-gallery/group-5.jpg" height="150">
-</div>
-
-
-The other images on the page are stock images, sourced from Unsplash.com:
-
-**Image 4**
-
-<div align="left">
-    <img src="assets/images/photo-gallery/group-3.jpg" height="150">
-</div>
-
-Credit: <a href="https://unsplash.com/photos/KrfID_ZQxWs" target="_blank">Chang Duong</a>
-
-**Image 5**
-
-<div align="left">
-    <img src="assets/images/photo-gallery/group-4.jpg" height="150">
-</div>
-
-Credit: <a href="https://unsplash.com/photos/Q_Sei-TqSlc" target="_blank">Naassom Azevedo</a>
-
-**Image 6**
-
-<div align="left">
-    <img src="assets/images/photo-gallery/group-6.jpg" height="150">
-</div>
-
-Credit: <a href="https://unsplash.com/photos/IjkIOe-2fF4" target="_blank">LinkedIn Sales Navigator</a>
-
-The images used for the committee members were also sourced from Unsplash.com:
-
-**Mark Darcy**
-
-<div align="left">
-    <img src="assets/images/committee-members/mark-darcy.jpg" height="150">
-</div>
-
-Credit: <a href="https://unsplash.com/photos/DItYlc26zVI" target="_blank">Christian Buehner</a>
-
-**Bridget Jones**
-
-<div align="left">
-    <img src="assets/images/committee-members/bridget-jones.jpg" height="150">
-</div>
-
-Credit: <a href="https://unsplash.com/photos/u3WmDyKGsrY" target="_blank">Gabriel Silvério</a>
-
-**Daniel Cleaver**
-
-<div align="left">
-    <img src="assets/images/committee-members/daniel-cleaver.jpg" height="150">
-</div>
-
-Credit: <a href="https://unsplash.com/photos/EpKqRPT1lP0" target="_blank">Sean Hall</a>
-
-**Helen Fielding**
-
-<div align="left">
-    <img src="assets/images/committee-members/helen-fielding.jpg" height="150">
-</div>
-
-Credit: <a href="https://unsplash.com/photos/FbTOrJ2G8KI" target="_blank">Clem Onojeghuo</a>
+It was not possible to source free images of netball that meet the needs of the site. This will be updated in the future when the club can take its own photos for the site. 
+The picture of the ball falling through a hoop is a basketball, not a netball.
 
 The flag icons were sourced from [Flacticon](http://flaticon.com) and are also cited on the site.
+
+All other images are sourced direct from Gothenburg Netball club, or from Unsplash.com.
+
+See separate [Imagery file](IMAGERY.md) for detailed source information for each image.
 
 ### Colour scheme
 
@@ -416,8 +327,8 @@ clubs in Sweden have red and green as their team colours, so we needed something
 
 ### Favicon
 
-I used the <a href="https://fontawesome.com/icons/basketball-ball?style=solid" target="_blank">basketball ball image from Font Awesome</a> and used 
-css styling to match the colours of the website as the favicon.
+The <a href="https://fontawesome.com/icons/basketball-ball?style=solid" target="_blank">basketball ball image from Font Awesome</a> is used as the favicon, with 
+css styling to match the colours of the website.
 
 # Technologies used
 
