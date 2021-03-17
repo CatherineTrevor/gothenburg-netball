@@ -191,13 +191,21 @@ To fix this, the anchor links to a few rows above the text, so when clicked the 
 
 [CSS: no errors found](https://jigsaw.w3.org/css-validator/)
 
-![CSS validator](supporting-docs/css-validator.jpg)
+![CSS validator: style.css](supporting-docs/style.css_validator.jpg)
+
+![CSS validator: index.css](supporting-docs/index.css_validator.jpg)
+
+![CSS validator: netball.css](supporting-docs/netball.css_validator.jpg)
+
+![CSS validator: photos.css](supporting-docs/photos.css_validator.jpg)
+
+![CSS validator: contact.css](supporting-docs/contact.css_validator.jpg)
 
 **HTML**
 
 [HTML validator](https://validator.w3.org/)
 
-![HTML validator report](supporting-docs/html-validator.jpg)
+![HTML validator report](supporting-docs/html_validator.jpg)
 
 1. Bug fix: anchor element was inside button element. Button amended to anchor and pseudo css styling fixed to ensure yellow text on hover. Referred to 
 [Stackoverflow](https://stackoverflow.com/questions/16280684/nesting-a-inside-button-doesnt-work-in-firefox) for support.
