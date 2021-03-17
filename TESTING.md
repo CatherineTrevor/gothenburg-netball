@@ -3,7 +3,7 @@
 Having created the website for mobile-usage, Chrome development tools were used throughout to ensure continuous testing of the look,
 functionality and layout of the site, during development.
 
-The site was also tested outside of the development tool;
+Testing conducted outside of the development tool on the following;
 
 * iPhone SE2020
 * iPhone 12 
@@ -11,7 +11,7 @@ The site was also tested outside of the development tool;
 
 All on iOS 14.3.
 
-It was also tested on the following browsers;
+Testing conducted on the following browsers;
 
 * Safari
 * Chrome
@@ -219,8 +219,4 @@ index.css
 
 1. Bug fix: anchor element was inside button element. Button amended to anchor and pseudo css styling fixed to ensure yellow text on hover. Referred to 
 [Stackoverflow](https://stackoverflow.com/questions/16280684/nesting-a-inside-button-doesnt-work-in-firefox) for support.
-2. Bug fix: YouTube frameborder removed.
-3. Bug fix: use of aria and sr-only. Code checked and fixed.
-
-All other errors found related to external links, such as Bootstrap and Fontawesome.
-
+2. Bug fix: YouTube frameborder removed as per HTML validator check.

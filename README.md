@@ -44,8 +44,8 @@ Gothenburg Netball Club is a team of amateur netball players, set up for English
 Due to the impact of Covid-19 during 2020 and 2021 on sports, the team have been unable to have training sessions, and therefore 
 do not have a group of regular players.
 
-This website is a simple, clearly structured digitial communication platform, to promote the club increasing awareness and interest to encourage site visitors to join a training session, leading to
-regular paying members. It will also serve as a platform for regular players to find upcoming training dates, times and locations. 
+This website is a simple, clearly structured digitial communication platform, designed to promote the club, increasing awareness with potential players, and encourage site visitors to join
+ a training session. It will serve as a platform for regular players to find upcoming training dates, times and locations. 
 
 The club's current online presence is via <a href="https://www.facebook.com/gothenburgnetball/" target="_blank">Facebook</a>.
 
@@ -300,22 +300,21 @@ This layout format has also changed for Meet the committee. The layout is now cl
 ## Surface
 ### Typography
 
-Using <a href="https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom" target="_blank">Google Fonts</a>
-I selected Permanent Marker for all navbar text, and headings, as I felt it gives a feeling of friendliness that I was looking for to match the tone of the site.
-As per Google Font's recommendation, the accommodating font used is Lato. Sans-serif is used should either of these fonts fail to load.
+From [Google Font](https://fonts.google.com/specimen/Permanent+Marker?preview.text=Gothenburg%20Netball%20Club%20Est.%202019%20Fun,%20fitness%20and%20friendship!&preview.text_type=custom)
+the site uses Permanent Marker for all navbar text, and headings, to give a feeling of friendliness that matches the tone of the site. As per Google Font's recommendation, the accommodating 
+font used is Lato. Sans-serif is used should either of these fonts fail to load.
 
 ### Imagery
 
 Where possible, the site uses real-life images. 
 
 It was not possible to source free images of netball that meet the needs of the site. This will be updated in the future when the club can take its own photos for the site. 
-The picture of the ball falling through a hoop is a basketball, not a netball.
 
 The flag icons were sourced from [Flacticon](http://flaticon.com) and are also cited on the site.
 
-All other images are sourced direct from Gothenburg Netball club, or from Unsplash.com.
+All other images are sourced direct from Gothenburg Netball club, or from [Unsplash.com](http://www.unsplash.com).
 
-See separate [Imagery file](IMAGERY.md) for detailed source information for each image.
+See separate [Imagery file](IMAGERY.md) for detailed source information on all images.
 
 ### Colour scheme
 
@@ -403,20 +402,19 @@ Forking the repository allows you to make a copy of the original in your GitHub 
 - [Netball Sweden](https://www.netball.se/origin-of-netball) - source of basic netball info, and information about the origin of netball
 - [Play Simple Netball](https://www.simplenetball.co.uk/rules/) - the list of players and their roles has been taken from this site. I also used it to verify my own knowledge of the rules, to ensure what I was writing was correct
 - [Netball court illustration](assets/images/court-layout.jpg) - I drew this myself using Microsoft Powerpoint and saved as a jpg, based on my own knowledge
-- [Committee member quotes](https://catherinetrevor.github.io/gothenburg-netball/contact.html) - all quotes are purely fictional, written by me
+- [Committee member quotes](https://catherinetrevor.github.io/gothenburg-netball/contact.html#meet-committee) - all quotes are purely fictional, written by me
 
 All other content has been written by me.
 
 **Media**
 
-- [Unsplash](http://www.unsplash.com/) - committee members, and some photo gallery images sourced from Unsplash. Specific sources cited in the above 
-imagery section 
+- [Unsplash](http://www.unsplash.com/) - committee members, and some photo gallery images sourced from Unsplash. Specific sources for each image can be found in [the Imagery file](IMAGERY.md) 
 - [Youtube](https://www.youtube.com/embed/WGaYDvaZ4No) - What is netball video
 - [Gothenburg Netball Club Facebook](https://www.facebook.com/gothenburgnetball/)
 - [Netball word graphic on the What is netball](https://catherinetrevor.github.io/gothenburg-netball/netball.html) and 
 [contact word graphic on the Get in touch page](https://catherinetrevor.github.io/gothenburg-netball/contact.html) were created using 
 [Word Art](https://wordart.com)
-- [Google maps](http://www.maps.google.se/)
+- [Google maps](https://www.google.se/maps/)
 
 **Acknowledgements**
 
@@ -434,19 +432,7 @@ While the club is real, the names of the committee members are fictional and hav
 Thanks also to my mentor at Code Institute Aaron Sinnott for his time and support, the chair of Netball Sweden for her time and feedback, and other members of slack
  for their time and feedback.
 
-**Lessons learnt**
+** Project management**
 
-A particular learning curve for me regarding this project has been using Git and the need for frequent commits and clear, precise commit messages. This is a new
-subject for me, and required some additional research ([example reading](https://www.sitepoint.com/how-good-are-your-html-and-css-comments/)).
-
-An example of my lack of clarity is at the beginning of the project, where I was more focused on the coding. On occasion there are duplicate commits 
-and unclear commit messages. 
-
-Following a project review with my mentor, and feedback from fellow students, it became apparent that my version control was not specific enough. I was making 
-a lot of changes to the code and README.md before making a commit, potentially making it difficult to follow the logic.
-
-Since 26 January I have focused more on this aspect of the project, and I hope it is more apparent towards the end that I have committed more frequently,
-using more coherent messages, providing clarity to other developers who may read the material.
-
-For project management I have used Monday.com, allowing me to manage the tasks for the project as needed. 
-[Click here](https://view.monday.com/967209329-13bb5298e3c2fc86a8d6f5871d899558?r=use1) to link to my Monday.com project page.
+Project tasks can be found on Monday.com. 
+[Click here to view the project page.](https://view.monday.com/967209329-13bb5298e3c2fc86a8d6f5871d899558?r=use1)

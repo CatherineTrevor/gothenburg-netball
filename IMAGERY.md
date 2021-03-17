@@ -2,6 +2,8 @@
 
 **Ball falling through hoop**
 
+This photo of a ball falling through a hoop is a basketball, not a netball.
+
 <div align="left">
     <img src="assets/images/ball-in-net-resize.jpg" height="150">
 </div>
