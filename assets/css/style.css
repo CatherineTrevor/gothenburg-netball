@@ -224,7 +224,6 @@ img {
     }
     
     #netball-court img {
-		max-height: 100%;
 		margin-top: 5px;
 		margin-bottom: 5px;
     }    
@@ -330,7 +329,7 @@ img {
     /******Netball.html******/
 
 	#netball-court img {
-		height: 600px;
+		height: 500px !important; /**important added to ensure image displays correctly on larger screens***/
     }
     
 	.list-text {
