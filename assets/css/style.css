@@ -282,6 +282,8 @@ img {
 	.large-text-top h2 {
 		font-size: 175%;
     }
+
+    /********************Index.html***/
     
 	#welcome {
 		padding-top: 10px;
@@ -305,9 +307,7 @@ img {
 		width: 100%;
     }
     
-    /********************Index.html***/
-    
-	.text-section-homepage {
+    .text-section-homepage {
 		padding-top: 30px;
     }
     
@@ -327,6 +327,8 @@ img {
 		margin-bottom: 25px;
     }
     
+    /******Netball.html******/
+
 	#netball-court img {
 		height: 600px;
     }
