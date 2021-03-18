@@ -432,7 +432,7 @@ While the club is real, the names of the committee members are fictional and hav
 Thanks also to my mentor at Code Institute Aaron Sinnott for his time and support, the chair of Netball Sweden for her time and feedback, and other members of slack
  for their time and feedback.
 
-** Project management**
+**Project management**
 
 Project tasks can be found on Monday.com. 
 [Click here to view the project page.](https://view.monday.com/967209329-13bb5298e3c2fc86a8d6f5871d899558?r=use1)
