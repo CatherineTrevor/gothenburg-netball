@@ -295,7 +295,7 @@ Throughout the project there have been some changes to the layout, from the orig
 of text, and then this layout swap for the section underneath, so the image was positioned to the right. When reviewing the layout at the start of the project, 
 this format did not work for mobile devices, as it was too cluttered.
 
-This layout format has also changed for Meet the committee. The layout is now clearer and less cluttered on a smaller screen. 
+This layout format has also changed for the [Meet the committee section](https://catherinetrevor.github.io/gothenburg-netball/contact.html#meet-committee) on contact.html. The layout is now clearer and less cluttered on a smaller screen. 
 
 ## Surface
 ### Typography
@@ -429,8 +429,7 @@ While designing and developing this site, I took inspiration from the following 
 
 While the club is real, the names of the committee members are fictional and have been taken from the book Bridget Jones' Diary by Helen Fielding.
 
-Thanks also to my mentor at Code Institute Aaron Sinnott for his time and support, the chair of Netball Sweden for her time and feedback, and other members of slack
- for their time and feedback.
+Thanks also to mentors Aaron Sinnott and Narender Singh at Code Institute for their time and support, the chair of Netball Sweden for her time and feedback, and other members of slack for their time and feedback.
 
 **Project management**
 
